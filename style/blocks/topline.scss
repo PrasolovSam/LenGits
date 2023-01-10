@@ -1,0 +1,46 @@
+.top__line {
+  width: 100%;
+  background-color: #008B8B;
+  margin-bottom: 32px;
+}
+
+.top__line-items {
+  min-height: 46px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  left: 0;
+
+  .top__line-contacts a {
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+
+  }
+
+
+}
+
+.top__line-mail {
+  margin-right: 55px;
+}
+
+.top__line-text {
+  margin-left: 8px;
+}
+
+.top__line-text .text__mail {
+  margin-left: 4px;
+}
+
+.phone {
+  margin-left: 4px;
+}
