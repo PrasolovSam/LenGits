@@ -50,14 +50,7 @@
     width: 100%;
   }
 }
-.nav__menu-enter::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 0;
-  height: 0;
-}
+
 
 .nav__menu-item .menu-item__dropdown {
   font-family: 'Roboto', sans-serif;
