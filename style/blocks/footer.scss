@@ -1,0 +1,50 @@
+.footer {
+  margin-top: 68px;
+  &__wrap {
+    background-image: url(/img/group-503.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: center;
+  }
+}
+.footer__items {
+  padding-top: 82px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  padding-top: 10px;
+  position: relative;
+}
+.footer__list-item a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+  padding-top: 15px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .contact__item {
+    align-items: flex-end;
+  }
+}
+.footer__list-icon {
+  margin-right: 8px;
+}
+.footer__phone {
+  margin: 0 0 0 0;
+}
+.footer__btn {
+  margin-top: 66px;
+  background-color: #A8B50A;
+  color: white;
+  border: none;
+  padding: 16px 36px;
+
+}

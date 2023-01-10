@@ -181,3 +181,227 @@ a {
   line-height: 19px;
   color: black;
 }
+
+.about {
+  margin-top: 48px;
+}
+.about .about__text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #272727;
+  opacity: 0.6;
+}
+.about .about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 68px;
+  margin-bottom: 66px;
+  margin-top: 16px;
+}
+.about .about__title .about__color {
+  color: #008B8B;
+}
+.about .about__us {
+  background-image: url("/img/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 408px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.about .about__us .about__blocks {
+  margin-top: 66px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 32px 48px;
+  min-height: 288px;
+  max-width: 390px;
+  border-radius: 16px;
+}
+.about .about__us .about__blocks-title {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 42px;
+}
+.about .about__us .about__list {
+  margin-top: 24px;
+}
+.about .about__us .about__list-item {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  margin-top: 4px;
+}
+.about .about__us .about__btn-item {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 24px;
+  border-radius: 100px;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 20px 20px;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+.about .about__us .about__btn-item:hover {
+  background-color: #A8B50A;
+}
+
+.servisec {
+  margin-top: 66px;
+}
+.servisec .servisec__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.servisec .servisec__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 44px;
+}
+.servisec .servisec__blocks .servisec__blocks-item {
+  margin-right: 40px;
+}
+.servisec .item-right {
+  margin-right: 0;
+  margin-left: 40px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+.servisec .img-left {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.servisec .servisec__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #008B8B;
+  max-width: 426px;
+}
+.servisec .servisec__title-color {
+  color: black;
+  font-weight: 700;
+  margin-left: 34px;
+}
+.servisec .servisec__subtitle {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 26px;
+  color: #272727;
+}
+.servisec .servisec__subtitle:last-child {
+  line-height: 42px;
+}
+.servisec .servisec__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.servisec .servisec__text:last-child {
+  margin-top: 66px;
+}
+.servisec .text-right:last-child {
+  margin-top: 34px;
+}
+
+.footer {
+  margin-top: 68px;
+}
+.footer__wrap {
+  background-image: url(/img/group-503.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+}
+
+.footer__items {
+  padding-top: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__logo {
+  padding-top: 10px;
+  position: relative;
+}
+
+.footer__list-item a {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: white;
+  padding-top: 15px;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.contacts .contact__item {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer__list-icon {
+  margin-right: 8px;
+}
+
+.footer__phone {
+  margin: 0 0 0 0;
+}
+
+.footer__btn {
+  margin-top: 66px;
+  background-color: #A8B50A;
+  color: white;
+  border: none;
+  padding: 16px 36px;
+}
