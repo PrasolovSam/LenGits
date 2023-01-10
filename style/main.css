@@ -207,7 +207,7 @@ a {
   color: #008B8B;
 }
 .about .about__us {
-  background-image: url("/img/about.jpg");
+  background-image: url("./img/about.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -341,7 +341,7 @@ a {
   margin-top: 68px;
 }
 .footer__wrap {
-  background-image: url(/img/group-503.png);
+  background-image: url(./img/group-503.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
