@@ -447,16 +447,56 @@ a {
 }
 .form .form__items .form__item .form__btn .btn {
   border-radius: 50px;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid transparent;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
-  background: #f9fbee;
+  background: #93AA00;
   cursor: pointer;
-  padding: 20px 244px;
+  padding: 20px 230px;
 }
 .form .form__items .form__item .form__btn .btn:hover {
   border: 1px solid transparent;
-  background: #93AA00;
+  background: #CEEA19;
+  color: black;
+}
+.form .form__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40px;
+}
+.form .form__social-blocks {
+  max-width: 534px;
+}
+.form .form__social-block {
+  background-color: #008B8B;
+  min-height: 184px;
+  border-radius: 20px 20px 0 0;
+  padding: 20px 42px 16px 42px;
+}
+.form .form__social-block .form__social-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
   color: white;
+  line-height: 30px;
+  margin-bottom: 26px;
+}
+.form .form__social-block .form__social-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  -webkit-box-flex: end;
+      -ms-flex: end;
+          flex: end;
+  margin-top: 44px;
+  color: #FFFFFF;
+}
+.form .form__social-img {
+  max-width: 534px;
+  min-height: 308px;
 }
