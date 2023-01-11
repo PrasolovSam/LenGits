@@ -37,7 +37,7 @@
         }
 
         .form__input--textarea {
-          max-height: 147px;
+          padding: 26px 172px 100px 36px;
           border-radius: 20px;
         }
       }
@@ -53,6 +53,7 @@
           background: #f9fbee;
           cursor: pointer;
           padding: 20px 244px;
+
           &:hover {
             border: 1px solid transparent;
             background: #93AA00;

@@ -442,7 +442,7 @@ a {
   outline: none;
 }
 .form .form__items .form__item .form__row .form__input--textarea {
-  max-height: 147px;
+  padding: 26px 172px 100px 36px;
   border-radius: 20px;
 }
 .form .form__items .form__item .form__btn .btn {
