@@ -41,6 +41,22 @@ a {
   min-height: 100%;
   overflow: hidden;
 }
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #008B8B;
+  max-width: 426px;
+}
+
+.title-color {
+  color: black;
+  font-weight: 700;
+  margin-left: 34px;
+}
 
 .container {
   max-width: 100%;
