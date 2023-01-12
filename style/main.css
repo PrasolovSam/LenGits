@@ -48,7 +48,7 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 42px;
   text-transform: uppercase;
   color: #008B8B;
@@ -499,4 +499,11 @@ a {
 .form .form__social-img {
   max-width: 534px;
   min-height: 308px;
+}
+
+.rewies {
+  margin-top: 66px;
+}
+.rewies .rewies__title {
+  max-width: 572px;
 }
