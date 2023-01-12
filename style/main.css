@@ -505,5 +505,22 @@ a {
   margin-top: 66px;
 }
 .rewies .rewies__title {
-  max-width: 572px;
+  max-width: 820px;
+}
+.rewies .rewies__title .rewies__title-text {
+  max-width: 72%;
+}
+.rewies .rewies__title .rewies__title-text .rewies__color {
+  margin: 0;
+}
+.rewies .rewies__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.rewies .rewies__wrapp .rewies__img {
+  margin-right: 8px;
 }

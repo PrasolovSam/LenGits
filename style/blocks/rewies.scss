@@ -1,6 +1,26 @@
 .rewies {
   margin-top: 66px;
+
   .rewies__title {
-    max-width: 572px;
+    max-width: 820px;
+
+    .rewies__title-text {
+      max-width: 72%;
+
+      .rewies__color {
+        margin: 0;
+      }
+    }
   }
+
+  .rewies__wrapp {
+    display: flex;
+    align-items: center;
+
+    .rewies__img {
+      margin-right: 8px;
+    }
+  }
+
+
 }
