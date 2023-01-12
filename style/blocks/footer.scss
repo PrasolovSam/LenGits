@@ -45,7 +45,13 @@
   margin-top: 66px;
   background-color: #A8B50A;
   color: white;
-  border: none;
+  border: 1px solid transparent;
   padding: 16px 36px;
+  border-radius: 50px;
+  &:hover {
+    color: black;
+    background-color: #CEEA19;
+    border: 1px solid transparent;
+  }
 
 }
