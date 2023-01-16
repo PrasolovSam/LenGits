@@ -296,69 +296,60 @@ a {
   background-color: #A8B50A;
 }
 
-.servisec {
+.services {
   margin-top: 66px;
+  min-height: 1156px;
 }
-.servisec .servisec__wrapp {
+.services .services-text {
+  margin-left: 180px;
+}
+.services .services__blocks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin-top: 60px;
+  -webkit-box-flex: gap;
+      -ms-flex: gap;
+          flex: gap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 24px;
+  height: 458px;
 }
-.servisec .servisec__blocks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 44px;
+.services .services__blocks .services__block {
+  max-width: 360px;
 }
-.servisec .servisec__blocks .servisec__blocks-item {
-  margin-right: 40px;
+.services .services__blocks .services__block .services__content {
+  margin-top: 20px;
 }
-.servisec .item-right {
-  margin-right: 0;
-  margin-left: 40px;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-.servisec .img-left {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-.servisec .servisec__subtitle {
-  font-family: "Manrope";
+.services .services__blocks .services__block .services__subtitle {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 28px;
-  margin-bottom: 26px;
+  font-size: 22px;
+  line-height: 125%;
   color: #272727;
+  max-width: 300px;
+  margin-bottom: 18px;
 }
-.servisec .servisec__subtitle:last-child {
-  line-height: 42px;
-}
-.servisec .servisec__text {
+.services .services__blocks .services__block .services__text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 125%;
+  margin-bottom: 38px;
 }
-.servisec .servisec__text:last-child {
-  margin-top: 24px;
+.services .services__blocks .services__block .services__btn a {
+  border: 1px solid #008B8B;
+  color: #008B8B;
+  border-radius: 50px;
+  padding: 20px 110px;
 }
-.servisec .text-right:last-child {
-  margin-top: 6px;
-}
-.servisec .serv-img {
-  min-height: 155px;
-}
-.servisec .servisec-text {
-  margin-left: 180px;
+.services .services__blocks .services__block .services__btn a:hover {
+  border: 1px solid transparent;
+  background: #008B8B;
+  color: white;
 }
 
 .footer {
@@ -566,6 +557,7 @@ a {
 
 .map__text {
   margin-left: 198px;
+  margin-bottom: 0;
 }
 
 .map__wrapp {
