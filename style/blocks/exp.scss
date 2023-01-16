@@ -1,0 +1,49 @@
+.exp {
+  margin-bottom: 66px;
+
+  .exp__blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .exp__item {
+      max-height: 342px;
+    }
+
+    .exp__item-one {
+      background-image: url('../img/exp1.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+    }
+
+    .exp__item-two {
+      background-image: url('../img/exp2.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+    }
+
+    .exp__item-three {
+      background-image: url('../img/exp3.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+    }
+
+    .exp__item-text {
+      color: white;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 142px 82px;
+      max-width: 354px;
+    }
+  }
+}

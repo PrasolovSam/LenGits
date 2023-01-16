@@ -375,6 +375,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 20px;
 }
 .services .servisec__baner .services__content {
   color: white;
@@ -665,7 +666,7 @@ a {
 }
 
 .map {
-  margin-top: 50px;
+  margin-top: 96px;
 }
 .map .map__text {
   margin-left: 198px;
@@ -862,4 +863,55 @@ a {
 }
 .gis__wrapp .gis__content .gis__items .gis__list .gis__item .gis__item-text {
   margin-left: 16px;
+}
+
+.exp {
+  margin-bottom: 66px;
+}
+.exp .exp__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.exp .exp__blocks .exp__item {
+  max-height: 342px;
+}
+.exp .exp__blocks .exp__item-one {
+  background-image: url("../img/exp1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.exp .exp__blocks .exp__item-two {
+  background-image: url("../img/exp2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.exp .exp__blocks .exp__item-three {
+  background-image: url("../img/exp3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.exp .exp__blocks .exp__item-text {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 142px 82px;
+  max-width: 354px;
 }
