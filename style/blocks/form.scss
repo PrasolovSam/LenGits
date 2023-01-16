@@ -76,10 +76,12 @@
 
 
   }
- .form__social-blocks {
-   max-width: 534px;
 
- }
+  .form__social-blocks {
+    max-width: 534px;
+
+  }
+
   .form__social-block {
     background-color: #008B8B;
     min-height: 184px;
@@ -108,9 +110,16 @@
       color: #FFFFFF;
     }
   }
+
   .form__social-img {
     max-width: 534px;
     min-height: 308px;
+  }
+
+  .for-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
   }
 
 }

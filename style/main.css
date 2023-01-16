@@ -325,9 +325,11 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 360px;
+  margin-top: 20px;
 }
 .services .services__blocks .services__block .services__content {
   margin-top: 20px;
+  height: 100%;
 }
 .services .services__blocks .services__block .services__subtitle {
   font-family: "Inter";
@@ -346,7 +348,6 @@ a {
   font-size: 15px;
   line-height: 125%;
   margin-bottom: 38px;
-  min-height: 76px;
 }
 .services .services__blocks .services__block .services__btn a {
   border: 1px solid #008B8B;
@@ -619,6 +620,11 @@ a {
   max-width: 534px;
   min-height: 308px;
 }
+.form .for-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
 
 .rewies {
   margin-top: 66px;
@@ -655,12 +661,14 @@ a {
   margin-right: 8px;
 }
 
-.map__text {
+.map {
+  margin-top: 50px;
+}
+.map .map__text {
   margin-left: 198px;
   margin-bottom: 0;
 }
-
-.map__wrapp {
+.map .map__wrapp {
   position: relative;
   background: url("../img/map.png");
   background-repeat: no-repeat;

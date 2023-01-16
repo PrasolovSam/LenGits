@@ -1,13 +1,18 @@
-.map__text {
-  margin-left: 198px;
-  margin-bottom: 0;
-}
-.map__wrapp {
-  position: relative;
-  background: url('../img/map.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 624px;
-  margin-bottom: 88px;
+.map {
+  margin-top: 50px;
+
+  .map__text {
+    margin-left: 198px;
+    margin-bottom: 0;
+  }
+
+  .map__wrapp {
+    position: relative;
+    background: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 624px;
+    margin-bottom: 88px;
+  }
 }
