@@ -34,6 +34,31 @@
     .gis__items {
       padding-bottom: 58px;
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .gis__item {
+        display: flex;
+        align-items: center;
+      }
+      .gis__block-img {
+        display: flex;
+        margin-left: 22px;
+        max-width: 580px;
+        .gis-img {
+          border-radius: 20px;
+        }
+        .gis__items-img {
+          display: block;
+          .gis__item-img {
+            margin-bottom: 40px;
+            margin-left: 22px;
+            border-radius: 20px;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
 
       .gis__block {
         display: flex;
@@ -42,7 +67,51 @@
         padding: 30px 0px;
         align-items: center;
         color: white;
-        border-radius: 10px;
+        border-radius: 20px;
+        max-width: 560px;
+
+
+        .gis__btns {
+          display: flex;
+          align-items: center;
+          flex: gap;
+          gap: 16px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 21px;
+
+          .gis__btn-one {
+            padding: 20px 30px;
+            border-radius: 50px;
+            border: 1px solid transparent;
+            color: white;
+            text-decoration: none;
+            background: #93AA00;
+            cursor: pointer;
+
+            &:hover {
+              border: 1px solid transparent;
+              background: #CEEA19;
+              color: black;
+            }
+          }
+
+          .gis__btn-two {
+            border: 1px solid white;
+            color: #FFFFFF;
+            border-radius: 50px;
+            padding: 20px 30px;
+
+            &:hover {
+              border: 1px solid transparent;
+              background: white;
+              color: #008B8B;
+              ;
+            }
+          }
+        }
       }
 
       .gis__subtitle {
@@ -53,8 +122,9 @@
         line-height: 30px;
         margin-bottom: 36px;
       }
+
       .gis__block-list {
-        max-width: 76%;
+        max-width: 86%;
       }
 
       .gis__list {
@@ -71,6 +141,10 @@
 
           &:last-child {
             margin-bottom: 64px;
+          }
+
+          .gis__item-text {
+            margin-left: 16px;
           }
         }
       }

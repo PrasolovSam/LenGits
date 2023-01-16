@@ -630,6 +630,41 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gis__wrapp .gis__content .gis__items .gis__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gis__wrapp .gis__content .gis__items .gis__block-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 22px;
+  max-width: 580px;
+}
+.gis__wrapp .gis__content .gis__items .gis__block-img .gis-img {
+  border-radius: 20px;
+}
+.gis__wrapp .gis__content .gis__items .gis__block-img .gis__items-img {
+  display: block;
+}
+.gis__wrapp .gis__content .gis__items .gis__block-img .gis__items-img .gis__item-img {
+  margin-bottom: 40px;
+  margin-left: 22px;
+  border-radius: 20px;
+}
+.gis__wrapp .gis__content .gis__items .gis__block-img .gis__items-img .gis__item-img:last-child {
+  margin-bottom: 0;
 }
 .gis__wrapp .gis__content .gis__items .gis__block {
   display: -webkit-box;
@@ -645,7 +680,50 @@ a {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
+  max-width: 560px;
+}
+.gis__wrapp .gis__content .gis__items .gis__block .gis__btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: gap;
+      -ms-flex: gap;
+          flex: gap;
+  gap: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one {
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  color: white;
+  text-decoration: none;
+  background: #93AA00;
+  cursor: pointer;
+}
+.gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one:hover {
+  border: 1px solid transparent;
+  background: #CEEA19;
+  color: black;
+}
+.gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-two {
+  border: 1px solid white;
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+.gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-two:hover {
+  border: 1px solid transparent;
+  background: white;
+  color: #008B8B;
 }
 .gis__wrapp .gis__content .gis__items .gis__subtitle {
   font-family: "Manrope";
@@ -656,7 +734,7 @@ a {
   margin-bottom: 36px;
 }
 .gis__wrapp .gis__content .gis__items .gis__block-list {
-  max-width: 76%;
+  max-width: 86%;
 }
 .gis__wrapp .gis__content .gis__items .gis__list {
   font-family: "Inter";
@@ -674,4 +752,7 @@ a {
 }
 .gis__wrapp .gis__content .gis__items .gis__list .gis__item:last-child {
   margin-bottom: 64px;
+}
+.gis__wrapp .gis__content .gis__items .gis__list .gis__item .gis__item-text {
+  margin-left: 16px;
 }
