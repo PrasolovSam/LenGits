@@ -127,6 +127,9 @@ a {
           justify-content: space-between;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
