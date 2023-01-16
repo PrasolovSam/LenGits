@@ -1,0 +1,79 @@
+.gis__wrapp {
+  background: url('../img/group-503.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 786px;
+
+  .gis__content {
+    padding-top: 100px;
+    padding-bottom: 68px;
+
+    .gis__title {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      text-transform: uppercase;
+      line-height: 32px;
+      margin-bottom: 40px;
+
+      color: #FFFFFF;
+
+      .gis__color {
+        color: #AAB028;
+      }
+
+      .gis-text {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+
+    .gis__items {
+      padding-bottom: 58px;
+      display: flex;
+
+      .gis__block {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        padding: 30px 0px;
+        align-items: center;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .gis__subtitle {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 36px;
+      }
+      .gis__block-list {
+        max-width: 76%;
+      }
+
+      .gis__list {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        .gis__item {
+          display: flex;
+          margin-left: 16px;
+          margin-bottom: 22px;
+
+          &:last-child {
+            margin-bottom: 64px;
+          }
+        }
+      }
+    }
+  }
+}
