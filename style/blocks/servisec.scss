@@ -31,6 +31,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
+    line-height: 28px;
     margin-bottom: 26px;
     color: #272727;
 
@@ -52,5 +53,8 @@
   }
   .text-right:last-child {
     margin-top: 6px;
+  }
+  .serv-img {
+    min-height: 155px;
   }
 }
