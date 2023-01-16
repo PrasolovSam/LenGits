@@ -881,23 +881,31 @@ a {
 }
 .exp .exp__blocks .exp__item {
   max-height: 342px;
+  max-width: 360px;
+  border: 4px solid transparent;
+  cursor: pointer;
+}
+.exp .exp__blocks .exp__item:hover {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  background-image: url("../img/exp11.png");
 }
 .exp .exp__blocks .exp__item-one {
-  background-image: url("../img/exp1.jpg");
+  background-image: url("../img/exp1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 20px;
 }
 .exp .exp__blocks .exp__item-two {
-  background-image: url("../img/exp2.jpg");
+  background-image: url("../img/exp2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 20px;
 }
 .exp .exp__blocks .exp__item-three {
-  background-image: url("../img/exp3.jpg");
+  background-image: url("../img/exp3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
