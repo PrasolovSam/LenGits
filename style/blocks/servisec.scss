@@ -41,7 +41,7 @@
         margin-bottom: 38px;
       }
 
-      .services__btn a{
+      .services__btn a {
 
         border: 1px solid #008B8B;
         color: #008B8B;
@@ -57,5 +57,47 @@
       }
 
     }
+  }
+
+  .servisec__baner {
+    background-color: #008B8B;
+    max-height: 490px;
+    min-width: 354px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+    .services__content {
+      color: white;
+      padding: 26px 0 0 26px;
+
+      .services__subtitle-baner {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 18px;
+        margin-bottom: 6px;
+      }
+
+      .services__text-baner {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+
+  }
+
+  .servisec__btn-baner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1 0 auto;
+    margin-bottom: 0;
   }
 }
