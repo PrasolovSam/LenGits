@@ -8,10 +8,21 @@
 
     .rewies__title-text {
       max-width: 72%;
+      margin: 0;
 
-      .rewies__color {
-        margin: 0;
-      }
+
+    }
+
+    .rewies__color {
+      margin: 0;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 42px;
+      text-transform: uppercase;
+      margin-left: 152px;
+      color: #272727;
     }
   }
 

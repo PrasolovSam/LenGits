@@ -15,6 +15,8 @@
     height: 458px;
 
     .services__block {
+      display: flex;
+      flex-direction: column;
       max-width: 360px;
 
       .services__content {
@@ -39,6 +41,7 @@
         font-size: 15px;
         line-height: 125%;
         margin-bottom: 38px;
+        min-height: 76px;
       }
 
       .services__btn a {
@@ -78,7 +81,7 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 18px;
-        margin-bottom: 6px;
+        margin-bottom: 10px;
       }
 
       .services__text-baner {
@@ -94,10 +97,47 @@
   }
 
   .servisec__btn-baner {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     flex: 1 0 auto;
-    margin-bottom: 0;
+    margin-bottom: 18px;
+
+
+    &:after {
+      content: url('../img/icon/servman.png');
+      position: absolute;
+      width: 256px;
+      height: 344px;
+      left: 75px;
+      z-index: 1;
+
+
+    }
+
+    .btn-baner {
+      font-family: 'Inter';
+      display: flex;
+      align-items: center;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      width: 160px;
+      height: 160px;
+      text-align: center;
+      color: #FFFFFF;
+      border: 1px solid transparent;
+      background-color: #93AA00;
+      border-radius: 50%;
+      margin-left: 30px;
+      z-index: 2;
+
+      &:hover {
+        color: #272727;
+        background-color: #CEEA19;
+      }
+    }
   }
 }
