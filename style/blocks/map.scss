@@ -1,9 +1,13 @@
+.map__text {
+  margin-left: 198px;
+}
 .map__wrapp {
   position: relative;
   background: url('../img/map.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 683px;
-  min-height: 832px;
+  max-width: 1024px;
+  min-height: 624px;
+  margin-bottom: 88px;
 }

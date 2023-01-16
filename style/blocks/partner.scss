@@ -1,0 +1,10 @@
+.partner__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .partner__item {
+    border: 1px solid #008B8B;
+    padding: 76px 36px;
+    border-radius: 50px;
+  }
+}
