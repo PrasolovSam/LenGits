@@ -1,0 +1,59 @@
+.transplan-subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 150px;
+}
+
+.transplan__wrapp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.transplan__blocks {
+  display: flex;
+  margin-top: 44px;
+  align-items: center;
+  max-height: 326px;
+
+  .transplan__blocks-item {
+    margin-right: 40px;
+  }
+}
+
+.item-right {
+  margin-right: 0;
+  margin-left: 40px;
+  order: 2;
+}
+
+.img-left {
+
+  order: 1;
+}
+
+
+.transplan__text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+
+  &:last-child {
+    margin-top: 24px;
+  }
+}
+
+.text-right:last-child {
+  margin-top: 6px;
+}
+
+.serv-img {
+  min-height: 155px;
+}

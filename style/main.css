@@ -1025,3 +1025,72 @@ a {
   border: 1px solid rgba(91, 92, 90, 0.3);
   margin-bottom: 40px;
 }
+
+.transplan-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 150px;
+}
+
+.transplan__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 60px;
+}
+
+.transplan__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 326px;
+}
+.transplan__blocks .transplan__blocks-item {
+  margin-right: 40px;
+}
+
+.item-right {
+  margin-right: 0;
+  margin-left: 40px;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.img-left {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.transplan__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.transplan__text:last-child {
+  margin-top: 24px;
+}
+
+.text-right:last-child {
+  margin-top: 6px;
+}
+
+.serv-img {
+  min-height: 155px;
+}
