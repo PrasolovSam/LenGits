@@ -1,6 +1,14 @@
 .exp {
   margin-bottom: 66px;
 
+  .exp__title {
+    margin-bottom: 56px;
+.exp__color {
+  margin-left: 180px;
+
+}
+  }
+
   .exp__blocks {
     display: flex;
     align-items: center;
@@ -9,16 +17,18 @@
     .exp__item {
       max-height: 342px;
       max-width: 360px;
-      border: 4px solid transparent;
+      border: 1px solid transparent;
 
 
       cursor: pointer;
-      &:hover {
 
+      &:hover {
         transition: all 1s ease-in-out;
-        background-image: url('../img/exp11.png');
+        background: #008B8B;
+
 
       }
+
     }
 
     .exp__item-one {
@@ -27,6 +37,7 @@
       background-position: center;
       background-size: cover;
       border-radius: 20px;
+
     }
 
     .exp__item-two {

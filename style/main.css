@@ -456,13 +456,13 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 562px;
   background-position: center;
   margin-top: 44px;
 }
 
 .footer__items {
-  padding-top: 82px;
+  padding-top: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,7 +485,7 @@ a {
   padding-top: 15px;
 }
 
-.contacts {
+.footer-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,18 +496,13 @@ a {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.contacts .contact__item {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
 
 .footer__list-icon {
   margin-right: 8px;
 }
 
 .footer__phone {
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .footer__btn {
@@ -712,7 +707,7 @@ a {
   max-height: 786px;
 }
 .gis__wrapp .gis__content {
-  padding-top: 100px;
+  padding-top: 60px;
   padding-bottom: 68px;
 }
 .gis__wrapp .gis__content .gis__title {
@@ -868,6 +863,12 @@ a {
 .exp {
   margin-bottom: 66px;
 }
+.exp .exp__title {
+  margin-bottom: 56px;
+}
+.exp .exp__title .exp__color {
+  margin-left: 180px;
+}
 .exp .exp__blocks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -882,13 +883,13 @@ a {
 .exp .exp__blocks .exp__item {
   max-height: 342px;
   max-width: 360px;
-  border: 4px solid transparent;
+  border: 1px solid transparent;
   cursor: pointer;
 }
 .exp .exp__blocks .exp__item:hover {
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  background-image: url("../img/exp11.png");
+  background: #008B8B;
 }
 .exp .exp__blocks .exp__item-one {
   background-image: url("../img/exp1.png");
@@ -922,4 +923,105 @@ a {
   text-transform: uppercase;
   padding: 142px 82px;
   max-width: 354px;
+}
+
+.about__baner-items {
+  margin-bottom: 66px;
+}
+.about__baner-items .baner__about-color {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 28px;
+  color: #008B8B;
+}
+
+.baner__about-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 28px;
+  color: #272727;
+  margin-bottom: 26px;
+}
+
+.baner__about-us {
+  margin-top: 166px;
+  background: url("../img/serbaner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 408px;
+}
+
+.serv-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+.serv-items .serv-item-elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  margin-bottom: 40px;
+}
+.serv-items .serv-item-elem .serv-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 60px;
+  height: 100%;
+}
+.serv-items .serv-item-elem .serv-item .serv-subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #272727;
+  margin-bottom: 20px;
+}
+.serv-items .serv-item-elem .serv-item .serv-text {
+  color: black;
+  font-weight: 400;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 18px;
+}
+.serv-items .serv-item-elem .serv-item .serv-ancor {
+  margin-top: 20px;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.serv-items .serv-item-elem .serv-item .serv-ancor:hover {
+  color: #008B8B;
+}
+.serv-items .serv-border {
+  min-width: 100%;
+  border: 1px solid rgba(91, 92, 90, 0.3);
+  margin-bottom: 40px;
 }
