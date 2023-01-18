@@ -1,0 +1,48 @@
+.progdev {
+  margin-top: 92px;
+
+  .progdev__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+
+    .progdev__title {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .progdev__title-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        text-transform: uppercase;
+        color: #272727;
+      }
+
+      .progdev__subtitle-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 52px;
+        line-height: 62px;
+        text-transform: capitalize;
+        color: #272727;
+
+        .progdev__subtitle-color {
+          color: #008B8B;
+        }
+      }
+    }
+
+    .progdev__baner {
+      background: url('../img/cad.png');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 408px;
+      border-radius: 20px;
+    }
+  }
+}

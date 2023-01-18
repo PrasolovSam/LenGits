@@ -1,0 +1,32 @@
+.aftocad {
+  margin-top: 60px;
+
+  .aftocad__items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .aftocad__content {
+      display: flex;
+      justify-content: space-between;
+      gap: 44px;
+
+      .aftocad__item {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .aftocad__text {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 18px;
+        }
+      }
+
+
+
+    }
+  }
+}
