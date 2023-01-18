@@ -1096,6 +1096,9 @@ a {
   min-height: 155px;
 }
 
+.variation {
+  margin-top: 100px;
+}
 .variation .variation__wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1223,7 +1226,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
   color: #000000;
 }
 .director .director__wrapp .director__content .director__items .director__list .director__list-item .dir__color {
@@ -1243,8 +1246,8 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 1px solid #ADADA5;
+  border-bottom: 1px solid #ADADA5;
   max-height: 136px;
   width: 100%;
 }
