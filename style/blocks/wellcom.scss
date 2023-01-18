@@ -1,0 +1,28 @@
+.wellcome {
+  margin-top: 88px;
+
+  .wellcome__title {
+    padding: 0 190px 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    color: #272727;
+    margin-bottom: 60px;
+
+    .wellcome__color {
+      color: #008B8B;
+    }
+  }
+
+  .wellcome__baner {
+    background: url('../img/wellcom.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    min-height: 620px;
+    margin-bottom: 100px;
+  }
+}

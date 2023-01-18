@@ -1,0 +1,49 @@
+.sisdev {
+  margin-bottom: 100px;
+
+  .sisdev__title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 60px;
+
+    .sisdev__title-text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 42px;
+      text-transform: uppercase;
+      color: #272727;
+
+      .sisdev__color {
+        margin-right: 8px;
+        color: #008B8B;
+      }
+
+    }
+
+    .sisdev__subtitle-text {
+      margin-left: 126px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 38px;
+      text-transform: uppercase;
+      color: #008B8B;
+    }
+  }
+
+  .sisdev__content {
+    display: flex;
+    gap: 40px;
+
+    .sisdev__content-text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}

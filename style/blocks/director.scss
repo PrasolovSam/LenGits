@@ -1,0 +1,57 @@
+.director {
+  margin-bottom: 80px;
+  .director__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+
+    .director__subtitle {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 42px;
+      color: #008B8B;
+    }
+
+    .director__content {
+      display: flex;
+
+      .director__items {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+
+        .director__avatar {
+          background: url('../img/director.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 374px;
+          width: 424px;
+          border-radius: 50%;
+        }
+
+        .director__list {
+          display: flex;
+          flex-direction: column;
+          gap: 50px;
+          max-width: 85%;
+
+          .director__list-item {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            color: #000000;
+
+            .dir__color {
+              color: #008B8B;
+            }
+          }
+        }
+      }
+    }
+  }
+}

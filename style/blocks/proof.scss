@@ -1,0 +1,28 @@
+.proof {
+  margin-bottom: 100px;
+  .proof__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    .proof__img {
+      background: url('../img/avatar2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-width: 660px;
+      min-height: 426px;
+    }
+    .proof__elem {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .proof__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}

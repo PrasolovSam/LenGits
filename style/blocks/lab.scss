@@ -1,0 +1,51 @@
+.lab {
+  margin-bottom: 100px;
+
+  .lab__title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    .lab__title-text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 36px;
+      text-transform: uppercase;
+      color: #272727;
+    }
+
+    .lab__subtitle-text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 38px;
+      text-transform: uppercase;
+      color: #008B8B;
+      margin-left: 200px;
+    }
+  }
+
+  .lab__content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    .lab__block {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      .lab__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+
+  }
+}
