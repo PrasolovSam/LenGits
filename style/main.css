@@ -232,14 +232,16 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 65px;
-  line-height: 79px;
+  font-size: 52px;
+  line-height: 68px;
+  margin-bottom: 66px;
+  margin-top: 16px;
 }
 .about .about__title .about__color {
   color: #008B8B;
 }
 .about .about__us {
-  background-image: url(../img/about.jpg);
+  background: url(../img/about.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1573,4 +1575,56 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+}
+
+.contact__about {
+  margin-top: 88px;
+}
+.contact__about .contact__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 123px;
+}
+.contact__about .contact__content .contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.contact__about .contact__content .contact__item .contact__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 68px;
+  color: #272727;
+}
+.contact__about .contact__content .contact__item .contact__subtitle {
+  margin-left: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  color: #272727;
+}
+.contact__about .contact__content .contact__item .contact__subtitle .contact__color {
+  color: #008B8B;
+}
+.contact__about .contact__content .contact__item-img {
+  background: url("../img/contact.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 488px;
+  border-radius: 20px;
 }

@@ -1,0 +1,46 @@
+.contact__about {
+  margin-top: 88px;
+
+  .contact__content {
+    display: flex;
+    flex-direction: column;
+    gap: 123px;
+
+    .contact__item {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .contact__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 68px;
+        color: #272727;
+      }
+
+      .contact__subtitle {
+        margin-left: 8px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 42px;
+        color: #272727;
+
+        .contact__color {
+          color: #008B8B;
+        }
+      }
+    }
+    .contact__item-img {
+      background: url('../img/contact.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 488px;
+      border-radius: 20px;
+    }
+  }
+}
