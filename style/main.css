@@ -1693,3 +1693,94 @@ a {
   font-size: 14px;
   color: #008B8B;
 }
+
+.mapcont {
+  margin-top: 60px;
+}
+.mapcont .mapcont__wrapp {
+  background: url("../img/contmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 452px;
+}
+
+.projects {
+  margin-top: 100px;
+  min-height: 600px;
+}
+.projects .projects__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.projects .projects__content .projects__blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.projects .projects__content .projects__blocks .projects__title .projects__title-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #008B8B;
+  text-transform: uppercase;
+}
+.projects .projects__content .projects__blocks .projects__title .projects__subtitle-text {
+  margin-left: 120px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #272727;
+  text-transform: uppercase;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-one {
+  background: url("../img/pro1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 754px;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-two {
+  background: url("../img/pro2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 754px;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-three {
+  background: url("../img/pro3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 576px;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-fhore {
+  background: url("../img/pro4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 576px;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-five {
+  background: url("../img/pro4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 576px;
+}

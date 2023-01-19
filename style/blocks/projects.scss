@@ -1,0 +1,90 @@
+.projects {
+  margin-top: 100px;
+  min-height: 600px;
+
+  .projects__content {
+    display: flex;
+    gap: 40px;
+
+    .projects__blocks {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      .projects__title {
+        .projects__title-text {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 42px;
+          color: #008B8B;
+          text-transform: uppercase;
+
+        }
+
+        .projects__subtitle-text {
+          margin-left: 120px;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 42px;
+          color: #272727;
+          text-transform: uppercase;
+        }
+      }
+
+      .projects__imgs {
+        .projects__img {
+          .projects__img-shreff {
+            .project__img-one {
+              background: url('../img/pro1.png');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 560px;
+              height: 754px;
+            }
+
+            .project__img-two {
+              background: url('../img/pro2.png');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 560px;
+              height: 754px;
+            }
+
+            .project__img-three {
+              background: url('../img/pro3.png');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 560px;
+              height: 576px;
+            }
+
+            .project__img-fhore {
+              background: url('../img/pro4.png');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 560px;
+              height: 576px;
+            }
+
+            .project__img-five {
+              background: url('../img/pro4.png');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              width: 560px;
+              height: 576px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
