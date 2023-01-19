@@ -1628,3 +1628,68 @@ a {
   min-height: 488px;
   border-radius: 20px;
 }
+
+.task {
+  margin-top: 100px;
+}
+.task .task__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+}
+.task .task__content .task__title {
+  margin-left: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  color: #272727;
+}
+.task .task__content .task__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 62px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.task .task__content .task__items .task__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  border: 1px solid #008B8B;
+  padding: 34px 150px 34px 22px;
+  border-radius: 20px;
+}
+.task .task__content .task__items .task__block .task__block-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+.task .task__content .task__items .task__block .task__block-item .task__block-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.task .task__content .task__items .task__block .task__item-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #008B8B;
+}

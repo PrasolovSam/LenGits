@@ -1,0 +1,55 @@
+.task {
+  margin-top: 100px;
+
+  .task__content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    .task__title {
+      margin-left: 8px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 42px;
+      color: #272727;
+    }
+
+    .task__items {
+      display: flex;
+      gap: 62px;
+      align-items: center;
+
+      .task__block {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border: 1px solid #008B8B;
+        padding: 34px 150px 34px 22px;
+        border-radius: 20px;
+
+        .task__block-item {
+          display: flex;
+          gap: 12px;
+
+          .task__block-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #000000;
+          }
+        }
+
+        .task__item-text {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          color: #008B8B;
+        }
+      }
+    }
+  }
+}
