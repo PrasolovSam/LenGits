@@ -232,10 +232,8 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 52px;
-  line-height: 68px;
-  margin-bottom: 66px;
-  margin-top: 16px;
+  font-size: 65px;
+  line-height: 79px;
 }
 .about .about__title .about__color {
   color: #008B8B;
