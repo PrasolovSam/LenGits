@@ -182,7 +182,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: 82px;
+  margin-left: 92px;
   padding: 0;
   width: 100%;
 }
@@ -1777,7 +1777,7 @@ a {
   height: 576px;
 }
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-five {
-  background: url("../img/pro4.png");
+  background: url("../img/pro5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
