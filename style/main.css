@@ -885,19 +885,27 @@ a {
   max-height: 342px;
   max-width: 360px;
   border: 1px solid transparent;
+  display: block;
   cursor: pointer;
 }
 .exp .exp__blocks .exp__item:hover {
+  border: 1px solid transparent;
+  display: block;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   background: #008B8B;
+  opacity: 1;
 }
 .exp .exp__blocks .exp__item-one {
-  background-image: url("../img/exp1.png");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 139, 139, 0.8)), to(rgba(0, 139, 139, 0.8))), url("../img/exp1.jpg");
+  background: linear-gradient(0deg, rgba(0, 139, 139, 0.8), rgba(0, 139, 139, 0.8)), url("../img/exp1.jpg");
+  border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-radius: 20px;
+}
+.exp .exp__blocks .exp__item-one:hover:focus {
+  opacity: 1;
 }
 .exp .exp__blocks .exp__item-two {
   background-image: url("../img/exp2.png");
@@ -1856,4 +1864,51 @@ a {
   color: white;
   line-height: 26px;
   padding: 486px 32px 60px;
+}
+
+.portfolio {
+  margin-top: 100px;
+}
+.portfolio .portfolio__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 150px;
+}
+.portfolio .portfolio__wrapp .portfolio__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 38px;
+}
+.portfolio .portfolio__wrapp .portfolio__title .portfolio__title-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  color: #272727;
+}
+.portfolio .portfolio__wrapp .portfolio__title .portfolio__subtitle-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  color: #008B8B;
+}
+.portfolio .portfolio__wrapp .portfolio__baner {
+  background-image: url("../img/porfolio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 488px;
+  border-radius: 20px;
 }

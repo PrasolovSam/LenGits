@@ -3,10 +3,11 @@
 
   .exp__title {
     margin-bottom: 56px;
-.exp__color {
-  margin-left: 180px;
 
-}
+    .exp__color {
+      margin-left: 180px;
+
+    }
   }
 
   .exp__blocks {
@@ -18,13 +19,16 @@
       max-height: 342px;
       max-width: 360px;
       border: 1px solid transparent;
-
+      display: block;
 
       cursor: pointer;
 
       &:hover {
+        border: 1px solid transparent;
+        display: block;
         transition: all 1s ease-in-out;
         background: #008B8B;
+        opacity: 1;
 
 
       }
@@ -32,11 +36,15 @@
     }
 
     .exp__item-one {
-      background-image: url('../img/exp1.png');
+      background: linear-gradient(0deg, rgba(0, 139, 139, 0.8), rgba(0, 139, 139, 0.8)), url('../img/exp1.jpg');
+      border-radius: 20px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      border-radius: 20px;
+
+      &:hover:focus {
+       opacity: 1;
+      }
 
     }
 

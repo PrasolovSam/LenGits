@@ -1,0 +1,41 @@
+.portfolio {
+  margin-top: 100px;
+
+  .portfolio__wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+
+    .portfolio__title {
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+
+      .portfolio__title-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 52px;
+        color: #272727;
+      }
+
+      .portfolio__subtitle-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 52px;
+        color: #008B8B;
+      }
+    }
+
+    .portfolio__baner {
+      background-image: url('../img/porfolio.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      min-height: 488px;
+      border-radius: 20px;
+    }
+  }
+}
