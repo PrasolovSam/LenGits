@@ -42,9 +42,39 @@
               background: url('../img/pro1.png');
               background-position: center;
               background-repeat: no-repeat;
-              background-size: cover;
+              background-size: contain;
               width: 560px;
               height: 754px;
+              display: flex;
+              flex-direction: column;
+
+              .projects__img-item {
+                position: relative;
+
+                .projects__img-icon {
+
+                  border: 5px solid black;
+                  border-radius: 50%;
+                  padding: 42px 34px;
+                  margin-left: 34px;
+                  margin-top: 42px;
+
+                }
+
+
+              }
+
+              .projects__img-text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                color: white;
+                text-align: center;
+                padding: 486px 76px 60px 32px;
+              }
+
+
             }
 
             .project__img-two {
@@ -54,6 +84,19 @@
               background-size: cover;
               width: 560px;
               height: 754px;
+
+              .projects__img-text {
+                font-family: 'Inter';
+                font-style: normal;
+                height: 100%;
+                font-weight: 700;
+                font-size: 24px;
+                color: white;
+                line-height: 26px;
+                padding: 668px 32px 60px;
+
+              }
+
             }
 
             .project__img-three {
@@ -63,6 +106,16 @@
               background-size: cover;
               width: 560px;
               height: 576px;
+
+              .projects__img-text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                color: white;
+                line-height: 26px;
+                padding: 486px 36px 60px 32px;
+              }
             }
 
             .project__img-fhore {
@@ -72,6 +125,21 @@
               background-size: cover;
               width: 560px;
               height: 576px;
+              display: flex;
+              flex-direction: column;
+
+
+              .projects__img-text {
+                font-family: 'Inter';
+                font-style: normal;
+                height: 100%;
+                font-weight: 700;
+                font-size: 24px;
+                color: white;
+                text-align: center;
+                padding: 486px 32px 60px;
+
+              }
             }
 
             .project__img-five {
@@ -81,6 +149,17 @@
               background-size: cover;
               width: 560px;
               height: 576px;
+              .projects__img-text {
+                font-family: 'Inter';
+                font-style: normal;
+                height: 100%;
+                font-weight: 700;
+                font-size: 24px;
+                color: white;
+                line-height: 26px;
+                padding: 486px 32px 60px;
+
+              }
             }
           }
         }

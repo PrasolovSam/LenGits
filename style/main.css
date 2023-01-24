@@ -556,6 +556,7 @@ a {
   font-size: 18px;
   padding: 20px 292px 20px 36px;
   margin-bottom: 20px;
+  resize: none;
 }
 .form .form__items .form__item .form__row .form__input:focus {
   outline: none;
@@ -1748,9 +1749,35 @@ a {
   background: url("../img/pro1.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 560px;
   height: 754px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-one .projects__img-item {
+  position: relative;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-one .projects__img-item .projects__img-icon {
+  border: 5px solid black;
+  border-radius: 50%;
+  padding: 42px 34px;
+  margin-left: 34px;
+  margin-top: 42px;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-one .projects__img-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 486px 76px 60px 32px;
 }
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-two {
   background: url("../img/pro2.png");
@@ -1760,6 +1787,16 @@ a {
   width: 560px;
   height: 754px;
 }
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-two .projects__img-text {
+  font-family: "Inter";
+  font-style: normal;
+  height: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  line-height: 26px;
+  padding: 668px 32px 60px;
+}
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-three {
   background: url("../img/pro3.png");
   background-position: center;
@@ -1768,6 +1805,15 @@ a {
   width: 560px;
   height: 576px;
 }
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-three .projects__img-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  line-height: 26px;
+  padding: 486px 36px 60px 32px;
+}
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-fhore {
   background: url("../img/pro4.png");
   background-position: center;
@@ -1775,6 +1821,23 @@ a {
   background-size: cover;
   width: 560px;
   height: 576px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-fhore .projects__img-text {
+  font-family: "Inter";
+  font-style: normal;
+  height: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 486px 32px 60px;
 }
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-five {
   background: url("../img/pro5.png");
@@ -1783,4 +1846,14 @@ a {
   background-size: cover;
   width: 560px;
   height: 576px;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-five .projects__img-text {
+  font-family: "Inter";
+  font-style: normal;
+  height: 100%;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  line-height: 26px;
+  padding: 486px 32px 60px;
 }
