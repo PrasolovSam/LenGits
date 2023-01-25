@@ -887,25 +887,26 @@ a {
   border: 1px solid transparent;
   display: block;
   cursor: pointer;
-}
-.exp .exp__blocks .exp__item:hover {
-  border: 1px solid transparent;
-  display: block;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  background: #008B8B;
-  opacity: 1;
+  /*&:hover {
+    border: 1px solid transparent;
+    display: block;
+    transition: all 1s ease-in-out;
+    background: #008B8B;
+    opacity: 1;
+
+
+  }*/
 }
 .exp .exp__blocks .exp__item-one {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 139, 139, 0.8)), to(rgba(0, 139, 139, 0.8))), url("../img/exp1.jpg");
-  background: linear-gradient(0deg, rgba(0, 139, 139, 0.8), rgba(0, 139, 139, 0.8)), url("../img/exp1.jpg");
+  background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 139, 139)), to(rgb(0, 139, 139))), url("../img/exp1.jpg");
+  background: linear-gradient(0deg, rgb(0, 139, 139), rgb(0, 139, 139)), url("../img/exp1.jpg");
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.exp .exp__blocks .exp__item-one:hover:focus {
-  opacity: 1;
+.exp .exp__blocks .exp__item-one:hover {
+  opacity: 0.2;
 }
 .exp .exp__blocks .exp__item-two {
   background-image: url("../img/exp2.png");
@@ -934,6 +935,15 @@ a {
   max-width: 354px;
 }
 
+.pasport__baner {
+  background: url("../img/pasport.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 408px;
+  border-radius: 20px;
+}
+
 .about__baner-items {
   margin-bottom: 66px;
 }
@@ -951,7 +961,7 @@ a {
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
-  line-height: 34px;
+  line-height: 50px;
   color: #272727;
   margin-bottom: 26px;
 }

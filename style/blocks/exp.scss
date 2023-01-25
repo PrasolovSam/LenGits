@@ -23,7 +23,7 @@
 
       cursor: pointer;
 
-      &:hover {
+      /*&:hover {
         border: 1px solid transparent;
         display: block;
         transition: all 1s ease-in-out;
@@ -31,19 +31,19 @@
         opacity: 1;
 
 
-      }
+      }*/
 
     }
 
     .exp__item-one {
-      background: linear-gradient(0deg, rgba(0, 139, 139, 0.8), rgba(0, 139, 139, 0.8)), url('../img/exp1.jpg');
+      background: linear-gradient(0deg, rgba(0, 139, 139, 1), rgba(0, 139, 139, 1)), url('../img/exp1.jpg');
       border-radius: 20px;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
 
-      &:hover:focus {
-       opacity: 1;
+      &:hover {
+        opacity: 0.2;
       }
 
     }
