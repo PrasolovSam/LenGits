@@ -240,6 +240,14 @@ a {
 .about .about__title .about__color {
   color: #008B8B;
 }
+.about .elips {
+  position: absolute;
+  right: 17%;
+  top: 261px;
+}
+.about .elips .wrapp__img {
+  position: absolute;
+}
 
 .services {
   margin-top: 66px;
@@ -915,7 +923,7 @@ a {
   background-size: cover;
   border-radius: 20px;
   background-repeat: no-repeat;
-  min-height: 408px;
+  min-height: 454px;
 }
 
 .serv-items {
