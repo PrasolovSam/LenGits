@@ -240,64 +240,6 @@ a {
 .about .about__title .about__color {
   color: #008B8B;
 }
-.about .about__us {
-  background: url(../img/about.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 408px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-}
-.about .about__us .about__blocks {
-  margin-top: 66px;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 32px 48px;
-  min-height: 288px;
-  max-width: 390px;
-  border-radius: 16px;
-}
-.about .about__us .about__blocks-title {
-  color: white;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 42px;
-}
-.about .about__us .about__list {
-  margin-top: 24px;
-}
-.about .about__us .about__list-item {
-  color: white;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 18px;
-  margin-top: 4px;
-}
-.about .about__us .about__btn-item {
-  color: white;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  margin-top: 24px;
-  border-radius: 100px;
-  border: 1px solid white;
-  cursor: pointer;
-  padding: 20px 20px;
-  -webkit-transition: all 0.1s ease-out;
-  transition: all 0.1s ease-out;
-}
-.about .about__us .about__btn-item:hover {
-  background-color: #A8B50A;
-}
 
 .services {
   margin-top: 66px;
@@ -904,9 +846,9 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.exp .exp__blocks .exp__item-one:hover {
-  opacity: 0.2;
+  /*&:hover {
+    opacity: 0.2;
+  }*/
 }
 .exp .exp__blocks .exp__item-two {
   background-image: url("../img/exp2.png");
