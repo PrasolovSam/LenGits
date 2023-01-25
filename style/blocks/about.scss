@@ -38,8 +38,27 @@
       position: absolute;
       display: flex;
       gap: 16px;
-      right: 420px;
+      right: 400px;
       top: 64px;
+
+      .elips__btn {
+        position: absolute;
+        left: 715px;
+       top: 45px;
+
+        .elips__btn-circ {
+          border: 1px solid transparent;
+          background-color: #93AA00;
+          border-radius: 50%;
+          padding: 90px 46px 90px 46px;
+          color: white;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
 
       .elips__item {
         background-color: #FFFFFF;
@@ -57,9 +76,11 @@
         .icon__one {
           left: -10px;
         }
+
         .icon__two {
           left: 196px;
         }
+
         .icon__three {
           right: 174px;
         }
@@ -74,6 +95,7 @@
 
           color: #000000;
         }
+
         .elips__text-center {
           text-align: center;
         }
