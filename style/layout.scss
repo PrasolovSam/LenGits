@@ -6,13 +6,14 @@
 
 html,
 body {
-  height: 100%;
-}
-
-body {
-  font-family: 'Inter', 'Roboto', 'Manrope', sans-serif;
   width: 100%;
   height: 100%;
+}
+.wrapper {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Inter', 'Roboto', 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
@@ -41,7 +42,7 @@ a {
 
 .wrapper {
   min-height: 100%;
-  overflow: hidden;
+
 }
 
 .title {
@@ -62,7 +63,6 @@ a {
 }
 
 .container {
-  max-width: 100%;
   width: 1128px;
   margin: 0 auto;
   padding: 0;
