@@ -246,15 +246,15 @@ a {
   height: 1080px;
 }
 .about .about__us .block-video {
-  background: url("../img/icon/1.jpg");
+  background: url("../img/icon/1234.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f9fbee;
   position: relative;
   width: 100%;
-  height: 216px;
-  bottom: 220px;
+  height: 200px;
+  bottom: 200px;
 }
 .about .about__us .elips {
   position: relative;
