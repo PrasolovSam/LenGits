@@ -236,13 +236,21 @@ a {
   line-height: 68px;
   margin-bottom: 142px;
   margin-top: 16px;
+  color: #272727;
 }
 .about .about__title .about__color {
   color: #008B8B;
 }
+.about .elips__video {
+  width: 100%;
+}
 .about .elips {
   position: relative;
   height: 55px;
+}
+.about .elips .frame {
+  margin-left: 661px;
+  margin-top: -239px;
 }
 .about .elips .elips__items {
   position: relative;
@@ -252,7 +260,21 @@ a {
   display: flex;
   gap: 16px;
 }
+.about .elips .elips__items .elips__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 26px;
+}
+.about .elips .elips__items .elips__wrapp .elips__icon {
+  position: relative;
+  bottom: 14px;
+  left: 14px;
+}
 .about .elips .elips__items .elips__btn .elips__btn-circ {
+  position: relative;
+  left: 122px;
+  bottom: 20px;
   border: 1px solid transparent;
   background-color: #93AA00;
   border-radius: 50%;
@@ -263,11 +285,16 @@ a {
   font-weight: 700;
   font-size: 18px;
 }
+.about .elips .elips__items .elips__btn .elips__btn-circ:hover {
+  border: 1px solid transparent;
+  background-color: #CEEA19;
+  color: #000000;
+}
 .about .elips .elips__items .elips__item {
   background-color: #FFFFFF;
   border-radius: 10px;
   border: 1px solid #D4D6C9;
-  padding: 20px 6px 20px 20px;
+  padding: 20px 6px 20px 6px;
   height: 60px;
 }
 .about .elips .elips__items .elips__item .elips__text {

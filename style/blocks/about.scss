@@ -19,17 +19,26 @@
     line-height: 68px;
     margin-bottom: 142px;
     margin-top: 16px;
+    color: #272727;;
 
     .about__color {
       color: #008B8B;
     }
   }
 
+  .elips__video {
+    width: 100%;
+  }
+
   .elips {
     position: relative;
     height: 55px;
 
+    .frame {
+      margin-left: 661px;
+      margin-top: -239px;
 
+    }
 
     .elips__items {
       position: relative;
@@ -37,8 +46,24 @@
       display: flex;
       gap: 16px;
 
+      .elips__wrapp {
+        display: flex;
+        margin-top: 26px;
+
+        .elips__icon {
+          position: relative;
+          bottom: 14px;
+          left: 14px;
+        }
+
+
+      }
+
       .elips__btn {
         .elips__btn-circ {
+          position: relative;
+          left: 122px;
+          bottom: 20px;
           border: 1px solid transparent;
           background-color: #93AA00;
           border-radius: 50%;
@@ -49,6 +74,11 @@
           font-weight: 700;
           font-size: 18px;
 
+          &:hover {
+            border: 1px solid transparent;
+            background-color: #CEEA19;
+            color: #000000;
+          }
         }
       }
 
@@ -57,7 +87,7 @@
         background-color: #FFFFFF;
         border-radius: 10px;
         border: 1px solid #D4D6C9;
-        padding: 20px 6px 20px 20px;
+        padding: 20px 6px 20px 6px;
         height: 60px;
 
 
