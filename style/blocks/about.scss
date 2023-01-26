@@ -100,6 +100,12 @@
             font-weight: 700;
             font-size: 18px;
             margin-top: 2px;
+            position: relative;
+            z-index: 9999;
+            &:hover {
+              background-color: #CEEA19;
+              color: black;
+            }
 
             .text-pos {
               text-align: center;

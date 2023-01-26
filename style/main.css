@@ -314,6 +314,12 @@ a {
   font-weight: 700;
   font-size: 18px;
   margin-top: 2px;
+  position: relative;
+  z-index: 9999;
+}
+.about .about__us .elips .elips__items .elips__btn .elips__btn-circ:hover {
+  background-color: #CEEA19;
+  color: black;
 }
 .about .about__us .elips .elips__items .elips__btn .elips__btn-circ .text-pos {
   text-align: center;
@@ -452,6 +458,13 @@ a {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   margin-bottom: 18px;
+}
+.services .servisec__btn-baner::before {
+  content: url("../img/icon/elman.png");
+  position: absolute;
+  width: 488px;
+  height: 488px;
+  top: 15px;
 }
 .services .servisec__btn-baner:after {
   content: url("../img/icon/servman.png");

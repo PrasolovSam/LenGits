@@ -106,6 +106,14 @@
     flex: 1 0 auto;
     margin-bottom: 18px;
 
+    &::before {
+      content: url('../img/icon/elman.png');
+      position: absolute;
+      width: 488px;
+      height: 488px;
+      top: 15px;
+
+    }
 
     &:after {
       content: url('../img/icon/servman.png');
