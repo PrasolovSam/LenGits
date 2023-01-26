@@ -27,97 +27,112 @@
     }
   }
 
-  .elips__video {
+
+  .about__us {
     width: 100%;
-  }
+    height: 1080px;
 
-  .elips {
-    position: relative;
-    height: 55px;
-
-    .frame {
-      margin-left: 661px;
-      margin-top: -239px;
+    .block-video {
+      background: url('../img/icon/1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #f9fbee;
+      position: relative;
+      width: 100%;
+      height: 216px;
+      bottom: 220px;
 
     }
 
-    .elips__items {
+
+    .elips {
       position: relative;
-      top: 22px;
-      display: flex;
-      gap: 26px;
+      height: 55px;
 
-      .elips__wrapp {
-        display: flex;
-        margin-top: 26px;
-
-        .elips__icon {
-          position: relative;
-          bottom: 14px;
-          left: 14px;
-        }
-
+      .frame {
+        margin-left: 661px;
+        margin-top: -239px;
 
       }
 
-      .elips__btn {
-        background: url('../img/icon/el.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 352px;
-        height: 260px;
-        margin-left: 150px;
-        padding: 20px 0px 0px 64px;
+      .elips__items {
         position: relative;
-        bottom: 39px;
+        top: 22px;
+        display: flex;
+        gap: 26px;
 
-        .elips__btn-circ {
-          border: 1px solid transparent;
-          background-color: #93AA00;
-          border-radius: 50%;
-          padding: 90px 46px 90px 46px;
-          color: white;
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 18px;
+        .elips__wrapp {
+          display: flex;
 
-          .text-pos {
+
+          .elips__icon {
+            position: relative;
+            bottom: 14px;
+            left: 14px;
+          }
+
+
+        }
+
+        .elips__btn {
+          background: url('../img/icon/el.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 352px;
+          height: 260px;
+          margin-left: 150px;
+          padding: 20px 0px 0px 64px;
+          position: relative;
+          bottom: 68px;
+
+          .elips__btn-circ {
+            border: 1px solid transparent;
+            background-color: #93AA00;
+            border-radius: 50%;
+            padding: 90px 46px 90px 46px;
+            color: white;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+
+            .text-pos {
+              text-align: center;
+            }
+          }
+        }
+
+        .elips__item {
+
+          background-color: #FFFFFF;
+          border-radius: 10px;
+          border: 1px solid #D4D6C9;
+          padding: 20px 6px 20px 6px;
+          height: 60px;
+
+
+
+
+          .elips__text {
+            text-align: center;
+            text-align: right;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+
+            color: #000000;
+          }
+
+          .elips__text-center {
             text-align: center;
           }
         }
       }
-
-      .elips__item {
-
-        background-color: #FFFFFF;
-        border-radius: 10px;
-        border: 1px solid #D4D6C9;
-        padding: 20px 6px 20px 6px;
-        height: 60px;
-
-
-
-
-        .elips__text {
-          text-align: center;
-          text-align: right;
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 500;
-          font-size: 12px;
-          line-height: 18px;
-
-          color: #000000;
-        }
-
-        .elips__text-center {
-          text-align: center;
-        }
-      }
     }
   }
-
 
 }

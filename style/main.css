@@ -241,18 +241,30 @@ a {
 .about .about__title .about__color {
   color: #008B8B;
 }
-.about .elips__video {
+.about .about__us {
   width: 100%;
+  height: 1080px;
 }
-.about .elips {
+.about .about__us .block-video {
+  background: url("../img/icon/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f9fbee;
+  position: relative;
+  width: 100%;
+  height: 216px;
+  bottom: 220px;
+}
+.about .about__us .elips {
   position: relative;
   height: 55px;
 }
-.about .elips .frame {
+.about .about__us .elips .frame {
   margin-left: 661px;
   margin-top: -239px;
 }
-.about .elips .elips__items {
+.about .about__us .elips .elips__items {
   position: relative;
   top: 22px;
   display: -webkit-box;
@@ -260,18 +272,17 @@ a {
   display: flex;
   gap: 26px;
 }
-.about .elips .elips__items .elips__wrapp {
+.about .about__us .elips .elips__items .elips__wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 26px;
 }
-.about .elips .elips__items .elips__wrapp .elips__icon {
+.about .about__us .elips .elips__items .elips__wrapp .elips__icon {
   position: relative;
   bottom: 14px;
   left: 14px;
 }
-.about .elips .elips__items .elips__btn {
+.about .about__us .elips .elips__items .elips__btn {
   background: url("../img/icon/el.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -281,9 +292,9 @@ a {
   margin-left: 150px;
   padding: 20px 0px 0px 64px;
   position: relative;
-  bottom: 39px;
+  bottom: 68px;
 }
-.about .elips .elips__items .elips__btn .elips__btn-circ {
+.about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
   border: 1px solid transparent;
   background-color: #93AA00;
   border-radius: 50%;
@@ -294,17 +305,17 @@ a {
   font-weight: 700;
   font-size: 18px;
 }
-.about .elips .elips__items .elips__btn .elips__btn-circ .text-pos {
+.about .about__us .elips .elips__items .elips__btn .elips__btn-circ .text-pos {
   text-align: center;
 }
-.about .elips .elips__items .elips__item {
+.about .about__us .elips .elips__items .elips__item {
   background-color: #FFFFFF;
   border-radius: 10px;
   border: 1px solid #D4D6C9;
   padding: 20px 6px 20px 6px;
   height: 60px;
 }
-.about .elips .elips__items .elips__item .elips__text {
+.about .about__us .elips .elips__items .elips__item .elips__text {
   text-align: center;
   text-align: right;
   font-family: "Inter";
@@ -314,7 +325,7 @@ a {
   line-height: 18px;
   color: #000000;
 }
-.about .elips .elips__items .elips__item .elips__text-center {
+.about .about__us .elips .elips__items .elips__item .elips__text-center {
   text-align: center;
 }
 
