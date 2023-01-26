@@ -258,7 +258,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 16px;
+  gap: 26px;
 }
 .about .elips .elips__items .elips__wrapp {
   display: -webkit-box;
@@ -271,10 +271,19 @@ a {
   bottom: 14px;
   left: 14px;
 }
-.about .elips .elips__items .elips__btn .elips__btn-circ {
+.about .elips .elips__items .elips__btn {
+  background: url("../img/icon/el.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 352px;
+  height: 260px;
+  margin-left: 150px;
+  padding: 20px 0px 0px 64px;
   position: relative;
-  left: 122px;
-  bottom: 20px;
+  bottom: 39px;
+}
+.about .elips .elips__items .elips__btn .elips__btn-circ {
   border: 1px solid transparent;
   background-color: #93AA00;
   border-radius: 50%;
@@ -285,10 +294,8 @@ a {
   font-weight: 700;
   font-size: 18px;
 }
-.about .elips .elips__items .elips__btn .elips__btn-circ:hover {
-  border: 1px solid transparent;
-  background-color: #CEEA19;
-  color: #000000;
+.about .elips .elips__items .elips__btn .elips__btn-circ .text-pos {
+  text-align: center;
 }
 .about .elips .elips__items .elips__item {
   background-color: #FFFFFF;
