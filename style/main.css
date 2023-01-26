@@ -998,12 +998,12 @@ a {
 
 .baner__about-us {
   margin-top: 166px;
-  background: url("../img/serv.png");
+  background: url("../img/group.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
   background-repeat: no-repeat;
-  min-height: 454px;
+  min-height: 488px;
 }
 
 .serv-items {
@@ -1533,11 +1533,11 @@ a {
   color: #008B8B;
 }
 .progdev .progdev__wrapp .progdev__baner {
-  background: url("../img/cad.png");
+  background: url("../img/cad.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 408px;
+  min-height: 488px;
   border-radius: 20px;
 }
 
@@ -1670,7 +1670,7 @@ a {
   color: #008B8B;
 }
 .contact__about .contact__content .contact__item-img {
-  background: url("../img/contact.png");
+  background: url("../img/cont.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1944,7 +1944,7 @@ a {
   color: #008B8B;
 }
 .portfolio .portfolio__wrapp .portfolio__baner {
-  background-image: url("../img/porfolio.png");
+  background-image: url("../img/portfolio.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
