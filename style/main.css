@@ -241,26 +241,16 @@ a {
   color: #008B8B;
 }
 .about .elips {
-  position: absolute;
-  right: 17%;
-  top: 420px;
-}
-.about .elips .wrapp__img {
-  position: absolute;
+  position: relative;
+  height: 55px;
 }
 .about .elips .elips__items {
-  position: absolute;
+  position: relative;
+  top: 22px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
-  right: 400px;
-  top: 64px;
-}
-.about .elips .elips__items .elips__btn {
-  position: absolute;
-  left: 715px;
-  top: 45px;
 }
 .about .elips .elips__items .elips__btn .elips__btn-circ {
   border: 1px solid transparent;
@@ -272,29 +262,16 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
 }
 .about .elips .elips__items .elips__item {
   background-color: #FFFFFF;
   border-radius: 10px;
-  width: 190px;
   border: 1px solid #D4D6C9;
   padding: 20px 6px 20px 20px;
-}
-.about .elips .elips__items .elips__item .elips__icon {
-  position: absolute;
-  bottom: 40px;
-}
-.about .elips .elips__items .elips__item .icon__one {
-  left: -10px;
-}
-.about .elips .elips__items .elips__item .icon__two {
-  left: 196px;
-}
-.about .elips .elips__items .elips__item .icon__three {
-  right: 174px;
+  height: 60px;
 }
 .about .elips .elips__items .elips__item .elips__text {
+  text-align: center;
   text-align: right;
   font-family: "Inter";
   font-style: normal;

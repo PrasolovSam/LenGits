@@ -26,26 +26,16 @@
   }
 
   .elips {
-    position: absolute;
-    right: 17%;
-    top: 420px;
-
-    .wrapp__img {
-      position: absolute;
-    }
+    position: relative;
+    height: 55px;
 
     .elips__items {
-      position: absolute;
+      position: relative;
+      top: 22px;
       display: flex;
       gap: 16px;
-      right: 400px;
-      top: 64px;
 
       .elips__btn {
-        position: absolute;
-        left: 715px;
-       top: 45px;
-
         .elips__btn-circ {
           border: 1px solid transparent;
           background-color: #93AA00;
@@ -56,36 +46,23 @@
           font-style: normal;
           font-weight: 700;
           font-size: 18px;
-          line-height: 22px;
+
         }
       }
 
       .elips__item {
+
         background-color: #FFFFFF;
         border-radius: 10px;
-        width: 190px;
         border: 1px solid #D4D6C9;
         padding: 20px 6px 20px 20px;
+        height: 60px;
 
 
-        .elips__icon {
-          position: absolute;
-          bottom: 40px;
-        }
 
-        .icon__one {
-          left: -10px;
-        }
-
-        .icon__two {
-          left: 196px;
-        }
-
-        .icon__three {
-          right: 174px;
-        }
 
         .elips__text {
+          text-align: center;
           text-align: right;
           font-family: 'Inter';
           font-style: normal;
