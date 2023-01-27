@@ -1,11 +1,8 @@
-let MyColor = document.querySelector('#color');
+let content = document.querySelector('#name');
 
 
 
-MyColor.addEventListener('click', function () {
 
-MyColor.style.bacground-color = "red";
+content.addEventListener('keydown', function(event) {
 
-
-
-});
+}

@@ -279,7 +279,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 26px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .about .about__us .elips .elips__items .elips__wrapp {
   display: -webkit-box;
@@ -298,7 +300,6 @@ a {
   background-position: center;
   width: 352px;
   height: 260px;
-  margin-left: 150px;
   padding: 20px 0px 0px 64px;
   position: relative;
   bottom: 67px;
@@ -337,7 +338,7 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
   color: #000000;
 }

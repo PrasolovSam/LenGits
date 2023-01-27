@@ -62,7 +62,7 @@
         position: relative;
         top: 22px;
         display: flex;
-        gap: 26px;
+        justify-content: space-between;
 
         .elips__wrapp {
           display: flex;
@@ -84,7 +84,6 @@
           background-position: center;
           width: 352px;
           height: 260px;
-          margin-left: 150px;
           padding: 20px 0px 0px 64px;
           position: relative;
           bottom: 67px;
@@ -130,7 +129,7 @@
             font-family: 'Inter';
             font-style: normal;
             font-weight: 500;
-            font-size: 12px;
+            font-size: 14px;
             line-height: 18px;
 
             color: #000000;
