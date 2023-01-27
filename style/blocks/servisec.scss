@@ -1,9 +1,33 @@
 .services {
-  margin-top: 66px;
   min-height: 1156px;
 
+  .services__title-text {
+    position: relative;
+    z-index: 99999;
+    margin-top: -66px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #008B8B;
+    margin-bottom: 0;
+  }
+
+
   .services-text {
+    position: relative;
+    z-index: 9999;
     margin-left: 180px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #272727;
+    margin-bottom: 22px;
   }
 
   .services__blocks {

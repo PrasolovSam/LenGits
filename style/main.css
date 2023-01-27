@@ -301,7 +301,7 @@ a {
   margin-left: 150px;
   padding: 20px 0px 0px 64px;
   position: relative;
-  bottom: 68px;
+  bottom: 67px;
 }
 .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
   border: 1px solid transparent;
@@ -346,11 +346,33 @@ a {
 }
 
 .services {
-  margin-top: 66px;
   min-height: 1156px;
 }
+.services .services__title-text {
+  position: relative;
+  z-index: 99999;
+  margin-top: -66px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #008B8B;
+  margin-bottom: 0;
+}
 .services .services-text {
+  position: relative;
+  z-index: 9999;
   margin-left: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #272727;
+  margin-bottom: 22px;
 }
 .services .services__blocks {
   display: -webkit-box;
@@ -951,8 +973,7 @@ a {
   }*/
 }
 .exp .exp__blocks .exp__item-one {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgb(0, 139, 139)), to(rgb(0, 139, 139))), url("../img/exp1.jpg");
-  background: linear-gradient(0deg, rgb(0, 139, 139), rgb(0, 139, 139)), url("../img/exp1.jpg");
+  background: url("../img/exp1.jpg");
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center;
