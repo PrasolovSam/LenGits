@@ -1,5 +1,6 @@
 .director {
   margin-bottom: 80px;
+
   .director__wrapp {
     display: flex;
     flex-direction: column;
@@ -39,7 +40,10 @@
           max-width: 85%;
 
           .director__list-item {
+            display: flex;
+            gap: 22px;
             font-family: 'Inter';
+            align-items: center;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -49,6 +53,9 @@
             .dir__color {
               color: #008B8B;
             }
+
+
+
           }
         }
       }
