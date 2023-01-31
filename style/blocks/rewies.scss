@@ -27,13 +27,27 @@
   }
 
   .rewies__wrapp {
-    display: flex;
-    align-items: center;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    .rewies__arrow-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      .rewies__arron-wrapp {
+        display: flex;
+        gap: 30px;
+        cursor: pointer;
+      }
+    }
+    .rewies__content {
+      display: flex;
+      align-items: center;
 
-    .rewies__img {
-      margin-right: 8px;
+      .rewies__img {
+        margin-right: 8px;
+      }
     }
   }
-
 
 }

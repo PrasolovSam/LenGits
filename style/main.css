@@ -727,6 +727,27 @@ a {
   color: #272727;
 }
 .rewies .rewies__wrapp {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.rewies .rewies__wrapp .rewies__arrow-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+.rewies .rewies__wrapp .rewies__arrow-wrapper .rewies__arron-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+.rewies .rewies__wrapp .rewies__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,7 +755,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.rewies .rewies__wrapp .rewies__img {
+.rewies .rewies__wrapp .rewies__content .rewies__img {
   margin-right: 8px;
 }
 
@@ -755,26 +776,44 @@ a {
   margin-bottom: 88px;
 }
 
-.partner__text {
-  margin-left: 172px;
-  margin-bottom: 58px;
+.partner .partner__wrapper .partner__slider-content {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
 }
-
-.partner__items {
+.partner .partner__wrapper .partner__slider-content .arrow__wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
-.partner__items .partner__item {
+.partner .partner__wrapper .partner__slider-content .arrow__wrapp .partner__arron-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  z-index: 9999;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.partner .partner__wrapper .partner__slider-content .single-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.partner .partner__wrapper .partner__slider-content .single-item .partner__item {
   border: 1px solid #008B8B;
   padding: 76px 36px;
   border-radius: 50px;
+  height: 346px;
+  margin-right: 45px;
+}
+.partner .partner__wrapper .partner__slider-content .single-item .partner__item .partner__item-img {
+  min-width: 100%;
+  text-align: center;
 }
 
 .gis__wrapp {
@@ -1326,6 +1365,27 @@ a {
   color: #008B8B;
 }
 
+.pro__title-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #272727;
+}
+
+.pro__subtitle-text {
+  margin-left: 125px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #008B8B;
+}
+
 .numbers {
   margin-bottom: 100px;
 }
@@ -1441,7 +1501,7 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 34px;
   line-height: 42px;
   text-transform: uppercase;
   color: #272727;
@@ -1451,11 +1511,11 @@ a {
   color: #008B8B;
 }
 .sisdev .sisdev__title .sisdev__subtitle-text {
-  margin-left: 126px;
+  margin-left: 180px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 34px;
   line-height: 38px;
   text-transform: uppercase;
   color: #008B8B;
@@ -1490,7 +1550,7 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 34px;
   line-height: 36px;
   text-transform: uppercase;
   color: #272727;
@@ -1499,11 +1559,11 @@ a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 34px;
   line-height: 38px;
   text-transform: uppercase;
   color: #008B8B;
-  margin-left: 200px;
+  margin-left: 180px;
 }
 .lab .lab__content {
   display: -webkit-box;
@@ -1882,7 +1942,6 @@ a {
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-two .projects__img-text {
   font-family: "Inter";
   font-style: normal;
-  height: 100%;
   font-weight: 700;
   font-size: 24px;
   color: white;
@@ -1924,7 +1983,6 @@ a {
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-fhore .projects__img-text {
   font-family: "Inter";
   font-style: normal;
-  height: 100%;
   font-weight: 700;
   font-size: 24px;
   color: white;

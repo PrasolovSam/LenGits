@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/swiper-bundle.min.css">
   <link rel="stylesheet" href="./style/main.css">
   <title>ItsGis</title>
 </head>
@@ -144,13 +145,17 @@
                 </div>
               </div>
               <div class="elips__btn">
-                <a  href="#form" class="elips__btn-circ"> <p class="btn__text text-pos">Получить</p> <p class="btn__text">консультацию</p> </a>
+                <a href="#form" class="elips__btn-circ">
+                  <p class="btn__text text-pos">Получить</p>
+                  <p class="btn__text">консультацию</p>
+                </a>
               </div>
             </div>
 
           </div>
         </div>
-        <video class="elips__video"  src="./vid/output.mov" apreload="auto" no-controls autoplay loop playsinline muted width="1920px"></video>
+        <video class="elips__video" src="./vid/output.mov" apreload="auto" no-controls autoplay loop playsinline muted
+          width="1920px"></video>
         <div class="block-video"></div>
       </div>
     </section>
@@ -161,7 +166,7 @@
 
         <div class="services__blocks">
           <div class="services__block"> <a href="transplan.html">
-            <img class="services__img" src="./img/serv1.jpg" alt="serv"></a>
+              <img class="services__img" src="./img/serv1.jpg" alt="serv"></a>
             <div class="services__content">
               <h2 class="services__subtitle">Транспортное планирование</h2>
               <p class="services__text">Транспортное планирование – это анализ, проектирование, разработка и оценка
@@ -173,7 +178,7 @@
             </div>
           </div>
           <div class="services__block"> <a href="road.html">
-            <img class="services__img" src="./img/serv2.jpg" alt="serv"></a>
+              <img class="services__img" src="./img/serv2.jpg" alt="serv"></a>
             <div class="services__content">
               <h2 class="services__subtitle">Проекты организации дорожного движения</h2>
               <p class="services__text">Проект организации дорожного движения — документация, отражающая мероприятия по
@@ -186,7 +191,7 @@
             </div>
           </div>
           <div class="services__block"> <a href="plan.html">
-            <img class="services__img" src="./img/serv3.jpg" alt="serv"></a>
+              <img class="services__img" src="./img/serv3.jpg" alt="serv"></a>
             <div class="services__content">
               <h2 class="services__subtitle">Схема маршрутов движения</h2>
               <p class="services__text">Маршрут движения – это путь следования подвижного состава при выполнении
@@ -199,7 +204,7 @@
             </div>
           </div>
           <div class="services__block"> <a href="model.html">
-            <img class="services__img" src="./img/serv4.jpg" alt="serv"></a>
+              <img class="services__img" src="./img/serv4.jpg" alt="serv"></a>
             <div class="services__content">
               <h2 class="services__subtitle">Транспортное моделирование</h2>
               <p class="services__text">Транспортное моделирование - это процесс создания рабочей модели дорожного
@@ -212,7 +217,7 @@
             </div>
           </div>
           <div class="services__block"> <a href="sec.html">
-            <img class="services__img" src="./img/serv5.jpg" alt="serv"></a>
+              <img class="services__img" src="./img/serv5.jpg" alt="serv"></a>
             <div class="services__content">
               <h2 class="services__subtitle">Паспорт дорожной безопасности</h2>
               <p class="services__text">Паспорт дорожной безопасности предназначен для иллюстрации точных сведений об
@@ -341,28 +346,58 @@
     <section class="partner">
       <div class="container">
         <div class="partner__title">
-          <h1 class="partner__title-text title-text">за 30 лет работы мы</h1>
-          <p class="partner__text text">заслужили доверие</p>
-        </div>
-        <div class="partner__slider swiper">
-          <div class="partner__slider-content">
-            <div class="partner__items swiper-wrapper">
-              <div class="partner__item swiper-slide">
-                <img src="./img/icon/oil.png" width="280px" height="130px" alt="part">
+
+          <div class="partner__wrapper">
+            <div class="partner__wrapp-text">
+              <h1 class="partner__title-text title-text">за 30 лет работы мы</h1>
+              <p class="partner__text text">заслужили доверие</p>
+            </div>
+
+
+
+            <div class="partner__slider-content swiper-container">
+              <div class="arrow__wrapp">
+                <div class="arron__wrapp-block"></div>
+                <div class="partner__arron-wrapp">
+                  <div class="partner__arrow-left">
+                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                      <use xlink:href="./img/sprite.svg#left"></use>
+                    </svg>
+                  </div>
+                  <div class="partner__arrow-right">
+                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                      <use xlink:href="./img/sprite.svg#right"></use>
+                    </svg>
+                  </div>
+                </div>
               </div>
-              <div class="partner__item swiper-slide">
-                <img src="./img/icon/oil.png" alt="part">
+              <div class="single-item swiper-wrapper">
+                <div class="partner__item swiper-slide">
+                  <img class="partner__item-img" src="./img/icon/oil.png" alt="part">
+                </div>
+                <div class="partner__item swiper-slide">
+                  <img class="partner__item-img" src="./img/icon/oil.png" alt="part">
+                </div>
+                <div class="partner__item swiper-slide">
+                  <img class="partner__item-img" src="./img/icon/oil.png" alt="part">
+                </div>
+                <div class="partner__item swiper-slide">
+                  <img class="partner__item-img" src="./img/icon/oil.png" alt="part">
+                </div>
+                <div class="partner__item swiper-slide">
+                  <img class="partner__item-img" src="./img/icon/oil.png" alt="part">
+                </div>
+                <div class="partner__item swiper-slide">
+                  <img class="partner__item-img" src="./img/icon/oil.png" alt="part">
+                </div>
+
               </div>
-              <div class="partner__item swiper-slide">
-                <img src="./img/icon/oil.png" alt="part">
-              </div>
+
 
             </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
 
+
+          </div>
         </div>
 
       </div>
@@ -374,15 +409,41 @@
           <p class="rewies__color">скажут о
             нас лучше, чем мы сами </p>
         </div>
-        <div class="rewies__wrapp">
-          <div class="rewies__img">
-            <img src="./img/rew.jpg" alt="">
+        <div class="rewies__wrapp swiper-container">
+          <div class="rewies__arrow-wrapper">
+            <div class="arron__wrapp-block"></div>
+            <div class="rewies__arron-wrapp">
+              <div class="rewies__arrow-left">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <use xlink:href="./img/sprite.svg#left"></use>
+                </svg>
+              </div>
+              <div class="rewies__arrow-right">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <use xlink:href="./img/sprite.svg#right"></use>
+                </svg>
+              </div>
+            </div>
           </div>
-          <div class="rewies__img">
-            <img src="./img/rew1.jpg" alt="">
-          </div>
-          <div class="rewies__img">
-            <img src="./img/rew2.jpg" alt="">
+          <div class="rewies__content swiper-wrapper">
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew1.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew2.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew1.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew2.jpg" alt="">
+            </div>
           </div>
         </div>
 
@@ -601,8 +662,9 @@
       </div>
     </section>
   </div>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
-<script scr="./js/script.js"></script>
 
 </html>
