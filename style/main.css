@@ -1850,13 +1850,6 @@ a {
 .mapcont {
   margin-top: 60px;
 }
-.mapcont .mapcont__wrapp {
-  background: url("../img/contmap.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 452px;
-}
 
 .projects {
   margin-top: 100px;
@@ -1911,6 +1904,10 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-one:hover {
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
 }
 .projects .projects__content .projects__blocks .projects__imgs .projects__img .projects__img-shreff .project__img-one .projects__img-item {
   position: relative;
