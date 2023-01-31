@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/swiper-bundle.min.css">
   <link rel="stylesheet" href="./style/main.css">
   <title>Примеры работ</title>
 </head>
@@ -119,15 +120,41 @@
           <p class="rewies__color">скажут о
             нас лучше, чем мы сами </p>
         </div>
-        <div class="rewies__wrapp">
-          <div class="rewies__img">
-            <img src="./img/rew.jpg" alt="">
+        <div class="rewies__wrapp swiper-container">
+          <div class="rewies__arrow-wrapper">
+            <div class="arron__wrapp-block"></div>
+            <div class="rewies__arron-wrapp">
+              <div class="rewies__arrow-left">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <use xlink:href="./img/sprite.svg#left"></use>
+                </svg>
+              </div>
+              <div class="rewies__arrow-right">
+                <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
+                  <use xlink:href="./img/sprite.svg#right"></use>
+                </svg>
+              </div>
+            </div>
           </div>
-          <div class="rewies__img">
-            <img src="./img/rew1.jpg" alt="">
-          </div>
-          <div class="rewies__img">
-            <img src="./img/rew2.jpg" alt="">
+          <div class="rewies__content swiper-wrapper">
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew1.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew2.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew1.jpg" alt="">
+            </div>
+            <div class="rewies__img swiper-slide">
+              <img src="./img/rew2.jpg" alt="">
+            </div>
           </div>
         </div>
 
@@ -246,6 +273,8 @@
       </div>
     </section>
   </div>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
