@@ -5,9 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style/swiper-bundle.min.css">
-  <link rel="stylesheet" href="./style/main.css">
-  <title>Примеры работ</title>
+  <link rel="stylesheet" href="../style/main.css">
+  <title>Контакты</title>
 </head>
 
 <body>
@@ -22,7 +21,7 @@
               <a class="top__line-map" href="#">
                 <span class="top__line-icon">
                   <svg fill="white" width="12" height="14" viewBox="0 0 12 14">
-                    <use xlink:href="./img/sprite.svg#map__icon"></use>
+                    <use xlink:href="../img/sprite.svg#map__icon"></use>
                   </svg>
                 </span>
                 <span class="top__line-text text__map">Самара, ул. Ново-Садовая 106л, к.1</span>
@@ -34,7 +33,7 @@
 
                 <span class="top__line-icon">
                   <svg fill="white" width="16" height="14" viewBox="0 0 16 14">
-                    <use xlink:href="./img/sprite.svg#mail__icon"></use>
+                    <use xlink:href="../img/sprite.svg#mail__icon"></use>
                   </svg>
                 </span>
                 <span class="top__line-text text__mail">info@its-spc.ru</span>
@@ -43,7 +42,7 @@
               <a class="top__line-phone" href="tel:+7 (939) 715-43-71">
                 <span class="top__line-icon">
                   <svg fill="white" width="16" height="16" viewBox="0 0 16 16">
-                    <use xlink:href="./img/sprite.svg#phone__icon"></use>
+                    <use xlink:href="../img/sprite.svg#phone__icon"></use>
                   </svg>
                 </span>
                 <span class="top__line-text text__phone">+7 (939) 715-43-71</span>
@@ -62,8 +61,8 @@
         <div class="container nav__container">
           <div class="nav__items">
             <div class="logo">
-              <a href="#"> <svg width="223" height="40" viewBox="0 0 685 114">
-                  <use xlink:href="./img/sprite.svg#main__logo"></use>
+              <a href="main.html"> <svg width="223" height="40" viewBox="0 0 685 114">
+                  <use xlink:href="../img/sprite.svg#main__logo"></use>
                 </svg></a>
             </div>
             <div class="nav__wrap">
@@ -74,24 +73,24 @@
                   </li>
                   <li class="nav__menu-item nav__dropdown ">
 
-                    <a href="about.html">О Компании</a>
+                    <a href="../index.html">О Компании</a>
                   </li>
                   <li class="nav__menu-item nav__dropdown ">
-                    <a href="servisec.html">Услуги</a>
+                    <a href="./servisec.html">Услуги</a>
 
                   </li>
                   <li class="nav__menu-item">
-                    <a href="#">Примеры работ</a>
+                    <a href="./portfolio.html">Примеры работ</a>
                   </li>
                   <li class="nav__menu-item nav__dropdown ">
-                    <a href="cad.html">CAD Itsgis</a>
+                    <a href="./cad.html">CAD Itsgis</a>
 
                   </li>
                   <li class="nav__menu-item">
                     <a href="#rewies">Информация</a>
                   </li>
                   <li class="nav__menu-item">
-                    <a href="contact.html" class="right__btn">Контакты</a>
+                    <a href="./contact.html" class="right__btn">Контакты</a>
                   </li>
                 </ul>
               </nav>
@@ -102,62 +101,51 @@
 
 
     </header>
-    <section class="portfolio">
+    <section class="contact__about">
       <div class="container">
-        <div class="portfolio__wrapp">
-          <div class="portfolio__title">
-            <p class="portfolio__title-text">Примеры Проектов и Схем</p>
-            <p class="portfolio__subtitle-text">Организации Дорожного Движения</p>
+        <div class="contact__content">
+          <div class="contact__item">
+            <p class="contact__title">Контакты</p>
+            <p class="contact__subtitle">Мы Готовы Взять на Себя <span class="contact__color">Решение Ваших Задач</span>
+            </p>
           </div>
-          <div class="portfolio__baner"></div>
+          <div class="contact__item-img"></div>
         </div>
       </div>
     </section>
-    <section class="rewies" id="rewies">
+    <section class="task">
       <div class="container">
-        <div class="rewies__title">
-          <h1 class="rewies__title-text title-text">отзывы наших клиентов</h1>
-          <p class="rewies__color">скажут о
-            нас лучше, чем мы сами </p>
-        </div>
-        <div class="rewies__wrapp swiper-container">
-          <div class="rewies__arrow-wrapper">
-            <div class="arron__wrapp-block"></div>
-            <div class="rewies__arron-wrapp">
-              <div class="rewies__arrow-left">
-                <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
-                  <use xlink:href="./img/sprite.svg#left"></use>
-                </svg>
+        <div class="task__content">
+          <p class="task__title">Обсудим вашу задачу?</p>
+          <div class="task__items">
+            <div class="task__block">
+              <div class="task__block-item">
+                <div class="svg"></div>
+                <p class="task__block-text">Пишите</p>
               </div>
-              <div class="rewies__arrow-right">
-                <svg width="31" height="31" viewBox="0 0 31 31" fill="none">
-                  <use xlink:href="./img/sprite.svg#right"></use>
-                </svg>
+              <a href="#" class="task__item-text">info@its-spc.ru</a>
+            </div>
+            <div class="task__block">
+              <div class="task__block-item">
+                <div class="svg"></div>
+                <p class="task__block-text">Звоните</p>
               </div>
+              <a href="#" class="task__item-text">+7 (939) 715-43-71</a>
             </div>
-          </div>
-          <div class="rewies__content swiper-wrapper">
-            <div class="rewies__img swiper-slide">
-              <img src="./img/rew.jpg" alt="">
-            </div>
-            <div class="rewies__img swiper-slide">
-              <img src="./img/rew1.jpg" alt="">
-            </div>
-            <div class="rewies__img swiper-slide">
-              <img src="./img/rew2.jpg" alt="">
-            </div>
-            <div class="rewies__img swiper-slide">
-              <img src="./img/rew.jpg" alt="">
-            </div>
-            <div class="rewies__img swiper-slide">
-              <img src="./img/rew1.jpg" alt="">
-            </div>
-            <div class="rewies__img swiper-slide">
-              <img src="./img/rew2.jpg" alt="">
+            <div class="task__block">
+              <div class="task__block-item">
+                <div class="svg"></div>
+                <p class="task__block-text">Приходите и приезжайте</p>
+              </div>
+              <a href="#" class="task__item-text">Самара, ул. Ново-Садовая 106л, к.1</a>
             </div>
           </div>
         </div>
-
+      </div>
+    </section>
+    <section class="mapcont">
+      <div class="mapcont__wrapp">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A84e417d8ad3410e1be488f758d0fa778b7496a7c9b9b2fc30e1d50d7b9623454&amp;width=100%&amp;height=700&amp;lang=ru_RU&amp;scroll=true"></script>
       </div>
     </section>
     <section class="form" id="form">
@@ -185,7 +173,7 @@
                 <div class="form__social-icon">
                   <span>
                     <a href="#">
-                      <img src="./img/icon/vk-0.png" alt="" class="for-icon">
+                      <img src="../img/icon/vk-0.png" alt="" class="for-icon">
                     </a>
                   </span>
                   <span> <a href="#">
@@ -201,7 +189,7 @@
                 <p class="form__social-text">Следите за актуальными новостями в сфере транспорта</p>
               </div>
 
-              <img class="form__social-img" src="./img/formimg.jpg" alt="jshdgf">
+              <img class="form__social-img" src="../img/formimg.jpg" alt="jshdgf">
 
 
             </div>
@@ -216,8 +204,8 @@
           <div class="footer__items">
 
             <div class="footer__logo logo">
-              <a href="#"><svg width="223" height="40" viewBox="0 0 685 112">
-                  <use xlink:href="./img/sprite.svg#sup__logo"></use>
+              <a href="main.html"><svg width="223" height="40" viewBox="0 0 685 112">
+                  <use xlink:href="../img/sprite.svg#sup__logo"></use>
                 </svg></a>
             </div>
             <div class="footer__item">
@@ -239,7 +227,7 @@
               <ul class="footer__list footer-contacts">
                 <li class="footer__list-item contact__item"><a href="#">
                     <span class="footer__list-icon"> <svg fill="white" width="12" height="14" viewBox="0 0 12 14">
-                        <use xlink:href="./img/sprite.svg#map__icon"></use>
+                        <use xlink:href="../img/sprite.svg#map__icon"></use>
                       </svg></span>
                     <span>Самара, ул. Ново-Садовая 106л, к.1</span>
                   </a>
@@ -247,7 +235,7 @@
                 <li class="footer__list-item contact__item"><a href="#">
                     <span class="footer__list-icon">
                       <svg fill="white" width="16" height="14" viewBox="0 0 16 14">
-                        <use xlink:href="./img/sprite.svg#mail__icon"></use>
+                        <use xlink:href="../img/sprite.svg#mail__icon"></use>
                       </svg>
                     </span>
                     <span>info@its-spc.ru
@@ -256,7 +244,7 @@
                 </li>
                 <li class="footer__list-item"><a href="#">
                     <span class="footer__list-icon"><svg fill="white" width="16" height="16" viewBox="0 0 16 16">
-                        <use xlink:href="./img/sprite.svg#phone__icon"></use>
+                        <use xlink:href="../img/sprite.svg#phone__icon"></use>
                       </svg>
                     </span>
                     <span>+7 (939) 715-43-71
@@ -273,8 +261,6 @@
       </div>
     </section>
   </div>
-  <script src="./js/swiper-bundle.min.js"></script>
-  <script src="./js/script.js"></script>
 </body>
 
 </html>

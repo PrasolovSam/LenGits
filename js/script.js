@@ -11,6 +11,9 @@
 //leftBtn.addEventListener("click", e => {
 //  e.preventDefault();
 //});
+
+
+
 new Swiper('.partner__slider-content', {
   navigation: {
     nextEl: '.partner__arrow-right',
@@ -20,6 +23,10 @@ new Swiper('.partner__slider-content', {
   spaceBetween: 30,
   loop: true,
 });
+
+
+
+
 new Swiper('.rewies__wrapp', {
   navigation: {
     nextEl: '.rewies__arrow-right',

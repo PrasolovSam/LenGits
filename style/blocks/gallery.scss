@@ -1,0 +1,39 @@
+.gallery {
+  height: 100%;
+  margin-top: 60px;
+.gallery__list {
+  display: flex;
+  justify-content: space-between;
+  .gallery__items {
+    border: 1px solid transparent;
+    padding: 12px 6px;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 0;
+      height: 2px;
+      transition: width 0.3s ease-out;
+      background-color: #008B8B;
+    }
+
+    &:hover:after,
+    &:focus:after {
+      width: 100%;
+    }
+    .gallery__item {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #272727;
+      &:hover {
+        color: #008B8B;
+      }
+    }
+  }
+}
+}
