@@ -36,3 +36,17 @@ new Swiper('.rewies__wrapp', {
   spaceBetween: 10,
   loop: true,
 });
+
+
+
+let buttCl = document.querySelector('#btnCli');
+let blockCh = document.querySelector('#blockChe');
+
+
+
+buttCl.addEventListener('click', function () {
+  blockCh.style.display = 'flex'
+});
+
+
+console.log('иди');

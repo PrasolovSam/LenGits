@@ -4,35 +4,101 @@
   .variation__wrapp {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
 
     .variation__content {
-      display: flex;
-      justify-content: space-between;
-      border: 1px solid gray;
+      border: 1px solid #272727;
       border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
 
-      .variation__text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 28px;
-        text-align: center;
-        color: #272727;
-        padding: 30px 0 30px 40px;
+      .variation__main-items {
+        display: flex;
+        justify-content: space-between;
+
+        .variation__btn svg {
+          transform: rotate(45deg);
+          transition: transform 0.1s;
+        }
+
+        .variation__btn.active svg {
+          transform: rotate(0);
+        }
+
+
+        .variation__text {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 29px;
+          text-align: center;
+          color: #272727;
+        }
       }
 
-      .variation__btn {
-        margin: 24px 24px;
-        background: url('../img/icon/plus.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 30px;
-        height: 30px;
-        border: none;
-        cursor: pointer;
+      .variation__prog-items {
+        display: none;
+        justify-content: space-between;
+
+        .variation__item-img {
+          border-radius: 20px;
+        }
+
+        .variation__prog-item {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+
+          .variation__item-text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #272727;
+          }
+
+          .variation__item-btn {
+            display: flex;
+            gap: 15px;
+            margin-top: 28px;
+
+            .variation__btn-one {
+              background-color: #93AA00;
+              border-radius: 100px;
+              color: white;
+              padding: 18px 60px;
+              border: 1px solid transparent;
+
+              &:hover {
+                background-color: #CEEA19;
+                color: #484946;
+                border: 1px solid transparent;
+              }
+            }
+
+            .variation__btn-two {
+              border-radius: 100px;
+              padding: 18px 34px;
+              border: 1px solid #272727;
+
+              &:hover {
+                background-color: #008B8B;
+                color: white;
+                border: 1px solid transparent;
+              }
+            }
+          }
+        }
+      }
+
+      .variation__prog-items.active {
+        display: flex;
       }
     }
   }
+
 }

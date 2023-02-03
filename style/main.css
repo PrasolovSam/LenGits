@@ -253,7 +253,7 @@ a {
 }
 .about .about__us {
   width: 100%;
-  height: 1080px;
+  height: 710px;
 }
 .about .about__us .block-video {
   background: url("../img/icon/1234.png");
@@ -1232,37 +1232,110 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 .variation .variation__wrapp .variation__content {
+  border: 1px solid #272727;
+  border-radius: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.variation .variation__wrapp .variation__content .variation__main-items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid gray;
-  border-radius: 20px;
 }
-.variation .variation__wrapp .variation__content .variation__text {
+.variation .variation__wrapp .variation__content .variation__main-items .variation__btn svg {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: -webkit-transform 0.1s;
+  transition: -webkit-transform 0.1s;
+  transition: transform 0.1s;
+  transition: transform 0.1s, -webkit-transform 0.1s;
+}
+.variation .variation__wrapp .variation__content .variation__main-items .variation__btn.active svg {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+.variation .variation__wrapp .variation__content .variation__main-items .variation__text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 29px;
   text-align: center;
   color: #272727;
-  padding: 30px 0 30px 40px;
 }
-.variation .variation__wrapp .variation__content .variation__btn {
-  margin: 24px 24px;
-  background: url("../img/icon/plus.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 30px;
-  height: 30px;
-  border: none;
-  cursor: pointer;
+.variation .variation__wrapp .variation__content .variation__prog-items {
+  display: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__item-img {
+  border-radius: 20px;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #272727;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  margin-top: 28px;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-one {
+  background-color: #93AA00;
+  border-radius: 100px;
+  color: white;
+  padding: 18px 60px;
+  border: 1px solid transparent;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-one:hover {
+  background-color: #CEEA19;
+  color: #484946;
+  border: 1px solid transparent;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-two {
+  border-radius: 100px;
+  padding: 18px 34px;
+  border: 1px solid #272727;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-two:hover {
+  background-color: #008B8B;
+  color: white;
+  border: 1px solid transparent;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .wellcome {
@@ -2092,5 +2165,119 @@ a {
   color: #272727;
 }
 .gallery .gallery__list .gallery__items .gallery__item:hover {
+  color: #008B8B;
+}
+
+.pkrti__baner {
+  margin-top: 44px;
+}
+.pkrti__baner .pkrti__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 60px;
+}
+.pkrti__baner .pkrti__items .pkrti__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 68px;
+  margin-bottom: 86px;
+  margin-top: 16px;
+  color: #272727;
+}
+.pkrti__baner .pkrti__items .pkrti__title .pkrti__title-color {
+  color: #008B8B;
+}
+.pkrti__baner .pkrti__baner-img {
+  background-image: url("../img/trans.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 464px;
+  border-radius: 20px;
+}
+
+.info {
+  margin-top: 100px;
+}
+.info .info__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.info .info__content .info__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.info .info__content .info__items .info__item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+.info .info__content .info__items .info__item-content .info__item-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.info .info__content .info__items .info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.info .info__content .info__items .info__item .info__img {
+  border-radius: 20px;
+}
+.info .info__content .info__items .info__item .info__title {
+  margin-bottom: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.info .info__content .info__items .info__item .info__item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 14px;
+}
+.info .info__content .info__items .info__item .info__item-list .info__list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+}
+.info .info__content .info__items .info__item .info__item-list .info__list a:hover {
   color: #008B8B;
 }
