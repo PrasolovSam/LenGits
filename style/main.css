@@ -253,7 +253,7 @@ a {
 }
 .about .about__us {
   width: 100%;
-  height: 710px;
+  height: 100%;
 }
 .about .about__us .block-video {
   background: url("../img/icon/1234.png");
@@ -276,7 +276,7 @@ a {
 }
 .about .about__us .elips .elips__items {
   position: relative;
-  top: 49px;
+  top: 21px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
