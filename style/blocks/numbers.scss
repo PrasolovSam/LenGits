@@ -18,13 +18,11 @@
       align-items: center;
       height: 100%;
       padding-top: 32px;
-      padding-right: 62px;
+      padding-right: 55px;
       padding-bottom: 22px;
       max-width: 232px;
       border-right: 1px solid gray;
-      &:first-child {
-        padding-left: 50px;
-      }
+      padding-left: 50px;
       &:last-child {
         border-right: none;
       }
