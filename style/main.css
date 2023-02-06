@@ -276,7 +276,7 @@ a {
 }
 .about .about__us .elips .elips__items {
   position: relative;
-  top: 22px;
+  top: 49px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -353,7 +353,7 @@ a {
 .services .services__title-text {
   position: relative;
   z-index: 99999;
-  margin-top: -66px;
+  margin-top: 360px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
