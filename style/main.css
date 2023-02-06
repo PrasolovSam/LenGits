@@ -2165,6 +2165,42 @@ a {
 .gallery .gallery__list .gallery__items .gallery__item:hover {
   color: #008B8B;
 }
+.gallery .gallery__content-items {
+  margin-top: 66px;
+}
+.gallery .gallery__content-items .gallery__content-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 27px;
+}
+.gallery .gallery__content-items .gallery__content-wrapp .gallery__content-item {
+  margin-bottom: 42px;
+}
+.gallery .gallery__content-items .gallery__content-wrapp .gallery__content-item .gallery__item-img img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.gallery .gallery__content-items .gallery__content-wrapp .gallery__content-item .gallery__item-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #272727;
+}
+.gallery .gallery__content-items .wrapp__display {
+  display: none;
+}
+.gallery .gallery__content-items .wrapp__display.g__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .pkrti__baner {
   margin-top: 44px;

@@ -1,39 +1,80 @@
 .gallery {
   height: 100%;
   margin-top: 60px;
-.gallery__list {
-  display: flex;
-  justify-content: space-between;
-  .gallery__items {
-    border: 1px solid transparent;
-    padding: 12px 6px;
-    position: relative;
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      left: 0;
-      width: 0;
-      height: 2px;
-      transition: width 0.3s ease-out;
-      background-color: #008B8B;
-    }
 
-    &:hover:after,
-    &:focus:after {
-      width: 100%;
-    }
-    .gallery__item {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 19px;
-      color: #272727;
-      &:hover {
-        color: #008B8B;
+  .gallery__list {
+    display: flex;
+    justify-content: space-between;
+
+    .gallery__items {
+      border: 1px solid transparent;
+      padding: 12px 6px;
+      position: relative;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        transition: width 0.3s ease-out;
+        background-color: #008B8B;
+      }
+
+      &:hover:after,
+      &:focus:after {
+        width: 100%;
+      }
+
+      .gallery__item {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #272727;
+
+        &:hover {
+          color: #008B8B;
+        }
       }
     }
   }
-}
+
+  .gallery__content-items {
+    margin-top: 66px;
+
+    .gallery__content-wrapp {
+      display: flex;
+      flex-flow: row wrap;
+      gap: 27px;
+
+      .gallery__content-item {
+        margin-bottom: 42px;
+
+        .gallery__item-img img {
+          border-radius: 20px;
+          margin-bottom: 20px;
+        }
+
+        .gallery__item-text {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          text-align: center;
+          color: #272727;
+        }
+      }
+    }
+
+    .wrapp__display {
+      display: none;
+    }
+
+    .wrapp__display.g__active {
+      display: flex;
+    }
+  }
 }
