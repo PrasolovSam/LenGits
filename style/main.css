@@ -353,7 +353,7 @@ a {
 .services .services__title-text {
   position: relative;
   z-index: 99999;
-  margin-top: -200px;
+  margin-top: -320px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -2168,7 +2168,7 @@ a {
 .gallery .gallery__content-items {
   margin-top: 66px;
 }
-.gallery .gallery__content-items .gallery__content-wrapp {
+.gallery .gallery__content-items .wrapp__display-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2178,14 +2178,14 @@ a {
           flex-flow: row wrap;
   gap: 27px;
 }
-.gallery .gallery__content-items .gallery__content-wrapp .gallery__content-item {
+.gallery .gallery__content-items .wrapp__display-main .gallery__content-item {
   margin-bottom: 42px;
 }
-.gallery .gallery__content-items .gallery__content-wrapp .gallery__content-item .gallery__item-img img {
+.gallery .gallery__content-items .wrapp__display-main .gallery__content-item .gallery__item-img img {
   border-radius: 20px;
   margin-bottom: 20px;
 }
-.gallery .gallery__content-items .gallery__content-wrapp .gallery__content-item .gallery__item-text {
+.gallery .gallery__content-items .wrapp__display-main .gallery__content-item .gallery__item-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -2193,13 +2193,40 @@ a {
   text-align: center;
   color: #272727;
 }
-.gallery .gallery__content-items .wrapp__display {
+.gallery .gallery__content-items .wrapp__display-one,
+.gallery .gallery__content-items .wrapp__display-two,
+.gallery .gallery__content-items .wrapp__display-three,
+.gallery .gallery__content-items .wrapp__display-fore {
   display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 27px;
 }
-.gallery .gallery__content-items .wrapp__display.g__active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.gallery .gallery__content-items .wrapp__display-one .gallery__content-item,
+.gallery .gallery__content-items .wrapp__display-two .gallery__content-item,
+.gallery .gallery__content-items .wrapp__display-three .gallery__content-item,
+.gallery .gallery__content-items .wrapp__display-fore .gallery__content-item {
+  margin-bottom: 42px;
+}
+.gallery .gallery__content-items .wrapp__display-one .gallery__content-item .gallery__item-img img,
+.gallery .gallery__content-items .wrapp__display-two .gallery__content-item .gallery__item-img img,
+.gallery .gallery__content-items .wrapp__display-three .gallery__content-item .gallery__item-img img,
+.gallery .gallery__content-items .wrapp__display-fore .gallery__content-item .gallery__item-img img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.gallery .gallery__content-items .wrapp__display-one .gallery__content-item .gallery__item-text,
+.gallery .gallery__content-items .wrapp__display-two .gallery__content-item .gallery__item-text,
+.gallery .gallery__content-items .wrapp__display-three .gallery__content-item .gallery__item-text,
+.gallery .gallery__content-items .wrapp__display-fore .gallery__content-item .gallery__item-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #272727;
 }
 
 .pkrti__baner {
@@ -2314,4 +2341,38 @@ a {
 }
 .info .info__content .info__items .info__item .info__item-list .info__list a:hover {
   color: #008B8B;
+}
+
+.info__baner-content .info__wrapp {
+  margin-top: 88px;
+}
+.info__baner-content .info__wrapp .info__items-subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+.info__baner-content .info__wrapp .info__items-subtitle .info__title-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 66px;
+  color: #272727;
+}
+.info__baner-content .info__wrapp .info__items-subtitle .info__title-text .info-color {
+  color: #008B8B;
+}
+.info__baner-content .info__wrapp .info__items-subtitle .info__baner-img {
+  background: url("../img/infoban.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 462px;
+  border-radius: 20px;
 }
