@@ -1,0 +1,42 @@
+.satya__wrapp {
+  margin-top: 66px;
+.satya__nav-elems {
+  display: flex;
+  justify-content: space-between;
+  .satya__nav-items {
+    display: flex;
+    gap: 60px;
+    .satya__nav-item {
+      border: 1px solid transparent;
+      position: relative;
+      padding: 12px 6px;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        transition: width 0.3s ease-out;
+        background-color: #008B8B;
+      }
+      &:hover:after,
+      &:focus:after {
+        width: 100%;
+      }
+.stya__nav-btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5B5C5A;
+  &:hover {
+    color: #008B8B;
+  }
+}
+
+    }
+  }
+}
+}

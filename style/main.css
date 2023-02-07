@@ -2376,3 +2376,51 @@ a {
   height: 462px;
   border-radius: 20px;
 }
+
+.satya__wrapp {
+  margin-top: 66px;
+}
+.satya__wrapp .satya__nav-elems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.satya__wrapp .satya__nav-elems .satya__nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 60px;
+}
+.satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item {
+  border: 1px solid transparent;
+  position: relative;
+  padding: 12px 6px;
+}
+.satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  -webkit-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+  background-color: #008B8B;
+}
+.satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item:hover:after, .satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item:focus:after {
+  width: 100%;
+}
+.satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item .stya__nav-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5B5C5A;
+}
+.satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item .stya__nav-btn:hover {
+  color: #008B8B;
+}
