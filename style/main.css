@@ -123,6 +123,10 @@ a {
   margin-bottom: 42px;
 }
 
+.img {
+  max-width: 100%;
+}
+
 .top__line {
   width: 100%;
   background-color: #008B8B;
@@ -180,12 +184,13 @@ a {
 }
 
 .nav {
-  width: 100%;
+  max-width: 100%;
   min-height: 32px;
   border-bottom: 1px solid #E1E3D6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  display: block;
+  z-index: 10;
+  position: relative;
 }
 
 .nav__items {
@@ -216,9 +221,100 @@ a {
 .nav__menu-item {
   border: 1px solid transparent;
   padding: 12px 6px;
+}
+
+.nav__menu-item .menu-item__dropdown {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.nav__menu-item:hover .position__wrapper {
+  opacity: 1;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  display: block;
+}
+
+.position__wrapper {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  padding-top: 30px;
+  width: 100%;
+  left: 0;
+  top: 40px;
+  min-height: 263px;
+  z-index: 100;
+  -webkit-animation: showing;
+          animation: showing;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes showing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes showing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav__item-serv {
+  background-color: #008B8B;
+}
+.nav__item-serv .nav__serv-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav__item-serv .nav__serv-wrapp .nav__serv-elems {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+}
+.nav__item-serv .nav__serv-wrapp .nav__serv-elems .nav__serv-elem::before {
+  content: "";
+  position: absolute;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: #93AA00;
+}
+.nav__item-serv .nav__serv-wrapp .nav__serv-elems .nav__serv-elem a {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.nav__item-serv .nav__serv-wrapp .nav__serv-img img {
+  border-radius: 20px;
+  max-width: 454px;
+  margin-top: 30px;
+}
+
+.nav__menu-elem {
   position: relative;
 }
-.nav__menu-item::after {
+.nav__menu-elem::after {
   content: "";
   display: block;
   position: absolute;
@@ -229,17 +325,16 @@ a {
   transition: width 0.3s ease-out;
   background-color: #008B8B;
 }
-.nav__menu-item:hover:after, .nav__menu-item:focus:after {
-  width: 100%;
+.nav__menu-elem::after .nav__item-serv {
+  position: absolute;
+  background-color: #008B8B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 120px;
 }
-
-.nav__menu-item .menu-item__dropdown {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: black;
+.nav__menu-elem:hover:after, .nav__menu-elem:focus:after {
+  width: 100%;
 }
 
 .about {
@@ -1371,7 +1466,7 @@ a {
   color: #008B8B;
 }
 .wellcome .wellcome__baner {
-  background: url("../img/wellcom.png");
+  background: url("../img/wellcome.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
