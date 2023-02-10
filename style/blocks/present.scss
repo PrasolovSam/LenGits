@@ -1,0 +1,72 @@
+.present {
+  margin-top: 100px;
+
+  .present__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .list__pr-item {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .pr-item {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #000000;
+
+        &:hover {
+          color: #008B8B;
+        }
+
+
+
+
+      }
+
+      .sublist-pr {
+        display: none;
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      .item__href {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #000000;
+
+        &:hover {
+          color: #008B8B;
+        }
+      }
+
+      .sub__list-item {
+        display: none;
+        margin-bottom: 10px;
+
+        .item__down {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 42px;
+          text-transform: uppercase;
+          color: #000000;
+
+          &:hover {
+            color: #008B8B;
+          }
+        }
+      }
+    }
+  }
+}
