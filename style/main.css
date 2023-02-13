@@ -2795,6 +2795,11 @@ a {
           flex-direction: column;
   gap: 14px;
 }
+.present .present__list .list__pr-item .sublist-pr.pr__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .present .present__list .list__pr-item .item__href {
   font-family: "Inter";
   font-style: normal;
