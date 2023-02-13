@@ -71,16 +71,14 @@
     }
 
 
-    .wrapp__display-one,
-    .wrapp__display-two,
-    .wrapp__display-three,
-    .wrapp__display-fore {
+    .wrapp__display {
       display: none;
       flex-flow: row wrap;
       gap: 27px;
 
       .gallery__content-item {
         margin-bottom: 42px;
+        max-width: 358px;
 
         .gallery__item-img img {
           border-radius: 20px;
@@ -96,6 +94,9 @@
           color: #272727;
         }
       }
+    }
+    .wrapp__display.active {
+      display: flex;
     }
 
 

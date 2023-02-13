@@ -7,52 +7,67 @@
 
   .gis__content {
     padding-top: 60px;
-    padding-bottom: 68px;
+    padding-bottom: 60px;
 
     .gis__title {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 22px;
-      text-transform: uppercase;
-      line-height: 32px;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
 
-      color: #FFFFFF;
+      .gis__title-text {
+        color: white;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        text-transform: uppercase;
+        line-height: 32px;
+        margin-top: 0;
+        margin-bottom: 18px;
+
+        color: #FFFFFF;
+      }
 
       .gis__color {
+
         color: #AAB028;
+        font-size: 36px;
       }
 
       .gis-text {
-        font-size: 30px;
-        text-align: center;
+        text-transform: uppercase;
+        font-size: 34px;
         font-weight: 600;
+        color: white;
+        margin-left: 180px;
       }
     }
 
     .gis__items {
-      padding-bottom: 58px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       .gis__item {
         display: flex;
         align-items: center;
       }
+
       .gis__block-img {
         display: flex;
         margin-left: 22px;
         max-width: 580px;
+
         .gis-img {
           border-radius: 20px;
         }
+
         .gis__items-img {
           display: block;
+
           .gis__item-img {
             margin-bottom: 40px;
             margin-left: 22px;
             border-radius: 20px;
+
             &:last-child {
               margin-bottom: 0;
             }
