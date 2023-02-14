@@ -2494,7 +2494,7 @@ a {
 }
 
 .satya__wrapp {
-  margin-top: 66px;
+  margin-top: 100px;
 }
 .satya__wrapp .satya__nav-elems {
   display: -webkit-box;
@@ -2545,7 +2545,7 @@ a {
 }
 .satya__wrapp .satya__nav-elems .satya__inp {
   position: relative;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   padding: 6px 0px 6px 12px;
   background-color: transparent;
@@ -2562,15 +2562,13 @@ a {
 .satya__gost {
   margin-top: 64px;
 }
-.satya__gost .satya__gost-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.satya__gost .block__tabs {
+  display: none;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 48px;
 }
-.satya__gost .satya__gost-items .satya__gost-item {
+.satya__gost .block__tabs .satya__gost-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2582,10 +2580,10 @@ a {
   gap: 42px;
   margin-bottom: 42px;
 }
-.satya__gost .satya__gost-items .satya__gost-item .satya__gost-img img {
+.satya__gost .block__tabs .satya__gost-item .satya__gost-img img {
   border-radius: 20px;
 }
-.satya__gost .satya__gost-items .satya__gost-item .satya__gost-text {
+.satya__gost .block__tabs .satya__gost-item .satya__gost-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2595,7 +2593,7 @@ a {
           flex-direction: column;
   gap: 20px;
 }
-.satya__gost .satya__gost-items .satya__gost-item .satya__gost-text .gost-title {
+.satya__gost .block__tabs .satya__gost-item .satya__gost-text .gost-title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -2604,7 +2602,7 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
-.satya__gost .satya__gost-items .satya__gost-item .satya__gost-text .gost-text {
+.satya__gost .block__tabs .satya__gost-item .satya__gost-text .gost-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -2612,21 +2610,28 @@ a {
   line-height: 18px;
   color: #000000;
 }
-.satya__gost .satya__gost-items .satya__gost-item .satya__gost-text .gost__more {
+.satya__gost .block__tabs .satya__gost-item .satya__gost-text .gost__more {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
 }
-.satya__gost .satya__gost-items .satya__gost-item .satya__gost-text .gost__more:hover {
+.satya__gost .block__tabs .satya__gost-item .satya__gost-text .gost__more:hover {
   color: #008B8B;
 }
 
-.useful {
+.block__tabs.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block__tabs {
+  display: none;
   margin-top: 64px;
 }
-.useful .useful__items {
+.block__tabs .useful__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2636,16 +2641,16 @@ a {
           flex-direction: column;
   gap: 60px;
 }
-.useful .useful__items .useful__item {
+.block__tabs .useful__items .useful__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
 }
-.useful .useful__items .useful__item .useful__img {
+.block__tabs .useful__items .useful__item .useful__img {
   border-radius: 20px;
 }
-.useful .useful__items .useful__item .useful__content {
+.block__tabs .useful__items .useful__item .useful__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2655,7 +2660,7 @@ a {
           flex-direction: column;
   gap: 40px;
 }
-.useful .useful__items .useful__item .useful__content .useful__title {
+.block__tabs .useful__items .useful__item .useful__content .useful__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -2664,7 +2669,7 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
-.useful .useful__items .useful__item .useful__content .useful__content-text {
+.block__tabs .useful__items .useful__item .useful__content .useful__content-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2674,17 +2679,18 @@ a {
           flex-direction: column;
   gap: 18px;
 }
-.useful .useful__items .useful__item .useful__content .useful__content-text .useful__more-btn {
+.block__tabs .useful__items .useful__item .useful__content .useful__content-text .useful__more-btn {
   font-weight: 700;
 }
-.useful .useful__items .useful__item .useful__content .useful__content-text .useful__more-btn:hover {
+.block__tabs .useful__items .useful__item .useful__content .useful__content-text .useful__more-btn:hover {
   color: #008B8B;
 }
 
-.frequent {
+.block__tabs {
+  display: none;
   margin-top: 66px;
 }
-.frequent .frequent__items {
+.block__tabs .frequent__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2694,14 +2700,14 @@ a {
           flex-flow: row wrap;
   gap: 26px;
 }
-.frequent .frequent__items .frequent__item {
+.block__tabs .frequent__items .frequent__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 40px;
   margin-bottom: 40px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem {
+.block__tabs .frequent__items .frequent__item .frequent__elem {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2715,7 +2721,7 @@ a {
   border-radius: 20px;
   padding: 30px 30px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem .frequent__item-title {
+.block__tabs .frequent__items .frequent__item .frequent__elem .frequent__item-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2724,13 +2730,13 @@ a {
           align-items: center;
   gap: 20px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem .frequent__item-title .frequent__title-text {
+.block__tabs .frequent__items .frequent__item .frequent__elem .frequent__item-title .frequent__title-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem .frequent__text-content {
+.block__tabs .frequent__items .frequent__item .frequent__elem .frequent__text-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2740,20 +2746,20 @@ a {
           flex-direction: column;
   gap: 16px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem .frequent__text-content .frequent__text {
+.block__tabs .frequent__items .frequent__item .frequent__elem .frequent__text-content .frequent__text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem .frequent__text-content .frequent__btn {
+.block__tabs .frequent__items .frequent__item .frequent__elem .frequent__text-content .frequent__btn {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
 }
-.frequent .frequent__items .frequent__item .frequent__elem .frequent__text-content .frequent__btn:hover {
+.block__tabs .frequent__items .frequent__item .frequent__elem .frequent__text-content .frequent__btn:hover {
   color: #008B8B;
 }
 
