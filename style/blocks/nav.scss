@@ -47,7 +47,7 @@
   font-size: 16px;
   line-height: 19px;
   color: black;
-
+  z-index: 10;
 }
 
 .nav__menu-item:hover .position__wrapper {
@@ -65,7 +65,7 @@
   left: 0;
   top: 40px;
   min-height: 263px;
-  z-index: 100;
+  z-index: 99999;
   animation: showing;
   animation-duration: 0.8s;
   animation-fill-mode: forwards;
@@ -83,6 +83,7 @@
 
 .nav__item-serv {
   background-color: #008B8B;
+  z-index: 999;
 
   .nav__serv-wrapp {
     display: flex;
@@ -124,6 +125,7 @@
 
 .nav__menu-elem {
   position: relative;
+  z-index: 99;
 
   &::after {
     content: "";
@@ -134,12 +136,14 @@
     height: 2px;
     transition: width 0.3s ease-out;
     background-color: #008B8B;
+    z-index: 99;
 
     .nav__item-serv {
       position: absolute;
       background-color: #008B8B;
       display: flex;
       gap: 120px;
+      z-index: 99;
     }
   }
 

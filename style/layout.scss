@@ -4,6 +4,7 @@
 
 }
 
+
 html,
 body {
   width: 100%;
@@ -11,6 +12,14 @@ body {
 }
 .wrapper {
   overflow-x: hidden;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #f9fbee;
 }
 body {
   font-family: 'Inter', 'Roboto', 'Manrope', sans-serif;

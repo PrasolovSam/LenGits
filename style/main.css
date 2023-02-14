@@ -16,6 +16,15 @@ body {
   overflow-x: hidden;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #f9fbee;
+}
+
 body {
   font-family: "Inter", "Roboto", "Manrope", sans-serif;
   font-weight: 400;
@@ -230,6 +239,7 @@ a {
   font-size: 16px;
   line-height: 19px;
   color: black;
+  z-index: 10;
 }
 
 .nav__menu-item:hover .position__wrapper {
@@ -248,7 +258,7 @@ a {
   left: 0;
   top: 40px;
   min-height: 263px;
-  z-index: 100;
+  z-index: 99999;
   -webkit-animation: showing;
           animation: showing;
   -webkit-animation-duration: 0.8s;
@@ -275,6 +285,7 @@ a {
 
 .nav__item-serv {
   background-color: #008B8B;
+  z-index: 999;
 }
 .nav__item-serv .nav__serv-wrapp {
   display: -webkit-box;
@@ -313,6 +324,7 @@ a {
 
 .nav__menu-elem {
   position: relative;
+  z-index: 99;
 }
 .nav__menu-elem::after {
   content: "";
@@ -324,6 +336,7 @@ a {
   -webkit-transition: width 0.3s ease-out;
   transition: width 0.3s ease-out;
   background-color: #008B8B;
+  z-index: 99;
 }
 .nav__menu-elem::after .nav__item-serv {
   position: absolute;
@@ -332,13 +345,14 @@ a {
   display: -ms-flexbox;
   display: flex;
   gap: 120px;
+  z-index: 99;
 }
 .nav__menu-elem:hover:after, .nav__menu-elem:focus:after {
   width: 100%;
 }
 
 .about {
-  margin-top: 48px;
+  margin-top: 248px;
 }
 .about .about__text {
   font-family: "Inter", sans-serif;
@@ -428,7 +442,7 @@ a {
   font-size: 18px;
   margin-top: 2px;
   position: relative;
-  z-index: 9999;
+  z-index: 9;
 }
 .about .about__us .elips .elips__items .elips__btn .elips__btn-circ:hover {
   background-color: #CEEA19;
@@ -463,7 +477,7 @@ a {
 }
 .services .services__title-text {
   position: relative;
-  z-index: 99999;
+  z-index: 9;
   margin-top: -320px;
   font-family: "Inter";
   font-style: normal;
@@ -476,7 +490,7 @@ a {
 }
 .services .services-text {
   position: relative;
-  z-index: 9999;
+  z-index: 9;
   margin-left: 180px;
   font-family: "Inter";
   font-style: normal;
@@ -1016,13 +1030,13 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   border: 1px solid white;
-  padding: 30px 0px;
+  padding: 36px 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: white;
   border-radius: 20px;
-  max-width: 560px;
+  min-height: 510px;
 }
 .gis__wrapp .gis__content .gis__items .gis__block .gis__btns {
   display: -webkit-box;
@@ -1461,7 +1475,7 @@ a {
 }
 
 .wellcome {
-  margin-top: 88px;
+  margin-top: 258px;
 }
 .wellcome .wellcome__title {
   padding: 0 190px 0 0;
@@ -1786,7 +1800,7 @@ a {
 }
 
 .progdev {
-  margin-top: 64px;
+  margin-top: 264px;
 }
 .progdev .progdev__wrapp {
   display: -webkit-box;
@@ -1924,7 +1938,7 @@ a {
 }
 
 .contact__about {
-  margin-top: 88px;
+  margin-top: 200px;
 }
 .contact__about .contact__content {
   display: -webkit-box;
@@ -2199,7 +2213,7 @@ a {
 }
 
 .portfolio {
-  margin-top: 100px;
+  margin-top: 258px;
 }
 .portfolio .portfolio__wrapp {
   display: -webkit-box;
@@ -2460,7 +2474,7 @@ a {
 }
 
 .info__baner-content .info__wrapp {
-  margin-top: 88px;
+  margin-top: 200px;
 }
 .info__baner-content .info__wrapp .info__items-subtitle {
   display: -webkit-box;
