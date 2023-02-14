@@ -637,7 +637,7 @@ a {
 }
 
 .footer {
-  margin-top: 68px;
+  margin-top: 100px;
 }
 .footer__wrap {
   background-image: url("../img/group-503.png");
@@ -709,7 +709,7 @@ a {
 
 .form {
   position: relative;
-  margin-top: 66px;
+  margin-top: 100px;
 }
 .form .form__title {
   min-width: 718px;
@@ -815,7 +815,7 @@ a {
 }
 
 .rewies {
-  margin-top: 66px;
+  margin-top: 100px;
   margin-bottom: 66px;
 }
 .rewies .rewies__title {
@@ -871,7 +871,7 @@ a {
 }
 
 .map {
-  margin-top: 96px;
+  margin-top: 130px;
 }
 .map .map__text {
   margin-left: 198px;
@@ -887,6 +887,9 @@ a {
   margin-bottom: 88px;
 }
 
+.partner {
+  margin-top: 100px;
+}
 .partner .partner__wrapper .partner__slider-content {
   position: relative;
   overflow: hidden;
@@ -1096,7 +1099,8 @@ a {
 }
 
 .exp {
-  margin-bottom: 66px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .exp .exp__title {
   margin-bottom: 56px;
