@@ -7,12 +7,370 @@
   }
 
   .map__wrapp {
-    position: relative;
     background: url('../img/map.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 624px;
     margin-bottom: 88px;
+
+    .map__btn-wrap {
+      display: flex;
+      align-items: center;
+      border: 1px solid #008B8B;
+      border-radius: 50px;
+      width: 28px;
+      height: 28px;
+
+
+
+      .map__item-btn {
+        background-color: #008B8B;
+        border-radius: 50px;
+        width: 20px;
+        height: 20px;
+        margin-left: 3px;
+      }
+
+    }
+
+    .map__items-cart {
+
+      border-radius: 20px;
+      background-color: white;
+      padding: 11px 11px 32px 11px;
+      width: 260px;
+      height: 182px;
+
+      .map__content-img {
+        margin-bottom: 7px;
+      }
+
+      .map__content-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
   }
+}
+
+.map__item-content {
+  position: relative;
+}
+
+.sity {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.sity.map__position-penz.active__sity {
+  display: block;
+}
+
+.map-penz {
+  position: relative;
+  left: 132px;
+  top: 425px;
+}
+
+.map__position-penz {
+  left: 29px;
+  top: 208px;
+}
+
+.sity.map__position-mos.active__sity {
+  display: block;
+}
+
+.map-mos {
+  position: relative;
+  left: 106px;
+  top: 326px;
+}
+
+.map__position-mos {
+  top: 112px;
+  left: 8px;
+}
+
+.sity.map__position-tul.active__sity {
+  display: block;
+}
+
+.map-tul {
+  position: relative;
+  left: 86px;
+  top: 320px;
+}
+
+.map__position-tul {
+  top: 203px;
+  left: 118px;
+}
+
+.sity.map__position-sur.active__sity {
+  display: block;
+}
+
+.map-sur {
+  position: relative;
+  left: 416px;
+  top: 340px;
+}
+
+.map__position-sur {
+  left: 330px;
+  top: 344px;
+}
+
+.sity.map__position-bush.active__sity {
+  display: block;
+}
+
+.map-bush {
+  position: relative;
+  top: 355px;
+  left: 230px;
+}
+
+.map__position-bush {
+  top: 140px;
+  left: 139px;
+}
+
+.sity.map__position-udm.active__sity {
+  display: block;
+}
+
+.map-udm {
+  position: relative;
+  top: 284px;
+  left: 230px;
+}
+
+.map__position-udm {
+  top: 70px;
+  left: 132px;
+}
+
+.sity.map__position-kor.active__sity {
+  display: block;
+  top: 18px;
+  left: 81px;
+}
+
+.map-kor {
+  position: relative;
+  top: 232px;
+  left: 184px;
+}
+
+.map__position-kor {
+  display: none;
+  position: absolute;
+  left: 130px;
+  top: 42px;
+}
+
+.sity.map__position-tum.active__sity {
+  display: block;
+}
+
+.map-tum {
+  position: relative;
+  left: 352px;
+  top: 270px;
+}
+
+.map__position-tum {
+  display: none;
+  position: absolute;
+  left: 246px;
+  top: 56px;
+}
+
+.sity.map__position-vla.active__sity {
+  display: block;
+}
+
+.map-vla {
+  position: relative;
+  top: 148px;
+  left: 134px;
+}
+
+.map__position-vla {
+  display: none;
+  position: absolute;
+  left: 42px;
+  top: -65px;
+  z-index: 99;
+}
+
+.sity.map__position-kra.active__sity {
+  display: block;
+  bottom: -66px;
+}
+
+.map-kra {
+  position: relative;
+  left: 560px;
+  top: 100px;
+}
+
+.map__position-kra {
+  display: none;
+  position: absolute;
+  bottom: 114px;
+  left: 448px;
+}
+
+.sity.map__position-sam.active__sity {
+  display: block;
+  top: -31px;
+  left: 59px;
+}
+
+.map-sam {
+  position: relative;
+  top: 182px;
+  left: 176px;
+}
+
+.map__position-sam {
+  display: none;
+  position: absolute;
+  bottom: 32px;
+  left: 54px;
+}
+
+.sity.map__position-yl.active__sity {
+  display: block;
+  bottom: -98px;
+  left: 54px;
+}
+
+.map-yl {
+  position: relative;
+  top: 130px;
+  left: 160px;
+}
+
+.map__position-yl {
+  display: none;
+  position: absolute;
+  bottom: 83px;
+  left: 50px;
+}
+
+.sity.map__position-yar.active__sity {
+  display: block;
+}
+
+.map-yar {
+  position: relative;
+  left: 138px;
+  top: 6px;
+}
+
+.map__position-yar {
+  display: none;
+  position: absolute;
+  bottom: 26px;
+  left: 26px;
+  z-index: 99;
+}
+
+.sity.map__position-bel.active__sity {
+  display: block;
+}
+
+.map-bel {
+  position: relative;
+  top: 54px;
+  left: 50px;
+}
+
+.map__position-bel {
+  display: none;
+  position: absolute;
+  left: 85px;
+  bottom: -119px;
+  z-index: 99;
+}
+
+.sity.map__position-hab.active__sity {
+  display: block;
+}
+
+.map-hab {
+  position: relative;
+  left: 905px;
+
+}
+
+.map__position-hab {
+  display: none;
+  position: absolute;
+  left: 772px;
+  bottom: 34px;
+  z-index: 99;
+}
+
+.sity.map__position-irc.active__sity {
+  display: block;
+}
+
+.map-irc {
+  position: relative;
+  left: 673px;
+  top: 84px;
+}
+
+.map__position-irc {
+  display: none;
+  position: absolute;
+  left: 578px;
+  bottom: -50px;
+  z-index: 99;
+}
+
+.sity.map__position-ore.active__sity {
+  display: block;
+}
+
+.map-ore {
+  position: relative;
+  left: 202px;
+  top: 50px;
+}
+
+.map__position-ore {
+  display: none;
+  position: absolute;
+  bottom: -18px;
+  left: 82px;
+  z-index: 99;
+}
+
+.sity.map__position-sve.active__sity {
+  display: block;
+}
+
+.map-sve {
+  position: relative;
+  left: 294px;
+  bottom: 30px;
+}
+
+.map__position-sve {
+  display: none;
+  position: absolute;
+  left: 190px;
+  bottom: 62px;
+  z-index: 99;
 }
