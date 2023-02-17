@@ -12,17 +12,17 @@
   margin-bottom: 30px;
   display: flex;
   align-items: center;
+  gap: 46px;
 
 }
 
 .nav__menu {
-  min-width: 820px;
+  min-width: 821px;
 
 
   &-list {
     display: flex;
     justify-content: space-between;
-    margin-left: 92px;
     padding: 0;
     width: 100%;
 

@@ -1,0 +1,17 @@
+@media (max-width: 1204px) {
+
+  .projects .projects__content {
+    gap: 8px;
+  }
+  .services .services__blocks {
+    gap: 13px;
+  }
+}
+
+@media (max-width: 1112px) {
+
+
+  .services .services__blocks {
+    gap: 6px;
+  }
+}

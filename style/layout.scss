@@ -10,9 +10,11 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .wrapper {
   overflow-x: hidden;
 }
+
 .header {
   position: fixed;
   top: 0;
@@ -21,6 +23,29 @@ body {
   z-index: 9999;
   background-color: #f9fbee;
 }
+
+.header__burger-btn {
+  display: none;
+  position: relative;
+  background-color: inherit;
+  border: none;
+  width: 28px;
+  height: 28px;
+  .burger__sp {
+    position: absolute;
+    background-color: #272727;
+    width: 18px;
+    height: 2px;
+    left: 5px;
+  }
+  .burger__sp:nth-child(1) {
+    transform: translateY(-5px);
+  }
+  .burger__sp:nth-child(3) {
+    transform: translateY(5px);
+  }
+}
+
 body {
   font-family: 'Inter', 'Roboto', 'Manrope', sans-serif;
   font-weight: 400;
@@ -72,7 +97,7 @@ a {
 }
 
 .container {
-  width: 1128px;
+  max-width: 1128px;
   margin: 0 auto;
   padding: 0;
 }
@@ -105,6 +130,7 @@ a {
   color: #272727;
   margin-bottom: 22px;
 }
+
 .pasport__baner {
   background: url('../img/all.jpg');
   background-size: cover;
@@ -117,6 +143,7 @@ a {
 .use__btn-more {
   margin: 0 auto;
   text-align: center;
+
   .btn__more {
     font-family: 'Inter';
     font-style: normal;
@@ -129,6 +156,7 @@ a {
     margin-bottom: 42px;
   }
 }
+
 .img {
   max-width: 100%;
 }

@@ -1,168 +1,35 @@
-.projects {
+.projects__title {
   margin-top: 100px;
-  min-height: 600px;
+  margin-bottom: 66px;
+}
 
-  .projects__content {
+.projects__imgs-wrapp {
+  display: flex;
+  gap: 16px;
+
+  .projects__imgs-content {
     display: flex;
-    gap: 40px;
+    &:first-child {
+      margin-top: 155px;
+    }
 
-    .projects__blocks {
+    .projects__imgs-items {
       display: flex;
       flex-direction: column;
-      gap: 40px;
-
-      .projects__title {
-        .projects__title-text {
-          font-family: "Inter";
-          font-style: normal;
-          font-weight: 600;
-          font-size: 36px;
-          line-height: 42px;
-          color: #008B8B;
-          text-transform: uppercase;
-
-        }
-
-        .projects__subtitle-text {
-          margin-left: 120px;
-          font-family: "Inter";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 36px;
-          line-height: 42px;
-          color: #272727;
-          text-transform: uppercase;
-        }
-      }
-
-      .projects__imgs {
-        .projects__img {
-          .projects__img-shreff {
-            .project__img-one {
-              background: url('../img/pro1.png');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: contain;
-              width: 560px;
-              height: 754px;
-              display: flex;
-              flex-direction: column;
-
-
-              .projects__img-item {
-                position: relative;
-
-                .projects__img-icon {
-
-                  border: 5px solid black;
-                  border-radius: 50%;
-                  padding: 42px 34px;
-                  margin-left: 34px;
-                  margin-top: 42px;
-
-                }
-
-
-              }
-
-              .projects__img-text {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 24px;
-                color: white;
-                text-align: center;
-                padding: 486px 76px 60px 32px;
-              }
-
-
-            }
-
-            .project__img-two {
-              background: url('../img/pro2.png');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              width: 560px;
-              height: 754px;
-
-              .projects__img-text {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 24px;
-                color: white;
-                line-height: 26px;
-                padding: 496px 32px 60px;
-
-              }
-
-            }
-
-            .project__img-three {
-              background: url('../img/pro3.png');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              width: 560px;
-              height: 576px;
-
-              .projects__img-text {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 24px;
-                color: white;
-                line-height: 26px;
-                padding: 318px 36px 60px 32px;
-              }
-            }
-
-            .project__img-fhore {
-              background: url('../img/pro4.png');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              width: 560px;
-              height: 576px;
-              display: flex;
-              flex-direction: column;
-
-
-              .projects__img-text {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 24px;
-                color: white;
-                text-align: center;
-                padding: 318px 32px 60px;
-
-              }
-            }
-
-            .project__img-five {
-              background: url('../img/pro5.png');
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              width: 560px;
-              height: 576px;
-              .projects__img-text {
-                font-family: 'Inter';
-                font-style: normal;
-                height: 100%;
-                font-weight: 700;
-                font-size: 24px;
-                color: white;
-                line-height: 26px;
-                padding: 318px 32px 60px;
-
-              }
-            }
-          }
-        }
-      }
+      gap: 20px;
     }
   }
+
+  .projects__img-items {
+    position: relative;
+  }
+
+  .projects__item-img {
+    position: absolute;
+    top: 20px;
+
+  }
+}
+.projects__img {
+  width: 100%;
 }
