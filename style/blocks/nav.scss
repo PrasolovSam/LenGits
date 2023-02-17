@@ -57,7 +57,7 @@
 }
 
 .position__wrapper {
-  display: none;
+  display: block;
   opacity: 0;
   position: absolute;
   padding-top: 30px;
@@ -88,6 +88,9 @@
   .nav__serv-wrapp {
     display: flex;
     gap: 96px;
+    &:last-child {
+      gap: 186px;
+    }
 
     .nav__serv-elems {
       position: relative;
