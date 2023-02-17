@@ -87,7 +87,7 @@
 
   .nav__serv-wrapp {
     display: flex;
-    justify-content: space-between;
+    gap: 96px;
 
     .nav__serv-elems {
       position: relative;
@@ -102,7 +102,7 @@
         background-color: #93AA00;
       }
 
-      .nav__serv-elem a {
+       .nav__sublink {
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 400;
@@ -110,6 +110,11 @@
         color: #FFFFFF;
         margin-bottom: 30px;
         margin-left: 30px;
+        &:hover {
+          font-weight: 600;
+        }
+
+
       }
     }
 
