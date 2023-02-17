@@ -88,9 +88,6 @@
   .nav__serv-wrapp {
     display: flex;
     gap: 96px;
-    &:last-child {
-      gap: 186px;
-    }
 
     .nav__serv-elems {
       position: relative;
@@ -105,7 +102,7 @@
         background-color: #93AA00;
       }
 
-       .nav__sublink {
+      .nav__sublink {
         position: relative;
         font-family: 'Manrope';
         font-style: normal;
@@ -114,6 +111,7 @@
         color: #FFFFFF;
         margin-bottom: 30px;
         margin-left: 30px;
+
         &::after {
           content: "";
           display: block;
@@ -132,13 +130,19 @@
 
 
       }
+
+
     }
+
 
     .nav__serv-img img {
       border-radius: 20px;
       max-width: 454px;
       margin-top: 30px;
     }
+  }
+  .serv-wr {
+    gap: 186px;
   }
 }
 
