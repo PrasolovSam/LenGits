@@ -1,0 +1,23 @@
+{
+  "name": "lendgits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimanRud/LenGits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimanRud/LenGits/issues"
+  },
+  "homepage": "https://github.com/DimanRud/LenGits#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

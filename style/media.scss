@@ -3,15 +3,45 @@
   .projects .projects__content {
     gap: 8px;
   }
-  .services .services__blocks {
-    gap: 13px;
+
+}
+
+@media (max-width: 1128px) {
+  .nav__menu {
+    min-width: 820px;
   }
 }
 
 @media (max-width: 1112px) {
+  .services .services__blocks .services__block {
+    max-width: 340px;
 
+  }
 
-  .services .services__blocks {
-    gap: 6px;
+  .services .services__blocks .services__block .services__btn a {
+    padding: 18px 98px;
+  }
+}
+
+@media (max-width: 1099px) {
+  .about .about__us .elips .elips__items .elips__item {
+    padding: 6px 6px 0 6px;
+  }
+}
+
+@media (max-width: 1091px) {
+  .services .services__blocks .services__block {
+    max-width: 320px;
+  }
+
+  .services .services__blocks .services__block .services__btn a {
+    padding: 18px 84px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .nav__logo {
+    width: 170px;
+    height: 36px;
   }
 }

@@ -12,12 +12,12 @@
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  gap: 46px;
+  justify-content: space-between;
 
 }
 
 .nav__menu {
-  min-width: 821px;
+
 
 
   &-list {
@@ -25,6 +25,7 @@
     justify-content: space-between;
     padding: 0;
     width: 100%;
+    gap: 20px;
 
   }
 
@@ -141,6 +142,7 @@
       margin-top: 30px;
     }
   }
+
   .serv-wr {
     gap: 186px;
   }
@@ -176,4 +178,8 @@
   &:focus:after {
     width: 100%;
   }
+}
+.nav__logo {
+  width: 223px;
+  height: 40px;
 }
