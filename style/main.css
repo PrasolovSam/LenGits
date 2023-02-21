@@ -1795,7 +1795,7 @@ img {
 .variation .variation__wrapp .variation__content {
   border: 1px solid #272727;
   border-radius: 20px;
-  padding: 20px;
+  padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1845,6 +1845,7 @@ img {
   border-radius: 20px;
 }
 .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item {
+  max-width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1852,13 +1853,16 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 12px;
+  gap: 26px;
+}
+.variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item:nth-child(4) {
+  gap: 35px;
 }
 .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 18px;
   color: #272727;
 }
@@ -2318,6 +2322,11 @@ img {
 .programm .programm__wrapp .programm__content .programm__btn .programm__btn-item:hover {
   background-color: #CEEA19;
   color: black;
+}
+
+.programm__img {
+  border-radius: 20px;
+  min-width: 560px;
 }
 
 .aftocad {
