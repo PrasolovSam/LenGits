@@ -68,60 +68,51 @@
 }
 
 .satya__gost {
-  margin-top: 64px;
+  margin-top: 100px;
 
-  .block__tabs {
-    display: none;
-    flex-wrap: wrap;
-    gap: 48px;
+  .satya__gost-title {
+    margin-bottom: 100px;
 
-    .satya__gost-item {
-      display: flex;
-      flex-direction: column;
-      max-width: 540px;
-      gap: 42px;
-      margin-bottom: 42px;
+    .gost-title {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 42px;
+      text-transform: uppercase;
+      color: #008B8B;
 
-      .satya__gost-img img {
-        border-radius: 20px;
-      }
+    }
 
-      .satya__gost-text {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    .gost-subtitle {
+      margin-left: 180px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-transform: uppercase;
+      color: #272727;
+    }
+  }
 
-        .gost-title {
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 600;
-          font-size: 18px;
-          line-height: 22px;
-          text-transform: uppercase;
-          color: #000000;
-        }
+  .gost__list-items {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 24px;
+    color: #272727;
+    margin-top: 30px;
 
-        .gost-text {
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 15px;
-          line-height: 18px;
-          color: #000000;
-        }
-
-        .gost__more {
-          font-family: 'Inter';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 15px;
-          line-height: 18px;
-
-          &:hover {
-            color: #008B8B;
-          }
-        }
-      }
+    .gost__list-item .gost-item{
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 18px;
+      color: #272727;
+      margin-top: 15px;
+      margin-left: 30px;
+    }
+    .gost__list-item .gost-item:hover {
+      color: #008B8B;
     }
   }
 }
