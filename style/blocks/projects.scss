@@ -25,6 +25,7 @@
   }
 
   .projects__item-img {
+    width: 100%;
     position: absolute;
     top: 20px;
 
@@ -32,4 +33,9 @@
 }
 .projects__img {
   width: 100%;
+}
+.projects-svg {
+  display: block;
+  max-width: 27%;
+  object-fit: contain;
 }

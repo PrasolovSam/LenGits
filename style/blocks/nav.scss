@@ -22,10 +22,10 @@
 
   &-list {
     display: flex;
-    justify-content: space-between;
+
     padding: 0;
     width: 100%;
-    gap: 20px;
+    gap: 28px;
 
   }
 
@@ -88,7 +88,7 @@
 
   .nav__serv-wrapp {
     display: flex;
-    gap: 96px;
+    gap: 140px;
 
     .nav__serv-elems {
       position: relative;
@@ -144,7 +144,7 @@
   }
 
   .serv-wr {
-    gap: 186px;
+    gap: 245px;
   }
 }
 
@@ -179,7 +179,14 @@
     width: 100%;
   }
 }
+
+.logo {
+  width: 27%;
+  display: block;
+}
+
 .nav__logo {
-  width: 223px;
-  height: 40px;
+  display: block;
+  width: 100%;
+  object-fit: contain;
 }

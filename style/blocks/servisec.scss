@@ -38,58 +38,63 @@
     gap: 24px;
     height: 458px;
 
-    .services__block {
+    .services__blocks-wrapp {
       display: flex;
-      flex-direction: column;
-      max-width: 360px;
-      margin-top: 20px;
+      gap: 59px;
 
-      .services__content {
+      .services__block {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
         margin-top: 20px;
-        height: 100%;
-      }
 
-      .services__subtitle {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 125%;
-        color: #272727;
-        max-width: 300px;
-        margin-bottom: 18px;
-      }
-
-      .services__text {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 125%;
-        margin-bottom: 38px;
-      }
-
-      .services__btn a {
-
-        border: 1px solid #008B8B;
-        color: #008B8B;
-        border-radius: 50px;
-        padding: 20px 110px;
-
-        &:hover {
-          border: 1px solid transparent;
-          background: #008B8B;
-          color: white;
-          ;
+        .services__content {
+          margin-top: 20px;
+          height: 100%;
         }
-      }
 
+        .services__subtitle {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 125%;
+          color: #272727;
+          max-width: 300px;
+          margin-bottom: 18px;
+        }
+
+        .services__text {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 125%;
+          margin-bottom: 38px;
+          height: 75px;
+        }
+
+        .services__btn a {
+
+          border: 1px solid #008B8B;
+          color: #008B8B;
+          border-radius: 50px;
+          padding: 20px 110px;
+
+          &:hover {
+            border: 1px solid transparent;
+            background: #008B8B;
+            color: white;
+            ;
+          }
+        }
+
+      }
     }
   }
 
   .servisec__baner {
     background-color: #008B8B;
-    max-height: 490px;
     min-width: 354px;
     border-radius: 20px;
     display: flex;
@@ -175,6 +180,104 @@
     }
   }
 }
+
 .services__img {
   max-width: 100%;
+}
+
+.servis {
+  margin-top: 100px;
+
+  .servis__title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .servis__title-text {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 34px;
+      color: #272727;
+      margin-left: 208px;
+      margin-bottom: 10px;
+    }
+
+    .servis__title-subtext {
+      line-height: 46px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 34px;
+      color: #272727;
+    }
+  }
+
+  .servis__content {
+    margin-left: 208px;
+
+    .servis__content-text {
+      display: flex;
+      gap: 40px;
+
+
+    }
+
+    .servis__content-block {
+      margin-bottom: 40px;
+
+      .servis__item-subtitle {
+        margin-bottom: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #272727;
+      }
+
+
+    }
+  }
+}
+
+.servis__item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #008B8B;
+}
+
+.servis__marg {
+  margin-bottom: 12px;
+}
+
+.servis__content-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  color: #272727;
+}
+
+.servis__item-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #272727;
+}
+.servis__blocks-wrapp {
+  margin-left: 208px;
+ margin-bottom: 60px;
+}
+.servis__block {
+  display: flex;
+  border-top: 1px solid #E1E3D6;
+  border-bottom: 1px solid #E1E3D6;
+  padding: 40px 0;
+  gap: 40px;
 }
