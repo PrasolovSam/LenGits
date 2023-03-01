@@ -312,7 +312,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 140px;
+  gap: 145px;
 }
 .nav__item-serv .nav__serv-wrapp .nav__serv-elems {
   position: relative;
@@ -356,7 +356,7 @@ img {
   margin-top: 30px;
 }
 .nav__item-serv .serv-wr {
-  gap: 245px;
+  gap: 240px;
 }
 
 .nav__menu-elem {
