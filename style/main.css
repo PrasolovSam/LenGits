@@ -717,6 +717,7 @@ img {
   margin-bottom: 60px;
 }
 .servis .servis__title .servis__title-text {
+  line-height: 32px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -735,9 +736,6 @@ img {
   font-weight: 500;
   font-size: 28px;
   color: #272727;
-}
-.servis .servis__content {
-  margin-left: 208px;
 }
 .servis .servis__content .servis__content-text {
   display: -webkit-box;

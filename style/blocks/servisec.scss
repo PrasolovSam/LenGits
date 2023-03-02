@@ -193,6 +193,7 @@
     margin-bottom: 60px;
 
     .servis__title-text {
+      line-height: 32px;
       font-family: 'Inter';
       font-style: normal;
       font-weight: 500;
@@ -216,7 +217,6 @@
   }
 
   .servis__content {
-    margin-left: 208px;
 
     .servis__content-text {
       display: flex;
@@ -264,6 +264,7 @@
   line-height: 20px;
   color: #272727;
 }
+
 
 .servis__item-text {
   max-width: 748px;
