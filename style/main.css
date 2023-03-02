@@ -781,6 +781,7 @@ img {
 }
 
 .servis__item-text {
+  max-width: 748px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
