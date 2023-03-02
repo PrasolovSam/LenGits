@@ -720,17 +720,20 @@ img {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 28px;
   color: #272727;
   margin-left: 208px;
   margin-bottom: 10px;
 }
+.servis .servis__title .servis__tit-line {
+  line-height: 34px;
+}
 .servis .servis__title .servis__title-subtext {
-  line-height: 46px;
+  line-height: 34px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 28px;
   color: #272727;
 }
 .servis .servis__content {
@@ -2628,7 +2631,15 @@ img {
 }
 
 .projects__img {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
   width: 100%;
+}
+.projects__img:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .projects-svg {
@@ -2636,6 +2647,10 @@ img {
   max-width: 27%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.projects-item {
+  position: relative;
 }
 
 .portfolio {
@@ -3245,78 +3260,145 @@ img {
 }
 .present {
   margin-top: 100px;
+  /*.present__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .list__pr-item {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .pr-item {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #000000;
+
+        &:hover {
+          color: #008B8B;
+        }
+
+
+
+
+      }
+
+      .sublist-pr {
+        display: none;
+        flex-direction: column;
+        gap: 14px;
+      }
+      .sublist-pr.pr__active {
+        display: flex;
+      }
+
+      .item__href {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 42px;
+        text-transform: uppercase;
+        color: #000000;
+
+        &:hover {
+          color: #008B8B;
+        }
+      }
+
+      .sub__list-item {
+        display: none;
+        margin-bottom: 10px;
+
+        .item__down {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 42px;
+          text-transform: uppercase;
+          color: #000000;
+
+          &:hover {
+            color: #008B8B;
+          }
+        }
+      }
+    }
+  }*/
 }
-.present .present__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 16px;
+
+.present__bloks {
+  margin-bottom: 20px;
+  width: 38%;
 }
-.present .present__list .list__pr-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 10px;
+
+.present__bloks-text {
+  margin-bottom: 10px;
 }
-.present .present__list .list__pr-item .pr-item {
+
+.present-title {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   line-height: 42px;
   text-transform: uppercase;
   color: #000000;
 }
-.present .present__list .list__pr-item .pr-item:hover {
+.present-title:hover {
   color: #008B8B;
 }
-.present .present__list .list__pr-item .sublist-pr {
-  display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 14px;
+
+.present__blocks-item {
+  margin-bottom: 8px;
 }
-.present .present__list .list__pr-item .sublist-pr.pr__active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+
+.present__blocks-subtext {
+  margin-left: 16px;
+  margin-bottom: 6px;
 }
-.present .present__list .list__pr-item .item__href {
+
+.present-subtitle {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 42px;
   text-transform: uppercase;
   color: #000000;
 }
-.present .present__list .list__pr-item .item__href:hover {
+.present-subtitle:hover {
   color: #008B8B;
 }
-.present .present__list .list__pr-item .sub__list-item {
-  display: none;
-  margin-bottom: 10px;
+
+.present__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4px;
+  margin-left: 36px;
 }
-.present .present__list .list__pr-item .sub__list-item .item__down {
+
+.present-item {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 42px;
   text-transform: uppercase;
   color: #000000;
 }
-.present .present__list .list__pr-item .sub__list-item .item__down:hover {
+.present-item:hover {
   color: #008B8B;
 }
 

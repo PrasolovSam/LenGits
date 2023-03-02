@@ -9,6 +9,7 @@
 
   .projects__imgs-content {
     display: flex;
+
     &:first-child {
       margin-top: 155px;
     }
@@ -31,11 +32,21 @@
 
   }
 }
+
 .projects__img {
-  width: 100%;
+  filter: brightness(60%);
+  width: 100%;&:hover {
+    filter: brightness(100%);
+    transition: 0.3s;
+  }
 }
+
 .projects-svg {
   display: block;
   max-width: 27%;
   object-fit: contain;
+}
+
+.projects-item {
+position: relative;
 }
