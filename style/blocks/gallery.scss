@@ -53,10 +53,7 @@
       .gallery__content-item {
         margin-bottom: 42px;
 
-        .gallery__item-img img {
-          border-radius: 20px;
-          margin-bottom: 20px;
-        }
+
 
         .gallery__item-text {
           font-family: 'Inter';
@@ -79,12 +76,6 @@
       .gallery__content-item {
         margin-bottom: 42px;
         max-width: 358px;
-
-        .gallery__item-img img {
-          border-radius: 20px;
-          margin-bottom: 20px;
-        }
-
         .gallery__item-text {
           font-family: 'Inter';
           font-style: normal;
@@ -102,3 +93,7 @@
 
   }
 }
+.gallery-img {
+          border-radius: 20px;
+          margin-bottom: 20px;
+        }

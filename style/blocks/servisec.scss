@@ -220,9 +220,7 @@
 
     .servis__content-text {
       display: flex;
-      gap: 40px;
-
-
+      justify-content: space-between;
     }
 
     .servis__content-block {
@@ -256,6 +254,7 @@
 }
 
 .servis__content-title {
+  max-width: 160px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
@@ -284,5 +283,8 @@
   border-top: 1px solid #E1E3D6;
   border-bottom: 1px solid #E1E3D6;
   padding: 40px 0;
-  gap: 40px;
+  justify-content: space-between;
+}
+.servis__content-wrapp {
+  width: 73%;
 }

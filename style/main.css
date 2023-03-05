@@ -741,7 +741,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .servis .servis__content .servis__content-block {
   margin-bottom: 40px;
@@ -769,6 +771,7 @@ img {
 }
 
 .servis__content-title {
+  max-width: 160px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -800,7 +803,13 @@ img {
   border-top: 1px solid #E1E3D6;
   border-bottom: 1px solid #E1E3D6;
   padding: 40px 0;
-  gap: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.servis__content-wrapp {
+  width: 73%;
 }
 
 .footer {
@@ -2757,10 +2766,6 @@ img {
 .gallery .gallery__content-items .wrapp__display-main .gallery__content-item {
   margin-bottom: 42px;
 }
-.gallery .gallery__content-items .wrapp__display-main .gallery__content-item .gallery__item-img img {
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
 .gallery .gallery__content-items .wrapp__display-main .gallery__content-item .gallery__item-text {
   font-family: "Inter";
   font-style: normal;
@@ -2781,10 +2786,6 @@ img {
   margin-bottom: 42px;
   max-width: 358px;
 }
-.gallery .gallery__content-items .wrapp__display .gallery__content-item .gallery__item-img img {
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
 .gallery .gallery__content-items .wrapp__display .gallery__content-item .gallery__item-text {
   font-family: "Inter";
   font-style: normal;
@@ -2797,6 +2798,11 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.gallery-img {
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .pkrti__baner {
