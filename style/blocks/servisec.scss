@@ -31,16 +31,14 @@
   }
 
   .services__blocks {
-    display: flex;
+    display: block;
     margin-top: 60px;
-    flex: gap;
-    flex-wrap: wrap;
-    gap: 24px;
-    height: 458px;
+
 
     .services__blocks-wrapp {
+      margin-bottom: 60px;
       display: flex;
-      gap: 59px;
+      justify-content: space-between;
 
       .services__block {
         display: flex;
@@ -75,7 +73,6 @@
         }
 
         .services__btn a {
-
           border: 1px solid #008B8B;
           color: #008B8B;
           border-radius: 50px;

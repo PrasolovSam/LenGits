@@ -10,72 +10,115 @@
 
     }
   }
+}
 
-  .exp__blocks {
+.exp__wrapp {
+  margin-top: 60px;
+
+  .exp__items {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-
-    .exp__item {
-      max-height: 342px;
-      max-width: 360px;
-      border: 1px solid transparent;
-      display: block;
-
-      cursor: pointer;
-
-      /*&:hover {
-        border: 1px solid transparent;
-        display: block;
-        transition: all 1s ease-in-out;
-        background: #008B8B;
-        opacity: 1;
-
-
-      }*/
-
-    }
-
-    .exp__item-one {
-      background:url('../img/exp1.jpg');
-      border-radius: 20px;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-
-      /*&:hover {
-        opacity: 0.2;
-      }*/
-
-    }
-
-    .exp__item-two {
-      background-image: url('../img/exp2.png');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      border-radius: 20px;
-    }
-
-    .exp__item-three {
-      background-image: url('../img/exp3.png');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      border-radius: 20px;
-    }
-
-    .exp__item-text {
-      color: white;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 28px;
-      text-align: center;
-      text-transform: uppercase;
-      padding: 142px 82px;
-      max-width: 354px;
-    }
   }
 }
+
+.exp__item {
+  display: block;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: #008B8B;
+    width: 100%;
+    height: 99%;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  &:hover:before {
+    transition: all 0.3s;
+    opacity: 1;
+  }
+}
+
+.exp__item img {
+  border-radius: 20px;
+
+}
+
+.exp__text {
+  position: absolute;
+  width: 56%;
+  left: 81px;
+  top: 142px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/*
+.exp-text--norm {
+  &:after {
+    content: "Нормативные документы";
+    position: absolute;
+    width: 198px;
+    height: 58px;
+    left: 81px;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+  }
+}
+
+.exp-text--st {
+  &:after {
+    content: "ПОлезные статьи";
+    position: absolute;
+    width: 198px;
+    height: 58px;
+    left: 481px;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+  }
+}
+
+.exp-text--faq {
+  &:after {
+    content: "Часто задаваемые вопросы";
+    position: absolute;
+    width: 275px;
+    height: 58px;
+    left: 842px;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+*/

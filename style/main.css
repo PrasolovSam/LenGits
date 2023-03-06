@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
 * {
@@ -551,23 +552,17 @@ img {
   margin-bottom: 22px;
 }
 .services .services__blocks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   margin-top: 60px;
-  -webkit-box-flex: gap;
-      -ms-flex: gap;
-          flex: gap;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 24px;
-  height: 458px;
 }
 .services .services__blocks .services__blocks-wrapp {
+  margin-bottom: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 59px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .services .services__blocks .services__blocks-wrapp .services__block {
   display: -webkit-box;
@@ -1639,70 +1634,119 @@ img {
 .exp .exp__title .exp__color {
   margin-left: 180px;
 }
-.exp .exp__blocks {
+
+.exp__wrapp {
+  margin-top: 60px;
+}
+.exp__wrapp .exp__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.exp .exp__blocks .exp__item {
-  max-height: 342px;
-  max-width: 360px;
-  border: 1px solid transparent;
+
+.exp__item {
   display: block;
-  cursor: pointer;
-  /*&:hover {
-    border: 1px solid transparent;
-    display: block;
-    transition: all 1s ease-in-out;
-    background: #008B8B;
-    opacity: 1;
+  position: relative;
+}
+.exp__item:before {
+  content: "";
+  position: absolute;
+  background-color: #008B8B;
+  width: 100%;
+  height: 99%;
+  border-radius: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.exp__item:hover:before {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 1;
+}
 
+.exp__item img {
+  border-radius: 20px;
+}
 
-  }*/
-}
-.exp .exp__blocks .exp__item-one {
-  background: url("../img/exp1.jpg");
-  border-radius: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /*&:hover {
-    opacity: 0.2;
-  }*/
-}
-.exp .exp__blocks .exp__item-two {
-  background-image: url("../img/exp2.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-}
-.exp .exp__blocks .exp__item-three {
-  background-image: url("../img/exp3.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-}
-.exp .exp__blocks .exp__item-text {
-  color: white;
+.exp__text {
+  position: absolute;
+  width: 56%;
+  left: 81px;
+  top: 142px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 29px;
   text-align: center;
   text-transform: uppercase;
-  padding: 142px 82px;
-  max-width: 354px;
+  color: #FFFFFF;
 }
 
+/*
+.exp-text--norm {
+  &:after {
+    content: "Нормативные документы";
+    position: absolute;
+    width: 198px;
+    height: 58px;
+    left: 81px;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+  }
+}
+
+.exp-text--st {
+  &:after {
+    content: "ПОлезные статьи";
+    position: absolute;
+    width: 198px;
+    height: 58px;
+    left: 481px;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+  }
+}
+
+.exp-text--faq {
+  &:after {
+    content: "Часто задаваемые вопросы";
+    position: absolute;
+    width: 275px;
+    height: 58px;
+    left: 842px;
+    top: 142px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+*/
 .about__baner-items {
   margin-bottom: 66px;
 }
@@ -3199,14 +3243,6 @@ img {
   color: #008B8B;
 }
 
-@media (max-width: 1129px) {
-  .nav__menu {
-    min-width: 820px;
-  }
-  .services .services__blocks .services__block {
-    max-width: 340px;
-  }
-}
 @media (max-width: 1112px) {
   .services .services__blocks .services__block .services__btn a {
     padding: 18px 98px;
@@ -3218,8 +3254,11 @@ img {
   }
 }
 @media (max-width: 1091px) {
-  .services .services__blocks .services__block {
+  .services .services__blocks .services__blocks-wrapp .services__block {
     max-width: 320px;
+  }
+  .services .services__blocks .services__blocks-wrapp .services__block .services__btn a {
+    padding: 20px 70px;
   }
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
     right: 62px;
@@ -3229,6 +3268,9 @@ img {
   }
 }
 @media (max-width: 1042px) {
+  .nav__menu-list {
+    gap: 10px;
+  }
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
     right: 55px;
   }
@@ -3240,6 +3282,9 @@ img {
   }
 }
 @media (max-width: 1013px) {
+  .services .servisec__baner {
+    min-width: 322px;
+  }
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
     right: 52px;
   }
@@ -3256,6 +3301,9 @@ img {
   }
 }
 @media (max-width: 978px) {
+  .services .services__blocks .services__blocks-wrapp .services__block {
+    max-width: 300px;
+  }
   .services .servisec__baner {
     min-width: 300px;
   }
@@ -3263,6 +3311,25 @@ img {
     left: 20px;
   }
 }
+@media (max-width: 960px) {
+  .container {
+    max-width: 940px;
+  }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 306px;
+  }
+}
+/*@media (max-width: 911px) {
+  .nav__menu-list {
+    gap: 0;
+  }
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    right: 37px;
+}
+.services .services__blocks .services__blocks-wrapp .services__block {
+  max-width: 280px;
+}
+}*/
 .present {
   margin-top: 100px;
   /*.present__list {

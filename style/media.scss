@@ -1,22 +1,6 @@
-@media (max-width: 1196px) {
+@media (max-width: 1196px) {}
 
 
-
-
-}
-
-@media (max-width: 1129px) {
-  .nav__menu {
-    min-width: 820px;
-  }
-
-  .services .services__blocks .services__block {
-    max-width: 340px;
-
-  }
-
-
-}
 
 @media (max-width: 1112px) {
   .services .services__blocks .services__block .services__btn a {
@@ -31,8 +15,13 @@
 }
 
 @media (max-width: 1091px) {
-  .services .services__blocks .services__block {
+
+  .services .services__blocks .services__blocks-wrapp .services__block {
     max-width: 320px;
+  }
+
+  .services .services__blocks .services__blocks-wrapp .services__block .services__btn a {
+    padding: 20px 70px;
   }
 
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
@@ -45,6 +34,9 @@
 }
 
 @media (max-width: 1042px) {
+  .nav__menu-list {
+    gap: 10px;
+  }
 
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
     right: 55px;
@@ -62,6 +54,10 @@
 }
 
 @media (max-width: 1013px) {
+  .services .servisec__baner {
+    min-width: 322px;
+  }
+
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
     right: 52px;
   }
@@ -82,6 +78,10 @@
 }
 
 @media (max-width: 978px) {
+  .services .services__blocks .services__blocks-wrapp .services__block {
+    max-width: 300px;
+  }
+
   .services .servisec__baner {
     min-width: 300px;
   }
@@ -92,3 +92,22 @@
 
 
 }
+@media (max-width: 960px) {
+  .container {
+max-width: 940px;
+  }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 306px;
+}
+}
+/*@media (max-width: 911px) {
+  .nav__menu-list {
+    gap: 0;
+  }
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    right: 37px;
+}
+.services .services__blocks .services__blocks-wrapp .services__block {
+  max-width: 280px;
+}
+}*/
