@@ -93,7 +93,15 @@
     .nav__serv-elems {
       position: relative;
       display: block;
-      margin-top: 30px;
+      padding: 30px 0;
+
+      .nav__serv-elem {
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
 
       .nav__serv-elem::before {
         content: "";
@@ -110,7 +118,6 @@
         font-weight: 400;
         font-size: 16px;
         color: #FFFFFF;
-        margin-bottom: 30px;
         margin-left: 30px;
 
         &::after {
@@ -189,4 +196,42 @@
   display: block;
   width: 100%;
   object-fit: contain;
+}
+
+.menu__arrow {
+  display: none;
+}
+
+body._touch .menu__arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  margin: 0 0 0 5px;
+  transition: transform 0.3s ease 0s;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid black;
+}
+
+body._touch .nav__menu-list>li {
+  display: flex;
+  align-items: center;
+}
+
+body._touch .nav__menu-elem {
+  flex: 1 1 auto;
+}
+
+body._touch .nav__menu-item .position__wrapper {
+  display: none;
+}
+
+body._touch .nav__menu-item._active .position__wrapper {
+  opacity: 1;
+  transition: 0.8s;
+  display: block;
+}
+
+body._touch .nav__menu-item._active .menu__arrow {
+  transform: rotate(-180deg);
 }

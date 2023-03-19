@@ -18,7 +18,7 @@
 
     .task__items {
       display: flex;
-      gap: 62px;
+justify-content: space-between;
       align-items: center;
 
       .task__block {

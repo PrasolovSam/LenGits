@@ -24,26 +24,8 @@ body {
   background-color: #f9fbee;
 }
 
-.header__burger-btn {
+.header__burger {
   display: none;
-  position: relative;
-  background-color: inherit;
-  border: none;
-  width: 28px;
-  height: 28px;
-  .burger__sp {
-    position: absolute;
-    background-color: #272727;
-    width: 18px;
-    height: 2px;
-    left: 5px;
-  }
-  .burger__sp:nth-child(1) {
-    transform: translateY(-5px);
-  }
-  .burger__sp:nth-child(3) {
-    transform: translateY(5px);
-  }
 }
 
 body {

@@ -1,4 +1,4 @@
-.gis__wrapp {
+/*.gis__wrapp {
   background: url('../img/group-503.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -165,4 +165,151 @@
       }
     }
   }
+}*/
+.gis {
+  background: url('../img/group-503.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 786px;
+  padding: 60px 0;
+}
+
+.gis__title-text {
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #FFFFFF;
+
+  .gis__color {
+    color: #AAB028;
+    font-size: 36px;
+  }
+
+
+}
+
+.gis-text {
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 600;
+  color: white;
+  margin-left: 180px;
+}
+
+.gis__title {
+  margin-bottom: 40px;
+}
+
+.gis__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gis__block {
+  background-color: #008B8B;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  max-width: 560px;
+}
+
+.gis__block-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gis__items-img {
+  display: block;
+}
+
+.gis__subtitle {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 36px;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.gis__item {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.gis-icon {
+  margin-right: 12px;
+}
+
+.gis__item-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.gis__btns {
+  margin-top: 44px;
+
+  .gis__btn-one {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 19px 30px;
+    background: #93AA00;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+
+    &:hover {
+
+      background: #CEEA19;
+      color: black;
+    }
+  }
+
+  .gis__btn-two {
+    border: 1px solid white;
+    padding: 19px 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 100px;
+    &:hover {
+      border: 1px solid transparent;
+      background: white;
+      color: #008B8B;
+    }
+
+  }
+}
+.gis-img {
+  height: 481px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.gis__item-block {
+  margin-bottom: 27px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.gis__item-img img {
+  border-radius: 20px;
 }

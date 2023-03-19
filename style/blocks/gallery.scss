@@ -48,7 +48,7 @@
     .wrapp__display-main {
       display: flex;
       flex-flow: row wrap;
-      gap: 27px;
+      justify-content: space-between;
 
       .gallery__content-item {
         margin-bottom: 42px;
@@ -71,7 +71,7 @@
     .wrapp__display {
       display: none;
       flex-flow: row wrap;
-      gap: 27px;
+      justify-content: space-between;
 
       .gallery__content-item {
         margin-bottom: 42px;
