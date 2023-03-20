@@ -29,24 +29,26 @@
               </a>
             </div>
             <div class="top__line-contacts">
-              <a class="top__line-mail" href="#form">
+              <div class="top__line-wrapp">
+                <a class="top__line-mail" href="#form">
 
-                <span class="top__line-icon">
-                  <svg fill="white" width="16" height="14" viewBox="0 0 16 14">
-                    <use xlink:href="../img/sprite.svg#mail__icon"></use>
-                  </svg>
-                </span>
-                <span class="top__line-text text__mail">info@its-spc.ru</span>
+                  <span class="top__line-icon">
+                    <svg fill="white" width="16" height="14" viewBox="0 0 16 14">
+                      <use xlink:href="../img/sprite.svg#mail__icon"></use>
+                    </svg>
+                  </span>
+                  <span class="top__line-text text__mail">info@its-spc.ru</span>
 
-              </a>
-              <a class="top__line-phone" href="tel:+7 (939) 715-43-71">
-                <span class="top__line-icon">
-                  <svg fill="white" width="16" height="16" viewBox="0 0 16 16">
-                    <use xlink:href="../img/sprite.svg#phone__icon"></use>
-                  </svg>
-                </span>
-                <span class="top__line-text text__phone">+7 (939) 715-43-71</span>
-              </a>
+                </a>
+                <a class="top__line-phone" href="tel:+7 (939) 715-43-71">
+                  <span class="top__line-icon">
+                    <svg fill="white" width="16" height="16" viewBox="0 0 16 16">
+                      <use xlink:href="../img/sprite.svg#phone__icon"></use>
+                    </svg>
+                  </span>
+                  <span class="top__line-text text__phone">+7 (939) 715-43-71</span>
+                </a>
+              </div>
             </div>
 
           </div>
@@ -65,19 +67,23 @@
                   <use xlink:href="../img/sprite.svg#main__logo"></use>
                 </svg></a>
             </div>
-            <div class="header__burger">
-              <button class="header__burger-btn">
-                <span class="burger__sp"></span><span class="burger__sp"></span><span class="burger__sp"></span>
-              </button>
-            </div>
+
             <div class="nav__wrap">
+              <div class="header__burger">
+                <span></span>
+              </div>
               <nav class="nav__menu">
                 <ul class="nav__menu-list">
+                  <!--<li class="nav__menu-item">
+                    <a class="nav__menu-elem" href="#">Главная</a>
+                  </li><-->
                   <li class="nav__menu-item nav__dropdown ">
+
                     <a class="nav__menu-elem" href="/html/about.html">О Компании</a>
                   </li>
                   <li class="nav__menu-item nav__dropdown">
                     <a class="nav__menu-elem" href="/html/servisec.html">Услуги</a>
+                    <span class="menu__arrow arrow_1"></span>
                     <div class="position__wrapper">
                       <div class="nav__item-serv">
                         <div class="container">
@@ -90,8 +96,7 @@
                                   class="nav__sublink">Транспортное планирование</a>
                               </li>
                               <li class="nav__serv-elem"> <a href="/html/road.html" class="nav__sublink">Проекты
-                                  организации дорожного движения </a>
-                              </li>
+                                  организации дорожного движения </a></li>
 
                               <li class="nav__serv-elem"> <a href="/html/plan.html" class="nav__sublink">Схема
                                   маршрутов движения </a>
@@ -110,6 +115,7 @@
                   </li>
                   <li class="nav__menu-item">
                     <a class="nav__menu-elem" href="/html/portfolio.html">Примеры работ</a>
+                    <span class="menu__arrow arrow_2"></span>
                     <div class="position__wrapper">
                       <div class="nav__item-serv">
                         <div class="container">
@@ -159,6 +165,7 @@
           </div>
         </div>
       </div>
+
 
     </header>
     <section class="about__baner about">

@@ -31,16 +31,24 @@
   }
 
   .services__blocks {
-    display: block;
+    display: flex;
     margin-top: 60px;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 59px;
+    margin: 0 auto;
+    justify-content: center;
 
 
-    .services__blocks-wrapp {
+    /*.services__blocks-wrapp {
       margin-bottom: 60px;
       display: flex;
       justify-content: space-between;
 
-      .services__block {
+
+    }*/
+  }
+.services__block {
         display: flex;
         flex-direction: column;
         max-width: 360px;
@@ -87,9 +95,6 @@
         }
 
       }
-    }
-  }
-
   .servisec__baner {
     background-color: #008B8B;
     min-width: 354px;

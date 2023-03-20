@@ -91,6 +91,7 @@
   }
 
   .services .services__blocks .services__block .services__btn a {
+    font-size: 18px;
     padding: 18px 70px;
   }
 }
@@ -367,6 +368,7 @@
     color: white;
     transition: left 0.3s ease 0s;
   }
+
   .nav__menu._active {
     display: block;
   }
@@ -386,6 +388,57 @@
 
   body._touch .menu__arrow {
     border-top: 10px solid white;
+  }
+
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 250px;
+  }
+
+  .exp__text {
+    width: 69%;
+    left: 32px;
+    top: 68px;
+    font-size: 18px;
+  }
+
+  .gis__block-img {
+    display: none;
+  }
+
+  .gis__items {
+    justify-content: center;
+  }
+
+  .gis__btns {
+    margin-top: 50px;
+  }
+
+  .gis__item {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .form .form__social-blocks {
+    display: none;
+  }
+
+  .footer__alert {
+    width: 100%;
+  }
+
+  .footer__btn {
+    font-size: 18px;
+  }
+
+  .form .form__items {
+    justify-content: center;
+  }
+
+  .form .form__items .form__item .form__btn .btn {
+    padding: 20px 240px;
   }
 
   /*.top__line-text {
@@ -489,8 +542,29 @@
     top: 0;
   }
 
+  .map {
+    display: none;
+  }
+
+  .about .about__us .block-video {
+    display: none;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn {
+    bottom: 294px;
+  }
+
   .header__burger::after {
     bottom: 0;
+  }
+
+  .about .about__us .elips .elips__items .elips__wrapp {
+    margin-top: 436px;
+    margin-left: 40px;
+  }
+
+  .services {
+    margin-top: 430px;
   }
 
   .header__burger span {
@@ -512,6 +586,42 @@
 
   .header__burger.act span {
     transform: scale(0);
+  }
+
+  .director .director__wrapp .director__content .director__items {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  .director .director__wrapp .director__content .director__items .director__avatar {
+    height: 410px;
+  }
+
+  .proof .proof__content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .proof .proof__content .proof__elem {
+    max-width: 86%;
+  }
+
+  .sisdev .sisdev__content {
+    flex-wrap: wrap;
+  }
+
+  .lab .lab__content {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .gallery .gallery__list .gallery__items {
+    text-align: center;
+  }
+  .gallery__btn {
+    font-size: 18px;
+  }
+  .gallery .gallery__content-items .wrapp__display .gallery__content-item .gallery__item-text a{
+    font-size: 16px;
   }
 }
 

@@ -586,19 +586,29 @@ body._touch .nav__menu-item._active .menu__arrow {
   margin-bottom: 22px;
 }
 .services .services__blocks {
-  display: block;
-  margin-top: 60px;
-}
-.services .services__blocks .services__blocks-wrapp {
-  margin-bottom: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-top: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 50px;
+  -webkit-column-gap: 59px;
+     -moz-column-gap: 59px;
+          column-gap: 59px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /*.services__blocks-wrapp {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+
+
+  }*/
 }
-.services .services__blocks .services__blocks-wrapp .services__block {
+.services .services__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -609,11 +619,11 @@ body._touch .nav__menu-item._active .menu__arrow {
   max-width: 360px;
   margin-top: 20px;
 }
-.services .services__blocks .services__blocks-wrapp .services__block .services__content {
+.services .services__block .services__content {
   margin-top: 20px;
   height: 100%;
 }
-.services .services__blocks .services__blocks-wrapp .services__block .services__subtitle {
+.services .services__block .services__subtitle {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -623,7 +633,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   max-width: 300px;
   margin-bottom: 18px;
 }
-.services .services__blocks .services__blocks-wrapp .services__block .services__text {
+.services .services__block .services__text {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -632,13 +642,13 @@ body._touch .nav__menu-item._active .menu__arrow {
   margin-bottom: 38px;
   height: 75px;
 }
-.services .services__blocks .services__blocks-wrapp .services__block .services__btn a {
+.services .services__block .services__btn a {
   border: 1px solid #008B8B;
   color: #008B8B;
   border-radius: 50px;
   padding: 20px 110px;
 }
-.services .services__blocks .services__blocks-wrapp .services__block .services__btn a:hover {
+.services .services__block .services__btn a:hover {
   border: 1px solid transparent;
   background: #008B8B;
   color: white;
@@ -2299,7 +2309,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   gap: 60px;
 }
 .director .director__wrapp .director__content .director__items .director__avatar {
-  background: url("../img/director.png");
+  background: url("../img/director.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2430,14 +2440,15 @@ body._touch .nav__menu-item._active .menu__arrow {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 40px;
-}
-.proof .proof__content .proof__img {
-  background: url("../img/avatar2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-width: 660px;
-  border-radius: 20px;
+  /*
+  .proof__img {
+    background: url('../img/avatar2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 660px;
+    border-radius: 20px;
+  }*/
 }
 .proof .proof__content .proof__elem {
   display: -webkit-box;
@@ -2448,6 +2459,7 @@ body._touch .nav__menu-item._active .menu__arrow {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 43px;
+  max-width: 50%;
 }
 .proof .proof__content .proof__elem .proof__text {
   font-family: "Inter";
@@ -3004,7 +3016,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 .gallery .gallery__content-items .wrapp__display-main .gallery__content-item {
   margin-bottom: 42px;
 }
-.gallery .gallery__content-items .wrapp__display-main .gallery__content-item .gallery__item-text {
+.gallery .gallery__content-items .wrapp__display-main .gallery__content-item .gallery__item-text a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -3512,6 +3524,7 @@ body._touch .nav__menu-item._active .menu__arrow {
     max-width: 300px;
   }
   .services .services__blocks .services__block .services__btn a {
+    font-size: 18px;
     padding: 18px 70px;
   }
 }
@@ -3748,6 +3761,49 @@ body._touch .nav__menu-item._active .menu__arrow {
   body._touch .menu__arrow {
     border-top: 10px solid white;
   }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 250px;
+  }
+  .exp__text {
+    width: 69%;
+    left: 32px;
+    top: 68px;
+    font-size: 18px;
+  }
+  .gis__block-img {
+    display: none;
+  }
+  .gis__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .gis__btns {
+    margin-top: 50px;
+  }
+  .gis__item {
+    margin-bottom: 30px;
+  }
+  .gis__item:last-child {
+    margin-bottom: 0;
+  }
+  .form .form__social-blocks {
+    display: none;
+  }
+  .footer__alert {
+    width: 100%;
+  }
+  .footer__btn {
+    font-size: 18px;
+  }
+  .form .form__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .form .form__items .form__item .form__btn .btn {
+    padding: 20px 240px;
+  }
   /*.top__line-text {
     margin-bottom: 8px;
   }
@@ -3833,8 +3889,24 @@ body._touch .nav__menu-item._active .menu__arrow {
   .header__burger::before {
     top: 0;
   }
+  .map {
+    display: none;
+  }
+  .about .about__us .block-video {
+    display: none;
+  }
+  .about .about__us .elips .elips__items .elips__btn {
+    bottom: 294px;
+  }
   .header__burger::after {
     bottom: 0;
+  }
+  .about .about__us .elips .elips__items .elips__wrapp {
+    margin-top: 436px;
+    margin-left: 40px;
+  }
+  .services {
+    margin-top: 430px;
   }
   .header__burger span {
     top: 50%;
@@ -3856,6 +3928,46 @@ body._touch .nav__menu-item._active .menu__arrow {
   .header__burger.act span {
     -webkit-transform: scale(0);
             transform: scale(0);
+  }
+  .director .director__wrapp .director__content .director__items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  .director .director__wrapp .director__content .director__items .director__avatar {
+    height: 410px;
+  }
+  .proof .proof__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .proof .proof__content .proof__elem {
+    max-width: 86%;
+  }
+  .sisdev .sisdev__content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .lab .lab__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .gallery .gallery__list .gallery__items {
+    text-align: center;
+  }
+  .gallery__btn {
+    font-size: 18px;
+  }
+  .gallery .gallery__content-items .wrapp__display .gallery__content-item .gallery__item-text a {
+    font-size: 16px;
   }
 }
 @media (max-width: 640px) {
