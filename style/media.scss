@@ -343,6 +343,13 @@
 
 }
 
+@media (max-width: 910px) {
+  .about .about__us .elips .elips__items .elips__wrapp {
+    display: none;
+  }
+
+}
+
 @media (max-width: 810px) {
   .nav__menu-list {
     display: block;
@@ -614,14 +621,188 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+
   .gallery .gallery__list .gallery__items {
     text-align: center;
   }
+
   .gallery__btn {
     font-size: 18px;
   }
-  .gallery .gallery__content-items .wrapp__display .gallery__content-item .gallery__item-text a{
+
+  .gallery .gallery__content-items .wrapp__display .gallery__content-item .gallery__item-text a {
     font-size: 16px;
+  }
+
+  .about .about__text {
+    font-size: 20px;
+  }
+
+  .about .about__title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .elips__video {
+    height: 427px;
+  }
+
+  .about .about__us .elips .elips__items .elips__wrapp {
+    display: flex;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    padding: 64px 24px;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn {
+    width: 264px;
+    height: 200px;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn {
+    bottom: 334px;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    right: 49px;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    font-size: 16px;
+  }
+
+  .services .services__title-text {
+    font-size: 24px;
+    line-height: 16px;
+  }
+
+  .services .services-text {
+    font-size: 24px;
+  }
+
+  .title-text {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  .rewies .rewies__title .rewies__color {
+    font-size: 24px;
+    line-height: 20px;
+  }
+
+  .gis__wrapp .gis__content .gis__title .gis__title-text {
+    font-size: 24px;
+    line-height: 44px;
+    max-width: 800px;
+    margin-bottom: 0;
+  }
+
+  .gis__wrapp .gis__content .gis__title .gis-text {
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .gis__wrapp .gis__content .gis__title .gis__color {
+    font-size: 24px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .wellcome .wellcome__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .director .director__wrapp .director__subtitle {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .sisdev .sisdev__title .sisdev__title-text {
+    font-size: 24px;
+  }
+  .sisdev .sisdev__title .sisdev__subtitle-text {
+    font-size: 24px;
+    margin-left: 0;
+  }
+  .lab .lab__title .lab__title-text {
+    font-size: 24px;
+  }
+  .lab .lab__title .lab__subtitle-text {
+    font-size: 24px;
+    margin: 0;
+  }
+  .baner__about-title {
+    font-size: 40px;
+    margin: 0;
+  }
+  .about__baner-items .baner__about-color {
+    font-size: 40px;
+    line-height: 36px;
+  }
+  .serv-items .serv-item-elem {
+    flex-wrap: wrap;
+  }
+  .serv-img {
+    flex: 1 1 auto;
+  }
+  .img-bl {
+    display: none;
+  }
+  .img2 {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .portfolio .portfolio__wrapp .portfolio__title .portfolio__title-text {
+    font-size: 40px;
+  }
+  .portfolio .portfolio__wrapp .portfolio__title .portfolio__subtitle-text {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .portfolio .portfolio__wrapp .portfolio__title {
+    gap: 16px;
+  }
+  .progdev .progdev__wrapp .progdev__title .progdev__title-text {
+    font-size: 40px;
+  }
+  .progdev .progdev__wrapp .progdev__title .progdev__subtitle-text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .programm .programm__wrapp {
+    flex-wrap: wrap;
+  }
+  .programm__btn {
+    text-align: center;
+
+  }
+  .programm .programm__wrapp .programm__content .programm__btn .programm__btn-item {
+    padding: 20px 200px;
+  }
+  .aftocad .aftocad__items .aftocad__content {
+    flex-wrap: wrap-reverse;
+  }
+  .aftocad .aftocad__items .aftocad-cont {
+    flex-wrap: wrap;
+  }
+  .info__baner-content .info__wrapp .info__items-subtitle .info__title-text {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 779px) {
+  .gis__wrapp .gis__content .gis__title .gis__title-text {
+    line-height: 30px;
+    max-width: 750px;
+  }
+
+  .gis__wrapp .gis__content .gis__title .gis-text {
+    margin-top: 6px;
   }
 }
 
