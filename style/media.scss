@@ -1,6 +1,24 @@
-@media (max-width: 1196px) {}
+@media (max-width: 1880px) {
+  .devlop__circ-wrapp.circ-wrapp--two {
+    display: none;
+  }
 
+  .devlop {
+    max-height: 800px;
+  }
+}
 
+@media (max-width: 1196px) {
+  .frequent__items {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1156px) {
+  .devlop {
+    display: none;
+  }
+}
 
 @media (max-width: 1112px) {
   .services .services__blocks .services__block .services__btn a {
@@ -32,6 +50,9 @@
 }
 
 @media (max-width: 1091px) {
+  .servis__blocks-wrapp {
+    margin-left: 26px;
+  }
 
   .services .services__blocks .services__blocks-wrapp .services__block {
     max-width: 320px;
@@ -156,6 +177,22 @@
 @media (max-width: 960px) {
   .container {
     max-width: 940px;
+  }
+
+  .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-one {
+    font-size: 16px;
+  }
+
+  .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-two {
+    font-size: 16px;
+  }
+
+  .servis__item-text {
+    max-width: 500px;
+  }
+
+  .servis__blocks-wrapp {
+    margin-left: 150px;
   }
 
   .about .about__us .elips .elips__items .elips__btn {
@@ -355,12 +392,35 @@
     display: block;
   }
 
+  .servis__blocks-wrapp {
+    margin-left: 60px;
+  }
+
+  .variation .variation__wrapp .variation__content .variation__prog-items {
+    row-gap: 20px;
+    flex-wrap: wrap-reverse;
+  }
+
   .nav__items {
     padding: 0 20px;
   }
 
   .top__line-items {
     padding: 0 20px;
+  }
+
+  .result .result__elems-wrapp {
+    justify-content: center;
+  }
+
+  .result__title-items .result__title {
+    font-size: 24px;
+  }
+
+  .result__title-items .result__subtitle {
+    font-size: 24px;
+    margin-left: 120px;
+    line-height: 20px;
   }
 
   .nav__menu {
@@ -376,8 +436,16 @@
     transition: left 0.3s ease 0s;
   }
 
+  .faq .faq__content .faq__main-items .faq__main-text {
+    font-size: 16px;
+  }
+
   .nav__menu._active {
     display: block;
+  }
+
+  .faq__item-text .faq__color {
+    font-size: 16px;
   }
 
   .nav__menu-elem {
@@ -387,6 +455,12 @@
   .nav__item-serv .nav__serv-wrapp .nav__serv-elems {
     margin-top: 0px;
     width: 120%;
+  }
+
+  .tim__wrapp {
+    flex-direction: column-reverse;
+    row-gap: 60px;
+    align-items: center;
   }
 
   .nav__item-serv .nav__serv-wrapp .nav__serv-elems {
@@ -710,88 +784,131 @@
   .gis__wrapp .gis__content .gis__title .gis__color {
     font-size: 24px;
   }
+
   .title {
     font-size: 24px;
   }
+
   .wellcome .wellcome__title {
     font-size: 40px;
     line-height: 50px;
   }
+
   .director .director__wrapp .director__subtitle {
     font-size: 24px;
     line-height: 34px;
   }
+
   .sisdev .sisdev__title .sisdev__title-text {
     font-size: 24px;
   }
+
   .sisdev .sisdev__title .sisdev__subtitle-text {
     font-size: 24px;
     margin-left: 0;
   }
+
   .lab .lab__title .lab__title-text {
     font-size: 24px;
   }
+
   .lab .lab__title .lab__subtitle-text {
     font-size: 24px;
     margin: 0;
   }
+
   .baner__about-title {
     font-size: 40px;
     margin: 0;
   }
+
   .about__baner-items .baner__about-color {
     font-size: 40px;
     line-height: 36px;
   }
+
   .serv-items .serv-item-elem {
     flex-wrap: wrap;
   }
+
   .serv-img {
     flex: 1 1 auto;
   }
+
   .img-bl {
     display: none;
   }
+
   .img2 {
     display: flex;
     margin-bottom: 40px;
   }
+
   .portfolio .portfolio__wrapp .portfolio__title .portfolio__title-text {
     font-size: 40px;
   }
+
   .portfolio .portfolio__wrapp .portfolio__title .portfolio__subtitle-text {
     font-size: 40px;
     line-height: 46px;
   }
+
   .portfolio .portfolio__wrapp .portfolio__title {
     gap: 16px;
   }
+
   .progdev .progdev__wrapp .progdev__title .progdev__title-text {
     font-size: 40px;
   }
+
   .progdev .progdev__wrapp .progdev__title .progdev__subtitle-text {
     font-size: 40px;
     line-height: 50px;
   }
+
   .programm .programm__wrapp {
     flex-wrap: wrap;
   }
+
   .programm__btn {
     text-align: center;
 
   }
+
   .programm .programm__wrapp .programm__content .programm__btn .programm__btn-item {
     padding: 20px 200px;
   }
+
   .aftocad .aftocad__items .aftocad__content {
     flex-wrap: wrap-reverse;
   }
+
   .aftocad .aftocad__items .aftocad-cont {
     flex-wrap: wrap;
   }
+
   .info__baner-content .info__wrapp .info__items-subtitle .info__title-text {
     font-size: 40px;
     line-height: 48px;
+  }
+
+  .satya__wrapp .satya__nav-elems .satya__nav-items {
+    display: block;
+  }
+
+  .block__tabs .useful__items .useful__item {
+    flex-wrap: wrap;
+    row-gap: 40px;
+    flex: 1 1 auto;
+  }
+
+  .block__tabs .useful__items .useful__item .useful__content .useful__content-text .useful__more-btn {
+    font-size: 18px;
+  }
+
+  .task .task__content .task__items {
+    flex-direction: column;
+    row-gap: 30px;
   }
 }
 

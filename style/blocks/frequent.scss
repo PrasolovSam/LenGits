@@ -3,65 +3,65 @@
   margin-top: 66px;
 
 
-  .frequent__items {
+
+
+  .frequent__elem {
+
     display: flex;
-    flex-flow: row wrap;
-    gap: 26px;
+    flex-direction: column;
+    gap: 36px;
+    max-width: 370px;
+    border: 1px solid #008B8B;
+    border-radius: 20px;
+    padding: 30px 30px;
 
-    .frequent__item {
+    .frequent__item-title {
       display: flex;
-      gap: 40px;
-      margin-bottom: 40px;
+      align-items: center;
+      gap: 20px;
 
-      .frequent__elem {
+      .frequent__title-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+      }
+    }
 
-        display: flex;
-        flex-direction: column;
-        gap: 36px;
-        max-width: 370px;
-        border: 1px solid #008B8B;
-        border-radius: 20px;
-        padding: 30px 30px;
+    .frequent__text-content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
 
-        .frequent__item-title {
-          display: flex;
-          align-items: center;
-          gap: 20px;
+      .frequent__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+      }
 
-          .frequent__title-text {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-          }
-        }
+      .frequent__btn {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
 
-        .frequent__text-content {
-          display: flex;
-          flex-direction: column;
-          gap: 16px;
-
-          .frequent__text {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 15px;
-          }
-
-          .frequent__btn {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 15px;
-            line-height: 18px;
-
-            &:hover {
-              color: #008B8B;
-            }
-          }
+        &:hover {
+          color: #008B8B;
         }
       }
     }
   }
 
+
+
+}
+
+.frequent__items {
+  flex-wrap: wrap;
+  display: flex;
+  row-gap: 60px;
+  column-gap: 44px;
+  margin-bottom: 60px;
 }

@@ -18,7 +18,7 @@
 
     .task__items {
       display: flex;
-justify-content: space-between;
+      justify-content: space-between;
       align-items: center;
 
       .task__block {
@@ -49,6 +49,14 @@ justify-content: space-between;
           font-size: 14px;
           color: #008B8B;
         }
+      }
+
+      .task__block.task_2 {
+        padding: 34px 74px 34px 22px;
+      }
+
+      .task__block.task_3 {
+        padding: 34px 20px 34px 20px;
       }
     }
   }
