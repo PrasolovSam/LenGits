@@ -817,6 +817,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 
 .servis__marg {
+  margin-left: 110px;
   margin-bottom: 12px;
 }
 
@@ -858,8 +859,23 @@ body._touch .nav__menu-item._active .menu__arrow {
           justify-content: space-between;
 }
 
-.servis__content-wrapp {
+/*.servis__content-wrapp {
   width: 73%;
+}*/
+.ser_1 {
+  margin-left: 120px;
+}
+
+.ser_2 {
+  margin-left: 78px;
+}
+
+.ser_3 {
+  margin-left: 100px;
+}
+
+.ser_4 {
+  margin-left: 102px;
 }
 
 .footer {
@@ -4606,6 +4622,9 @@ body._touch .nav__menu-item._active .menu__arrow {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   row-gap: 60px;
+  -webkit-column-gap: 64px;
+     -moz-column-gap: 64px;
+          column-gap: 64px;
 }
 .result .result__elems-wrapp .result__elem {
   width: 357px;
