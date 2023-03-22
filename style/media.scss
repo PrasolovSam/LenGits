@@ -25,9 +25,6 @@
     padding: 18px 98px;
   }
 
-  .footer__alert {
-    width: 125%;
-  }
 
   .programm .programm__wrapp .programm__content .programm__btn .programm__btn-item {
     font-family: "Roboto";
@@ -349,10 +346,6 @@
     padding: 20px 190px;
   }
 
-  .footer__alert {
-    width: 109%;
-  }
-
   .map-hab {
     position: relative;
     left: 843px;
@@ -385,11 +378,18 @@
     display: none;
   }
 
+  .footer__btn {
+    padding: 16px 20px;
+  }
 }
 
 @media (max-width: 810px) {
   .nav__menu-list {
     display: block;
+  }
+
+  .footer__btn {
+    padding: 16px 10px;
   }
 
   .servis__blocks-wrapp {
@@ -868,6 +868,7 @@
 
   .programm .programm__wrapp {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .programm__btn {
@@ -881,6 +882,7 @@
 
   .aftocad .aftocad__items .aftocad__content {
     flex-wrap: wrap-reverse;
+    justify-content: center;
   }
 
   .aftocad .aftocad__items .aftocad-cont {
@@ -910,6 +912,19 @@
     flex-direction: column;
     row-gap: 30px;
   }
+
+  .gallery .gallery__list {
+    flex-wrap: wrap;
+  }
+
+  .pkrti__baner .pkrti__items .pkrti__title {
+    font-size: 40px;
+  }
+
+  .tim__wrapp .tim__img {
+    width: 77%;
+  }
+
 }
 
 @media (max-width: 779px) {
@@ -921,6 +936,34 @@
   .gis__wrapp .gis__content .gis__title .gis-text {
     margin-top: 6px;
   }
+
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 320px;
+  }
+
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    padding: 76px;
+  }
+
+  .footer__wr {
+    display: block;
+    max-width: 482px;
+  }
+
+  .gallery .gallery__content-items .wrapp__display .gallery__content-item {
+    max-width: 289px;
+  }
+}
+
+@media (max-width: 660px) {
+  .services .services__blocks {
+    column-gap: 24px;
+  }
+
+  .container .faq-img {
+    width: 27%;
+    right: 0px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -928,11 +971,116 @@
     max-width: 620px;
   }
 
+  .wrapp_1 {
+    margin-left: 170px;
+  }
+
+  .wrapp_2 {
+    margin-left: 114px;
+  }
+
+  .wrapp_3 {
+    margin-left: 96px;
+  }
+
+  .wrapp_4 {
+    margin-left: 36px;
+  }
+
+  .ser_1 {
+    margin-left: 166px;
+  }
+
+  .footer__wr {
+    max-width: 323px;
+  }
+
+  .servis__item-text.ser-mar_1 {
+    max-width: 401px;
+    margin-left: 0;
+  }
+
+  .servis__item-text {
+    max-width: 357px;
+  }
+
+  .top__line-items {
+    padding: 0;
+  }
+
+  .nav__items {
+    padding: 0;
+  }
+
   .nav__menu-list {
     display: block;
   }
 
+  .about .about__us .elips .elips__items .elips__item {
+    padding-top: 16px;
+  }
+
+  .services .services__blocks .services__block {
+    max-width: 296px;
+  }
+
   .header__burger-btn {
     display: block;
+  }
+
+  .about .about__us .elips .elips__items .elips__wrapp {
+    display: block;
+  }
+
+  .about .about__us .elips .elips__items .elips__wrapp {
+    margin-top: 241px;
+    margin-left: 50px;
+  }
+
+  .variation .variation__wrapp .variation__content .variation__main-items .variation__text {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .about .about__us .elips .elips__items .elips__wrapp .elips__icon {
+    bottom: -18px;
+    left: -8px;
+  }
+
+  .about .about__us .elips .elips__items {
+    right: 40px;
+  }
+
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 255px;
+  }
+
+  .exp__text {
+    top: 42px;
+    left: 24px;
+  }
+
+  .rewies .rewies__title .rewies__color {
+    margin-left: 48px;
+  }
+
+  .text {
+    margin-left: 48px;
+  }
+
+  .services .services-text {
+    margin-left: 48px;
+  }
+
+  .exp .exp__title .exp__color {
+    margin-left: 48px;
+  }
+
+  .exp__text {
+    font-size: 14px;
+  }
+
+  .form .form__social {
+    margin-left: 0;
   }
 }

@@ -22,6 +22,17 @@ new Swiper('.partner__slider-content', {
   slidesPerView: 3,
   spaceBetween: 30,
   loop: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    810: {
+      slidesPerView: 3,
+    }
+  }
 });
 
 
@@ -35,6 +46,17 @@ new Swiper('.rewies__wrapp', {
   slidesPerView: 3,
   spaceBetween: 10,
   loop: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    810: {
+      slidesPerView: 3,
+    }
+  }
 });
 
 
@@ -84,9 +106,9 @@ if (isMobile.any()) {
 
 
 let menuBurger = document.querySelector('.header__burger');
-if(menuBurger) {
+if (menuBurger) {
   let menuBody = document.querySelector('.nav__menu');
-  menuBurger.addEventListener('click', function(e) {
+  menuBurger.addEventListener('click', function (e) {
     menuBurger.classList.toggle('_active');
     menuBody.classList.toggle('_active');
   });
@@ -95,8 +117,8 @@ if(menuBurger) {
 
 
 
-$(document).ready(function() {
-  $('.header__burger').click(function(event) {
-      $('.header__burger,.nav__menu').toggleClass('act');
+$(document).ready(function () {
+  $('.header__burger').click(function (event) {
+    $('.header__burger,.nav__menu').toggleClass('act');
   });
 });
