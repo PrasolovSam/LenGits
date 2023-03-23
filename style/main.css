@@ -163,7 +163,8 @@ img {
   align-items: center;
   left: 0;
 }
-.top__line-items .top__line-contacts a {
+
+.top__line-contacts a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -665,6 +666,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   color: white;
 }
 .services .servisec__baner {
+  position: relative;
   background-color: #008B8B;
   min-width: 354px;
   border-radius: 20px;
@@ -676,6 +678,11 @@ body._touch .nav__menu-item._active .menu__arrow {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 20px;
+}
+.services .servisec__baner .services__img-man {
+  position: absolute;
+  left: 34px;
+  bottom: 0;
 }
 .services .servisec__baner .services__content {
   color: white;
@@ -712,6 +719,16 @@ body._touch .nav__menu-item._active .menu__arrow {
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   margin-bottom: 18px;
+  /* &:after {
+     content: url('../img/icon/servman.png');
+     position: absolute;
+     width: 256px;
+     height: 344px;
+     left: 75px;
+     z-index: 1;
+
+
+   }*/
 }
 .services .servisec__btn-baner::before {
   content: url("../img/icon/elman.png");
@@ -719,14 +736,6 @@ body._touch .nav__menu-item._active .menu__arrow {
   width: 488px;
   height: 488px;
   top: 15px;
-}
-.services .servisec__btn-baner:after {
-  content: url("../img/icon/servman.png");
-  position: absolute;
-  width: 256px;
-  height: 344px;
-  left: 75px;
-  z-index: 1;
 }
 .services .servisec__btn-baner .btn-baner {
   font-family: "Inter";
@@ -3601,10 +3610,17 @@ body._touch .nav__menu-item._active .menu__arrow {
     padding: 18px 70px;
   }
 }
-@media (max-width: 1013px) {
-  .services .servisec__baner {
-    min-width: 322px;
+@media (max-width: 1037px) {
+  .services .services__blocks {
+    -webkit-column-gap: 22px;
+       -moz-column-gap: 22px;
+            column-gap: 22px;
   }
+  .services .servisec__baner {
+    min-width: 304px;
+  }
+}
+@media (max-width: 1013px) {
   .satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item .stya__nav-btn {
     font-size: 14px;
   }
@@ -3619,9 +3635,6 @@ body._touch .nav__menu-item._active .menu__arrow {
   }
 }
 @media (max-width: 1001px) {
-  .services .servisec__baner {
-    min-width: 330px;
-  }
   .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
     right: 50px;
   }
@@ -3636,9 +3649,6 @@ body._touch .nav__menu-item._active .menu__arrow {
 @media (max-width: 978px) {
   .services .services__blocks .services__blocks-wrapp .services__block {
     max-width: 300px;
-  }
-  .services .servisec__baner {
-    min-width: 300px;
   }
   .services .servisec__btn-baner:after {
     left: 20px;
@@ -4066,6 +4076,9 @@ body._touch .nav__menu-item._active .menu__arrow {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
   }
+  .exp__item {
+    margin-left: 25px;
+  }
   .director .director__wrapp .director__content .director__items .director__avatar {
     height: 410px;
   }
@@ -4311,6 +4324,14 @@ body._touch .nav__menu-item._active .menu__arrow {
     max-width: 289px;
   }
 }
+@media (max-width: 711px) {
+  .services .services__blocks .services__block {
+    max-width: 266px;
+  }
+  .services .services__blocks .services__block .services__btn a {
+    font-size: 14px;
+  }
+}
 @media (max-width: 660px) {
   .services .services__blocks {
     -webkit-column-gap: 24px;
@@ -4326,8 +4347,18 @@ body._touch .nav__menu-item._active .menu__arrow {
   .container {
     max-width: 620px;
   }
+  .services .servisec__baner {
+    min-width: 288px;
+  }
   .wrapp_1 {
     margin-left: 170px;
+  }
+  .services .servisec__baner .services__img-man .img-man {
+    width: 241px;
+  }
+  .services .servisec__baner .services__img-man {
+    left: 16px;
+    bottom: -4px;
   }
   .wrapp_2 {
     margin-left: 114px;
@@ -4411,6 +4442,135 @@ body._touch .nav__menu-item._active .menu__arrow {
   }
   .form .form__social {
     margin-left: 0;
+  }
+}
+@media (max-width: 619px) {
+  .top__line-contacts .top__line-wrapp .top__line-mail {
+    display: none;
+  }
+  .services .services__blocks .services__block {
+    max-width: 100%;
+  }
+  .services .services__blocks {
+    display: block;
+  }
+  .services__img {
+    width: 100%;
+  }
+  .services .services__blocks .services__block .services__btn a {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 616px) {
+  .services .servisec__baner {
+    height: 487px;
+  }
+  .services .servisec__baner .services__img-man {
+    left: 172px;
+  }
+  .services .servisec__btn-baner::before {
+    display: none;
+  }
+  .services .servisec__btn-baner .btn-baner {
+    margin-left: 163px;
+  }
+  .services .servisec__baner .services__content .services__subtitle-baner {
+    margin-bottom: 38px;
+    font-size: 32px;
+  }
+  .services .servisec__baner .services__content .services__text-baner {
+    font-size: 18px;
+  }
+  .services .servisec__baner .services__img-man .img-man {
+    width: 274px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 460px;
+  }
+  .about .about__text {
+    font-size: 18px;
+  }
+  .about .about__title {
+    font-size: 30px;
+  }
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    font-size: 14px;
+  }
+  .about .about__us .elips .elips__items .elips__btn .elips__btn-circ {
+    padding: 44px 14px;
+    right: 40px;
+    bottom: 12px;
+  }
+  .about .about__us .elips .elips__items .elips__btn {
+    width: 214px;
+    height: 158px;
+  }
+  .about .about__us .elips .elips__items .elips__btn {
+    bottom: 360px;
+  }
+  .about .about__us .elips .elips__items .elips__item .elips__text {
+    padding: 0 14px;
+  }
+  .services .services__title-text {
+    font-size: 18px;
+    line-height: 10px;
+  }
+  .services .services-text {
+    font-size: 18px;
+  }
+  .title-text {
+    font-size: 18px;
+  }
+  .text {
+    font-size: 18px;
+    line-height: 10px;
+  }
+  .rewies .rewies__title .rewies__color {
+    font-size: 18px;
+    line-height: 10px;
+  }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    padding: 34px;
+  }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 178px;
+  }
+  .exp__text {
+    font-size: 12px;
+  }
+  .exp__item {
+    margin-left: 16px;
+  }
+  .exp__text {
+    width: 67%;
+    top: 28px;
+    left: 18px;
+    line-height: 20px;
+  }
+  .gis__wrapp .gis__content .gis__title .gis__color {
+    font-size: 18px;
+  }
+  .gis__wrapp .gis__content .gis__title .gis-text {
+    font-size: 18px;
+  }
+  .gis__wrapp .gis__content .gis__title .gis__title-text {
+    width: 68%;
+    font-size: 18px;
+  }
+  .gis__subtitle {
+    font-size: 22px;
+  }
+  .gis__btns .gis__btn-one {
+    font-size: 14px;
+  }
+  .gis__btns .gis__btn-two {
+    font-size: 14px;
+  }
+  .gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one {
+    padding: 15px 14px;
   }
 }
 .present {

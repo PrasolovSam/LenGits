@@ -98,13 +98,18 @@
   }
 
   .servisec__baner {
+    position: relative;
     background-color: #008B8B;
     min-width: 354px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-
+.services__img-man {
+  position: absolute;
+  left: 34px;
+  bottom: 0;
+}
 
     .services__content {
       color: white;
@@ -148,7 +153,7 @@
 
     }
 
-    &:after {
+   /* &:after {
       content: url('../img/icon/servman.png');
       position: absolute;
       width: 256px;
@@ -157,7 +162,7 @@
       z-index: 1;
 
 
-    }
+    }*/
 
     .btn-baner {
       font-family: 'Inter';
