@@ -1610,13 +1610,71 @@
     max-width: 355px;
   }
 
+  .nav__items {
+    margin-bottom: 20px;
+  }
+
+  .director .director__wrapp .director__content .director__items .director__avatar {
+    height: 345px;
+    width: 352px;
+  }
+
+  .director .director__wrapp .director__content .director__items {
+    justify-content: space-between;
+  }
+
+  .director .director__wrapp .director__content .director__items .director__list .director__list-item {
+    column-gap: 36px;
+  }
+
+  .proof .proof__content .proof__img {
+    min-width: 338px;
+  }
+
+  .proof .proof__content .proof__elem {
+    max-width: 100%;
+  }
+
+  .proof .proof__content {
+    justify-content: space-between;
+  }
+
   .top__line-contacts .top__line-map {
     display: none;
   }
 
+  .wellcome .wellcome__baner {
+    min-height: 400px;
+  }
+
   .top__line-contacts .top__line-wrapp .top__line-phone {
     display: block;
-    margin-right: 117px;
+    margin-right: 113px;
+  }
+
+  .rewies .rewies__title {
+    min-width: 400px;
+  }
+
+  .rewies .rewies__title .rewies__color {
+    line-height: 22px;
+  }
+
+  .portfolio .portfolio__wrapp .portfolio__baner {
+    min-height: 300px;
+  }
+
+  .serv-items .serv-item-elem .serv-item .serv-text {
+    line-height: 21px;
+    font-size: 16px;
+  }
+
+  .serv-img {
+    min-width: 300px;
+  }
+
+  .serv-items .serv-item-elem .serv-item .serv-subtitle {
+    font-size: 20px;
   }
 
   .about .about__us .elips .elips__items .elips__btn {
@@ -1664,7 +1722,7 @@
   .exp__text {
     font-size: 14px;
     width: 81%;
-    top: 77px;
+    top: 100px;
     left: 25px;
   }
 
@@ -1727,5 +1785,81 @@
 
   .footer__items {
     padding-bottom: 30px;
+  }
+
+  .progdev .progdev__wrapp .progdev__baner {
+    min-height: 300px;
+  }
+
+  .programm__img img {
+    min-width: 300px;
+  }
+
+  .programm .programm__wrapp .programm__content {
+    margin-top: 30px;
+  }
+
+  .programm .programm__wrapp .programm__content .programm__text {
+    font-size: 14px;
+  }
+
+  .programm .programm__wrapp .programm__content .programm__btn .programm__btn-item {
+    width: 100%;
+    padding: 20px 20px;
+  }
+
+  .info__baner-content .info__wrapp .info__items-subtitle .info__baner-img {
+    height: 300px;
+  }
+
+  .satya__nav-elem {
+    width: 100%;
+  }
+
+  .satya__nav-serch {
+    width: 100%;
+  }
+
+  .satya__wrapp .satya__nav-elems {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .satya__form {
+    width: 100%;
+  }
+
+  .satya__wrapp .satya__nav-elems .satya__inp {
+    width: 100%;
+  }
+
+  .satya__wrapp .satya__nav-elems .satya__nav-items .satya__nav-item .stya__nav-btn {
+    font-size: 20px;
+  }
+
+  .satya__gost .satya__gost-title .gost-title {
+    font-size: 20px;
+  }
+
+  .satya__gost .satya__gost-title .gost-subtitle {
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 20px;
+  }
+
+  .satya__gost .gost__list-items {
+    font-size: 18px;
+  }
+
+  .satya__gost .gost__list-items .gost__list-item .gost-item {
+    font-size: 14px;
+  }
+
+  .info__baner-content .info__wrapp .info__items-subtitle .info__title-text {
+    font-size: 20px;
+  }
+
+  .contact__about .contact__content .contact__item-img {
+    min-height: 300px;
   }
 }
