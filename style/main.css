@@ -5042,6 +5042,40 @@ body._touch .nav__menu-item._active .menu__arrow {
   .contact__about .contact__content .contact__item-img {
     min-height: 300px;
   }
+  .variation .variation__wrapp .variation__content .variation__prog-items .variation__item-img {
+    min-width: 200px;
+  }
+  .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-one {
+    width: 100%;
+    text-align: center;
+  }
+  .variation .variation__wrapp .variation__content .variation__prog-items .variation__prog-item .variation__item-btn .variation__btn-two {
+    text-align: center;
+    width: 100%;
+  }
+  .servis .servis__title .servis__title-text {
+    margin-left: 50px;
+  }
+  .servis .servis__content .servis__content-block {
+    margin-left: 0;
+  }
+  .ser_3 {
+    margin-left: 0;
+  }
+  .wrapp_2 {
+    margin-left: 0;
+  }
+  .pkrti__baner .pkrti__baner-img {
+    height: 300px;
+  }
+  .nav__menu {
+    padding: 63px 0 0 13px;
+  }
 }
 .present {
   margin-top: 100px;
