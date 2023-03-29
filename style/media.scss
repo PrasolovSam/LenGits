@@ -12,6 +12,31 @@
   }
 }
 
+@media (max-width: 1880px) {
+  .container {
+    max-width: 1190px;
+  }
+
+  .gis__items {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1446px) {
+  .container {
+    max-width: 1406px;
+  }
+
+  .projects__imgs-wrapp {
+    justify-content: center;
+  }
+
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    padding: 76px 96px;
+  }
+
+}
+
 @media (max-width: 1196px) {
   .container {
     max-width: 1176px;
@@ -1881,22 +1906,152 @@
     text-align: center;
     width: 100%;
   }
+
   .servis .servis__title .servis__title-text {
-  margin-left: 50px;
+    margin-left: 50px;
   }
+
   .servis .servis__content .servis__content-block {
-  margin-left: 0;
+    margin-left: 0;
   }
+
   .ser_3 {
     margin-left: 0;
   }
+
   .wrapp_2 {
     margin-left: 0;
   }
+
   .pkrti__baner .pkrti__baner-img {
     height: 300px;
   }
-  .nav__menu  {
-padding: 63px 0 0 13px;
+
+  .nav__menu {
+    padding: 63px 0 0 13px;
+  }
+
+  .result__title-items .result__subtitle {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 326px) {
+  .container {
+    max-width: 275px;
+  }
+
+  .top__line-contacts .top__line-wrapp .top__line-phone {
+    margin-right: 60px;
+  }
+
+  .director .director__wrapp .director__content .director__items .director__avatar {
+    height: 262px;
+    width: 269px;
+  }
+
+  .proof .proof__content .proof__img {
+    min-width: 249px;
+  }
+
+  .about .about__title {
+    font-size: 26px;
+  }
+
+  .lab__img {
+    min-width: 204px;
+  }
+
+  .about .about__us .elips .elips__items .elips__btn {
+    bottom: -131px;
+    left: 45%;
+  }
+
+  .about .about__us .elips .elips__items .elips__item {
+    height: 66px;
+  }
+
+  .projects__imgs-wrapp {
+    gap: 12px;
+  }
+
+  .services .servisec__baner .services__content .services__subtitle-baner {
+    line-height: 28px;
+  }
+
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 200px;
+    padding: 38px 49px 0 49px;
+  }
+
+  .rewies .rewies__title .rewies__color {
+    width: 57%;
+  }
+
+  .title-text {
+    margin-bottom: 8px;
+    line-height: 24px;
+  }
+
+  .exp__text {
+    top: 70px;
+    left: 19px;
+  }
+
+  .gis__btns .gis__btn-two {
+    padding: 16px 70px;
+  }
+
+  .gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one {
+    padding: 16px 40px;
+  }
+
+  .gis__items {
+    height: 650px;
+  }
+
+  .about .about__us .elips .elips__items .elips__wrapp {
+    display: none;
+    margin-top: 205px;
+  }
+
+  .form .form__items .form__item {
+    min-width: 300px;
+  }
+
+  .form .form__items .form__item .form__btn .btn {
+    padding: 20px 104px;
+  }
+
+  .serv-img {
+    min-width: 199px;
+  }
+
+  .result__elem .result__content-title {
+    font-size: 32px;
+    line-height: 8px;
+  }
+
+  .result__elem .result__content-subtitle {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+  .result__elem .result__content-text {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+  .result__elems-wrapp .result__elem {
+    height: 273px;
+  }
+
+  .faq .faq__content .faq__main-items .faq__main-text {
+    font-size: 14px;
+    width: 83%;
+  }
+
+  .container .faq-img {
+    width: 56%;
   }
 }

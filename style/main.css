@@ -905,6 +905,9 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 
 .footer__items {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 96px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1541,7 +1544,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
   border: 1px solid #008B8B;
-  padding: 76px 36px;
+  padding: 76px 62px;
   border-radius: 50px;
   height: 346px;
   margin-right: 45px;
@@ -2920,7 +2923,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 16px;
+  gap: 80px;
 }
 .projects__imgs-wrapp .projects__imgs-content {
   display: -webkit-box;
@@ -3406,6 +3409,7 @@ body._touch .nav__menu-item._active .menu__arrow {
      object-fit: contain;
 }
 .block__tabs .useful__items .useful__item .useful__content {
+  max-width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3443,7 +3447,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .userful-bl {
   display: block;
-  width: 224%;
+  width: 100%;
 }
 
 .block__tabs {
@@ -3528,6 +3532,29 @@ body._touch .nav__menu-item._active .menu__arrow {
   }
   .devlop {
     max-height: 800px;
+  }
+}
+@media (max-width: 1880px) {
+  .container {
+    max-width: 1190px;
+  }
+  .gis__items {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+@media (max-width: 1446px) {
+  .container {
+    max-width: 1406px;
+  }
+  .projects__imgs-wrapp {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    padding: 76px 96px;
   }
 }
 @media (max-width: 1196px) {
@@ -5076,6 +5103,102 @@ body._touch .nav__menu-item._active .menu__arrow {
   .nav__menu {
     padding: 63px 0 0 13px;
   }
+  .result__title-items .result__subtitle {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 326px) {
+  .container {
+    max-width: 275px;
+  }
+  .top__line-contacts .top__line-wrapp .top__line-phone {
+    margin-right: 60px;
+  }
+  .director .director__wrapp .director__content .director__items .director__avatar {
+    height: 262px;
+    width: 269px;
+  }
+  .proof .proof__content .proof__img {
+    min-width: 249px;
+  }
+  .about .about__title {
+    font-size: 26px;
+  }
+  .lab__img {
+    min-width: 204px;
+  }
+  .about .about__us .elips .elips__items .elips__btn {
+    bottom: -131px;
+    left: 45%;
+  }
+  .about .about__us .elips .elips__items .elips__item {
+    height: 66px;
+  }
+  .projects__imgs-wrapp {
+    gap: 12px;
+  }
+  .services .servisec__baner .services__content .services__subtitle-baner {
+    line-height: 28px;
+  }
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 200px;
+    padding: 38px 49px 0 49px;
+  }
+  .rewies .rewies__title .rewies__color {
+    width: 57%;
+  }
+  .title-text {
+    margin-bottom: 8px;
+    line-height: 24px;
+  }
+  .exp__text {
+    top: 70px;
+    left: 19px;
+  }
+  .gis__btns .gis__btn-two {
+    padding: 16px 70px;
+  }
+  .gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one {
+    padding: 16px 40px;
+  }
+  .gis__items {
+    height: 650px;
+  }
+  .about .about__us .elips .elips__items .elips__wrapp {
+    display: none;
+    margin-top: 205px;
+  }
+  .form .form__items .form__item {
+    min-width: 300px;
+  }
+  .form .form__items .form__item .form__btn .btn {
+    padding: 20px 104px;
+  }
+  .serv-img {
+    min-width: 199px;
+  }
+  .result__elem .result__content-title {
+    font-size: 32px;
+    line-height: 8px;
+  }
+  .result__elem .result__content-subtitle {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+  .result__elem .result__content-text {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .result__elems-wrapp .result__elem {
+    height: 273px;
+  }
+  .faq .faq__content .faq__main-items .faq__main-text {
+    font-size: 14px;
+    width: 83%;
+  }
+  .container .faq-img {
+    width: 56%;
+  }
 }
 .present {
   margin-top: 100px;
@@ -5410,7 +5533,8 @@ body._touch .nav__menu-item._active .menu__arrow {
 .result {
   margin-top: 100px;
 }
-.result .result__elems-wrapp {
+
+.result__elems-wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5421,41 +5545,8 @@ body._touch .nav__menu-item._active .menu__arrow {
      -moz-column-gap: 64px;
           column-gap: 64px;
 }
-.result .result__elems-wrapp .result__elem {
-  width: 357px;
-  height: 357px;
-  border: 1px solid #008B8B;
-  border-radius: 50%;
-  text-align: center;
-  padding: 38px 50px 50px 50px;
-}
-.result .result__elems-wrapp .result__elem .result__content-title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 65px;
-  line-height: 79px;
-  color: #008B8B;
-}
-.result .result__elems-wrapp .result__elem .result__content-subtitle {
-  margin-top: 22px;
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 125%;
-  color: #272727;
-}
-.result .result__elems-wrapp .result__elem .result__content-text {
-  margin-top: 18px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 22px;
-  color: #272727;
-}
-.result .result__elems-wrapp .elem-color {
+
+.elem-color {
   border: none;
   background: rgba(0, 139, 139, 0.14);
 }
@@ -5482,6 +5573,44 @@ body._touch .nav__menu-item._active .menu__arrow {
   font-size: 36px;
   line-height: 42px;
   text-transform: uppercase;
+  color: #272727;
+}
+
+.result__elem {
+  width: 357px;
+  height: 357px;
+  border: 1px solid #008B8B;
+  border-radius: 50%;
+  text-align: center;
+  padding: 38px 50px 50px 50px;
+}
+
+.result__content-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  color: #008B8B;
+}
+
+.result__content-subtitle {
+  margin-top: 22px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 125%;
+  color: #272727;
+}
+
+.result__content-text {
+  margin-top: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
   color: #272727;
 }
 
