@@ -3,6 +3,10 @@
     max-width: 1860px;
   }
 
+  .nav__item-serv .serv-wr {
+    gap: 312px;
+  }
+
   .devlop__circ-wrapp.circ-wrapp--two {
     display: none;
   }
@@ -14,7 +18,15 @@
 
 @media (max-width: 1880px) {
   .container {
-    max-width: 1190px;
+    max-width: 1290px;
+  }
+
+  .services .services__blocks {
+    column-gap: 103px;
+  }
+
+  .nav__item-serv .nav__serv-wrapp {
+    gap: 199px;
   }
 
   .gis__items {
@@ -88,6 +100,10 @@
   .programm__img img {
     border-radius: 20px;
     min-width: 514px;
+  }
+
+  .projects__imgs-wrapp {
+    gap: 11px;
   }
 }
 
@@ -410,12 +426,12 @@
   }
 
   .form .form__items .form__item {
+    width: 100%;
     display: block;
-    min-width: 472px;
   }
 
   .form .form__items .form__item .form__btn .btn {
-    padding: 20px 190px;
+    padding: 20px 0px;
   }
 
   .map-hab {
@@ -457,11 +473,13 @@
   .footer__btn {
     padding: 16px 20px;
   }
+
+
 }
 
 @media (max-width: 810px) {
   .container {
-    max-width: 790px;
+    max-width: 710px;
   }
 
   .nav__menu-list {
@@ -479,6 +497,10 @@
   .variation .variation__wrapp .variation__content .variation__prog-items {
     row-gap: 20px;
     flex-wrap: wrap-reverse;
+  }
+
+  .block__tabs .useful__items .useful__item .useful__content {
+    max-width: 100%;
   }
 
   .nav__items {
@@ -591,7 +613,7 @@
   }
 
   .footer__btn {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .form .form__items {
@@ -599,7 +621,7 @@
   }
 
   .form .form__items .form__item .form__btn .btn {
-    padding: 20px 240px;
+    padding: 20px 0px;
   }
 
   /*.top__line-text {
@@ -1012,9 +1034,6 @@
 }
 
 @media (max-width: 808px) {
-  .container {
-    max-width: 788px;
-  }
 
   .serv-items .serv-item-elem .serv-item {
     margin-left: 0;
@@ -1027,9 +1046,7 @@
 }
 
 @media (max-width: 779px) {
-  .container {
-    max-width: 759px;
-  }
+
 
   .gis__wrapp .gis__content .gis__title .gis__title-text {
     line-height: 30px;
@@ -1060,7 +1077,7 @@
 
 @media (max-width: 711px) {
   .container {
-    max-width: 691px;
+    max-width: 600px;
   }
 
   .services .services__blocks .services__block {
@@ -1221,6 +1238,8 @@
   .form .form__social {
     margin-left: 0;
   }
+
+
 }
 
 @media (max-width: 619px) {
@@ -1287,7 +1306,7 @@
 
 @media (max-width: 480px) {
   .container {
-    max-width: 460px;
+    max-width: 400px;
   }
 
   .about .about__text {
@@ -1346,7 +1365,7 @@
 
   .text {
     font-size: 18px;
-    line-height: 10px;
+    line-height: 18px;
   }
 
   .rewies .rewies__title .rewies__color {
@@ -1354,27 +1373,34 @@
     line-height: 10px;
   }
 
+
+
   .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
     padding: 34px;
   }
 
   .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
-    height: 178px;
+    height: 155px;
+  }
+
+  .exp .exp__title .exp__color {
+    line-height: 22px;
+  }
+
+  .exp__wrapp .exp__items {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+
+  .exp__wrapp {
+    margin-left: 33px;
   }
 
   .exp__text {
-    font-size: 12px;
-  }
-
-  .exp__item {
-    margin-left: 16px;
-  }
-
-  .exp__text {
-    width: 67%;
-    top: 28px;
-    left: 18px;
-    line-height: 20px;
+    font-size: 14px;
+    width: 81%;
+    top: 100px;
+    left: 25px;
   }
 
   .gis__wrapp .gis__content .gis__title .gis__color {
@@ -1399,17 +1425,22 @@
   }
 
   .gis__btns .gis__btn-two {
+    width: 100%;
+    text-align: center;
     padding: 15px 34px;
     font-size: 14px;
   }
 
   .gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
     padding: 15px 14px;
   }
 
   .form .form__items .form__item .form__btn .btn {
     width: 100%;
-    padding: 20px 190px;
+    padding: 20px 0px;
     text-align: center;
   }
 
@@ -1467,6 +1498,7 @@
   }
 
   .title {
+    line-height: 34px;
     font-size: 20px;
   }
 
@@ -1628,11 +1660,22 @@
   .contact__about .contact__content .contact__item-img {
     min-height: 400px;
   }
+
+  .gis__items {
+    height: 650px;
+  }
+}
+
+@media (max-width: 460px) {
+  .partner .partner__wrapper .partner__slider-content .single-item .partner__item {
+    height: 290px;
+    padding: 68px;
+  }
 }
 
 @media (max-width: 395px) {
   .container {
-    max-width: 355px;
+    max-width: 330px;
   }
 
   .nav__items {
@@ -1731,25 +1774,7 @@
     padding: 38px 0 0 48px;
   }
 
-  .exp .exp__title .exp__color {
-    line-height: 22px;
-  }
 
-  .exp__wrapp .exp__items {
-    flex-wrap: wrap;
-    row-gap: 30px;
-  }
-
-  .exp__wrapp {
-    margin-left: 33px;
-  }
-
-  .exp__text {
-    font-size: 14px;
-    width: 81%;
-    top: 100px;
-    left: 25px;
-  }
 
   .gis__items {
     height: 600px;
