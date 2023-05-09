@@ -1715,9 +1715,13 @@
     min-height: 400px;
   }
 
+  .nav {
+    height: 38px;
+  }
+
   .top__line-contacts .top__line-wrapp .top__line-phone {
     display: block;
-    margin-right: 113px;
+    margin-right: 80px;
   }
 
   .rewies .rewies__title {
@@ -1796,11 +1800,11 @@
   }
 
   .gis__wrapp .gis__content .gis__items .gis__block .gis__btns .gis__btn-one {
-    padding: 15px 80px;
+    padding: 15px 0px;
   }
 
   .gis__btns .gis__btn-two {
-    padding: 15px 100px;
+    padding: 15px 0px;
   }
 
   .form .form__items .form__item {

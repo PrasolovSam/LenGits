@@ -255,10 +255,10 @@
             </div>
 
           </div>
-          <div id="popup" class="popup">
-            <form class="popup__body">
+          <!-- <div id="popup" class="popup">
+            <div class="popup__body">
 
-              <div id="form_1" class="popup__content">
+              <form action="#" id="form_1" class="popup__content">
                 <a href="#header" class="popup__close close-popup">
                   <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <use xlink:href="./img/sprite.svg#pl"></use>
@@ -281,7 +281,7 @@
                     </label>
                   </div>
                   <div class="popup__btn">
-                    <button class="btn">Отправить</button>
+                    <button type="submit" class="btn">Отправить</button>
                   </div>
                 </div>
                 <div class="popup__subtitle">Или Позвоните нам</div>
@@ -293,13 +293,13 @@
                   </span>
                   <span class="popup__line-text text__phone">+7 (939) 715-43-71</span>
                 </a>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
           <div id="popup_2" class="popup">
-            <form class="popup__body">
+            <div class="popup__body">
 
-              <div id="form_2" class="popup__content">
+              <form action="#" id="form_2" class="popup__content">
                 <a href="#header" class="popup__close close-popup">
                   <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <use xlink:href="./img/sprite.svg#pl"></use>
@@ -330,7 +330,7 @@
                     </label>
                   </div>
                   <div class="popup__btn">
-                    <button class="btn">Отправить</button>
+                    <button type="submit" class="btn">Отправить</button>
                   </div>
                 </div>
                 <div class="popup__subtitle">Или Позвоните нам</div>
@@ -342,13 +342,13 @@
                   </span>
                   <span class="popup__line-text text__phone">+7 (939) 715-43-71</span>
                 </a>
-              </div>
-            </form>
-          </div>
+              </form>
+            </div>
+          </div>-->
         </div>
         <div class="video">
-          <video class="elips__video" src="./vid/output.mov" apreload="auto" no-controls autoplay loop playsinline
-            muted controls="true"></video>
+          <video class="elips__video" src="./vid/output.mov" apreload="auto" no-controls autoplay loop playsinline muted
+            controls="true"></video>
         </div>
         <div class="block-video"></div>
       </div>
@@ -433,8 +433,8 @@
             <div class="services__img-man">
               <img src="./img/icon/servman.png" alt="" class="img-man">
             </div>
-            <div class="servisec__btn-baner popup-link">
-              <a href="#popup" class="btn-baner popup-link">Получить консультацию</a>
+            <div class="servisec__btn-baner">
+              <a href="#popup_2" class="btn-baner popup-link">Получить консультацию</a>
 
             </div>
 
@@ -1033,7 +1033,7 @@
                 </div>
                 <div class="gis__btns">
                   <a class="gis__btn-one popup-link" href="#popup_2">Получить консультацию</a>
-                  <a class="gis__btn-two" href="http://itsgis.ru/file-upload/itsgis.zip">Скачать клиент</a>
+                  <a class="gis__btn-two" download="" href="http://itsgis.ru/file-upload/itsgis.zip">Скачать клиент</a>
                 </div>
               </div>
               <div class="gis__block-img">
@@ -1056,22 +1056,20 @@
         </div>
       </div>
     </section>
-    <section class="form">
+    <section class="form__section">
       <div class="container">
         <h1 class="form__title title">СВЯЖИТЕСЬ С НАМИ <br> <span class="title-color form-color">ПРЯМО СЕЙЧАС</span>
         </h1>
-        <form action="#" class="form__items" id="form">
-          <div class="form__item">
+        <form enctype="multipart/form-data" method="post" id="form" onsubmit="send(event, 'mail.php')"  class="form__items">
+          <div class="form__item form_fit">
             <div class="form__row">
-              <input type="hidden" name="project_name" value="intel-trans">
-              <input type="hidden" name="admin_email" value="info@intel-trans.ru">
-              <input type="hidden" name="form_subject" value="footer form">
-              <input type="text" name="Имя" placeholder="Ваше имя" class="form__input _req" id="name">
-              <input type="text" name="Телефон" placeholder="+7 (_ _ _) _ _ _ – _ _ – _ _" class="form__input _req">
-              <input type="text" name="e-mail" placeholder="E-mail" class="form__input _req _email">
+              <input type="text" name="name" id="name" placeholder="Ваше имя" class="form__input _req">
+              <input type="text" id="phone" name="phone" placeholder="+7 (_ _ _) _ _ _ – _ _ – _ _"
+                class="form__input _req">
+              <input type="text" id="email" name="e-mail" placeholder="E-mail" class="form__input _req _email">
             </div>
             <div class="form__row">
-              <textarea name="Сообщение" class="form__input form__input--textarea"
+              <textarea name="message" class="form__input form__input--textarea"
                 placeholder="Оставьте Ваш комментарий"></textarea>
             </div>
             <div class="form__btn">
