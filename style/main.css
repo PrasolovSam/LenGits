@@ -28,6 +28,7 @@ body {
 
 .header__burger {
   display: none;
+  margin-right: 10%;
 }
 
 body {
@@ -79,7 +80,7 @@ a {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;;
   padding: 0;
 }
 
@@ -139,12 +140,15 @@ a {
 
 img {
   max-width: 100%;
+  border-radius: 50px;
+  margin-left: 15px;
 }
 
 .top__line {
   width: 100%;
   background-color: #008B8B;
   margin-bottom: 16px;
+  
 }
 
 .top__line-items {
@@ -161,7 +165,8 @@ img {
   padding: 0;
   position: relative;
   align-items: center;
-  left: 0;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .top__line-contacts a {
@@ -180,10 +185,11 @@ img {
   font-size: 14px;
   line-height: 18px;
   color: white;
+  padding: 0;
 }
 
 .top__line-mail {
-  margin-right: 55px;
+  margin-right: 0;
 }
 
 .top__line-text {
@@ -196,11 +202,12 @@ img {
 
 .phone {
   margin-left: 4px;
+  margin-right: 15px;
 }
 
 .nav {
   max-width: 100%;
-  height: 68px;
+  height: 40%;
   border-bottom: 1px solid #E1E3D6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -209,7 +216,9 @@ img {
 }
 
 .nav__items {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,6 +298,7 @@ img {
 .nav__item-serv {
   background-color: #008B8B;
   z-index: 999;
+  margin-top: 0;
 }
 .nav__item-serv .nav__serv-wrapp {
   display: -webkit-box;
@@ -339,8 +349,10 @@ img {
 }
 .nav__item-serv .nav__serv-wrapp .nav__serv-img img {
   border-radius: 20px;
-  max-width: 454px;
+  max-width: auto;
   margin-top: 30px;
+  margin-left: 15px;
+  margin-bottom: 30px;
 }
 .nav__item-serv .serv-wr {
   gap: 240px;
@@ -378,6 +390,7 @@ img {
 .logo {
   width: 27%;
   display: block;
+  margin-left: 15px;
 }
 
 .nav__logo {
@@ -429,6 +442,7 @@ body._touch .nav__menu-item._active .position__wrapper {
   -webkit-transition: 0.8s;
   transition: 0.8s;
   display: block;
+  margin-top: auto;
 }
 
 body._touch .nav__menu-item._active .menu__arrow {
@@ -447,6 +461,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   line-height: 24px;
   color: #272727;
   opacity: 0.6;
+  margin-left: 15px;
 }
 .about .about__title {
   font-family: "Inter";
@@ -457,6 +472,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   margin-bottom: 86px;
   margin-top: 16px;
   color: #272727;
+  margin-left: 15px;
 }
 .about .about__title .about__color {
   color: #008B8B;
@@ -570,6 +586,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .services {
   min-height: 1156px;
+  margin-left: 15px;
 }
 .services .services__title-text {
   position: relative;
@@ -651,7 +668,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   font-weight: 400;
   font-size: 15px;
   line-height: 125%;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   height: 75px;
 }
 .services .services__block .services__btn a {
@@ -908,15 +925,17 @@ body._touch .nav__menu-item._active .menu__arrow {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 96px;
+  padding: 96px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+
 }
 
 .footer__logo {
   padding-top: 10px;
   position: relative;
+
 }
 
 .footer__list-item a {
@@ -931,13 +950,13 @@ body._touch .nav__menu-item._active .menu__arrow {
 .footer-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: auto;
 }
 
 .footer__list-icon {
@@ -963,7 +982,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 
 .footer__alert {
-  width: 100%;
+  width: 60%;
 }
 
 .footer__wr {
@@ -983,6 +1002,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 .form__section .form__title {
   min-width: 718px;
   margin-bottom: 44px;
+  margin-left: 15px;
 }
 .form__section .form__title .form-color {
   margin-left: 180px;
@@ -1025,6 +1045,8 @@ body._touch .nav__menu-item._active .menu__arrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1061,6 +1083,8 @@ body._touch .nav__menu-item._active .menu__arrow {
   background: #93AA00;
   cursor: pointer;
   padding: 17px 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .form__section .form__items .form__item .form__btn .btn:hover {
   border: 1px solid transparent;
@@ -1074,6 +1098,8 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 .form__section .form__social-blocks {
   max-width: 100%;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .form__section .form__social-block {
   background-color: #008B8B;
@@ -1109,11 +1135,15 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .form__social-img {
   border-radius: 0px 0px 20px 20px;
+  
 }
 
 .rewies {
   margin-top: 100px;
   margin-bottom: 66px;
+  margin-left: 15px;
+  margin-right: 15px;
+  
 }
 .rewies .rewies__title {
   min-width: 820px;
@@ -1169,6 +1199,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .map {
   margin-top: 130px;
+  margin-left: 15px;
 }
 .map .map__text {
   margin-left: 198px;
@@ -1538,6 +1569,8 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .partner {
   margin-top: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .partner .partner__wrapper .partner__slider-content {
   position: relative;
@@ -1589,6 +1622,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   .gis__content {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: 15px;
 
     .gis__title {
       margin-bottom: 60px;
@@ -1603,6 +1637,7 @@ body._touch .nav__menu-item._active .menu__arrow {
         line-height: 32px;
         margin-top: 0;
         margin-bottom: 18px;
+       
 
         color: #FFFFFF;
       }
@@ -1767,6 +1802,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   margin-top: 0;
   margin-bottom: 18px;
   color: #FFFFFF;
+  margin-left: 15px;
 }
 .gis__title-text .gis__color {
   color: #AAB028;
@@ -1778,7 +1814,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   font-size: 34px;
   font-weight: 600;
   color: white;
-  margin-left: 180px;
+  margin-left: 142px;
 }
 
 .gis__title {
@@ -1798,7 +1834,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   background-color: #008B8B;
   padding: 30px;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 50px;
   max-width: 560px;
 }
 
@@ -1824,6 +1860,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   margin-bottom: 36px;
   color: white;
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .gis__item {
@@ -1887,6 +1924,8 @@ body._touch .nav__menu-item._active .menu__arrow {
   height: 481px;
   border-radius: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+  flex: 0 0 auto;
 }
 
 .gis__item-block {
@@ -1898,6 +1937,8 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .gis__item-img img {
   border-radius: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .exp {
@@ -1906,6 +1947,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 .exp .exp__title {
   margin-bottom: 56px;
+  margin-left: 15px;
 }
 .exp .exp__title .exp__color {
   margin-left: 180px;
@@ -1913,6 +1955,8 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .exp__wrapp {
   margin-top: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .exp__wrapp .exp__items {
   display: -webkit-box;
@@ -1927,6 +1971,7 @@ body._touch .nav__menu-item._active .menu__arrow {
   display: block;
   position: relative;
   max-width: 100%;
+  margin: auto;
 }
 .exp__item:before {
   content: "";
@@ -1947,6 +1992,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 
 .exp__item img {
   border-radius: 20px;
+
 }
 
 .exp__text {
@@ -2944,6 +2990,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 .projects__title {
   margin-top: 100px;
   margin-bottom: 66px;
+  margin-left: 15px;
 }
 
 .projects__imgs-wrapp {
@@ -2951,6 +2998,9 @@ body._touch .nav__menu-item._active .menu__arrow {
   display: -ms-flexbox;
   display: flex;
   gap: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+
 }
 .projects__imgs-wrapp .projects__imgs-content {
   display: -webkit-box;
@@ -3937,7 +3987,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 @media (max-width: 810px) {
   .container {
-    max-width: 710px;
+    max-width: 795px;
   }
   .nav__menu-list {
     display: block;
@@ -4458,7 +4508,7 @@ body._touch .nav__menu-item._active .menu__arrow {
 }
 @media (max-width: 711px) {
   .container {
-    max-width: 600px;
+    max-width: auto;
   }
   .services .services__blocks .services__block {
     max-width: 266px;
